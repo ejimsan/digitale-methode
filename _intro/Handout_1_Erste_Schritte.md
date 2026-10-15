@@ -18,7 +18,7 @@ Programmieren heißt dabei vor allem: eine Aufgabe so genau beschreiben, dass ei
 4. Prüfen, ob Python gefunden wird: In VS Code Terminal → Neues Terminal, dann `python --version` eingeben (auf dem Mac: `python3 --version`). Es sollte eine Versionsnummer erscheinen, z. B. „Python 3.13“.
 5. **GitHub Copilot** einrichten: GitHub-Konto mit LMU-Adresse anlegen, über [GitHub Education](https://education.github.com/) den Studierendenstatus bestätigen lassen (dauert einige Tage), dann in VS Code über das Kontosymbol unten links mit GitHub anmelden. Den Chat öffnet das Sprechblasen-Symbol; falls es fehlt, die Erweiterung „GitHub Copilot Chat“ installieren. Bis zur Bestätigung funktioniert die kostenlose Stufe „Copilot Free“ mit begrenztem Kontingent.
 6. **Datenschutz:** In den Copilot-Einstellungen Ihres GitHub-Kontos die Verwendung Ihrer Eingaben für das Training der Modelle abschalten.
-7. Einen Ordner „seminar“ anlegen, in VS Code öffnen (Datei → Ordner öffnen), die Datei `erste_schritte.py` aus dem Ordner `1._sitzung` des Kurs-Repositoriums hineinkopieren, öffnen und mit dem Dreieck ▷ oben rechts ausführen.
+7. Einen Ordner „seminar“ anlegen, in VS Code öffnen (Datei → Ordner öffnen), die Datei `erste_schritte.py` aus dem Ordner `_intro` des Kurs-Repositoriums hineinkopieren, öffnen und mit dem Dreieck ▷ oben rechts ausführen.
 
 ## 3. Welcher KI-Assistent?
 
@@ -89,7 +89,7 @@ Das Ergebnis sind Titel und Autoren des Tesserae-Aufsatzes von 2013. Nach demsel
 
 ## 7. Die Demonstration: eine eBL-Zeile zerlegen
 
-Das Skript `erste_schritte.py` (Ordner `1._sitzung`) nimmt eine Zeile aus der Inschrift Marduk-apla-iddinas II., die Erra V 35 zitiert (RIMB 2 B.6.21.1 Z. 34), so wie sie im eBL-ATF steht, und zerlegt sie Schritt für Schritt. Der Kern:
+Das Skript `erste_schritte.py` (Ordner `_intro`) nimmt eine Zeile aus der Inschrift Marduk-apla-iddinas II., die Erra V 35 zitiert (RIMB 2 B.6.21.1 Z. 34), so wie sie im eBL-ATF steht, und zerlegt sie Schritt für Schritt. Der Kern:
 
 ```
 zeile = "LUGAL#.LUGAL#-MEŠ na-ki-ri-šu₂ nu-huš# kib-rat ar₂#-ba-ʾi-i [hi]-ṣib ..."

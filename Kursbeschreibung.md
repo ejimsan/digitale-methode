@@ -14,7 +14,7 @@ Termine: 16.10.2026; 30.10.2026; 13.11.2026; 11.12.2026; 15.01.2027
 
 ## Beschreibung des Kurses
 
-Material: [github.com/ejimsan/digitale-methode](https://github.com/ejimsan/digitale-methode) (Ordner 1._sitzung usw.)
+Material: [github.com/ejimsan/digitale-methode](https://github.com/ejimsan/digitale-methode) (Ordner _intro, 2._sitzung usw.)
 
 Das Blockseminar führt Studierende in die Grundlagen der Programmierung sowie in den Einsatz digitaler Werkzeuge für die assyriologische Forschung ein. Ein besonderes Augenmerk gilt dabei den Möglichkeiten und Grenzen aktueller Werkzeuge der Künstlichen Intelligenz im Umgang mit keilschriftlichen Quellen. Vorkenntnisse in der Programmierung oder Informatik werden ausdrücklich nicht vorausgesetzt.
 

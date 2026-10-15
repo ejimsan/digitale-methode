@@ -1,4 +1,4 @@
-# 1. Sitzung: Python, reguläre Ausdrücke, APIs, GitHub
+# Einführung: Python, reguläre Ausdrücke, APIs, GitHub
 
 16.10.2026
 

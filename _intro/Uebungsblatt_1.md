@@ -6,7 +6,7 @@ enrique.jimenez@lmu.de
 
 ## Der Text
 
-Ein Auszug aus BM.35407, einem astro-mythologischen Kalendertraktat aus Babylon (Abschnitt zum Monat Simānu), in eBL-ATF. In eBL-ATF steht *h* für *ḫ*. Die Datei `bm35407.txt` (Ordner `1._sitzung`) enthält dieselben Zeilen; Zeilennummer und Umschrift sind durch einen Tabulator getrennt.
+Ein Auszug aus BM.35407, einem astro-mythologischen Kalendertraktat aus Babylon (Abschnitt zum Monat Simānu), in eBL-ATF. In eBL-ATF steht *h* für *ḫ*. Die Datei `bm35407.txt` (Ordner `_intro`) enthält dieselben Zeilen; Zeilennummer und Umschrift sind durch einen Tabulator getrennt.
 
 ```
 i 13′   [k]i-i ša₂ ru-bu-u₂ {d}AMAR.UTU a-na ša₂-kan a-b[u-bu ...]
