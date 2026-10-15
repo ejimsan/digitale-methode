@@ -4,7 +4,7 @@
 
 ## Material
 
-- `Folien_Python_und_Regex.pptx`: Folien der Sitzung, mit sechs Übungen
+- `Folien_Python_und_Regex.pptx`: Folien der Sitzung, mit sieben Übungen
 - `Uebungsblatt_1.docx`: reguläre Ausdrücke (Teil A) und ein erstes Programm (Teil B)
 - `bm35407.txt`: Text zum Übungsblatt, BM.35407 i 13′–23′ in eBL-ATF
 - `erste_schritte.py`: Beispielprogramm; eine Zeile in eBL-ATF zerlegen
