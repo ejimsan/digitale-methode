@@ -41,7 +41,7 @@ Wichtiger als die Wahl des Werkzeugs ist der Umgang damit (siehe Abschnitt 8).
 | Zeichenkette (*string*) | `"ša naqba īmuru"` | Text, immer in Anführungszeichen. Sonderzeichen wie š, ḫ, ₂ sind kein Problem. |
 | Zahl | `zeilen = 37` | Ganze Zahlen und Dezimalzahlen (mit Punkt: `0.5`). |
 | Liste | `["Erra", "Išum", "Marduk"]` | Geordnete Folge. Python zählt ab 0: `liste[0]` ist „Erra“, `liste[-1]` das letzte Element. |
-| Menge (*set*) | `{"ḫīṭu", "maḫrû"}` | Ungeordnet, ohne Doppelte. `a & b` ergibt die gemeinsamen Elemente. |
+| Menge (*set*) | `{"naglabu", "quppû"}` | Ungeordnet, ohne Doppelte. `a & b` ergibt die gemeinsamen Elemente. |
 | Wörterbuch (*dict*) | `{"Erra": 5, "Enūma eliš": 7}` | Schlüssel → Wert (hier: Anzahl der Tafeln). Ideal zum Nachschlagen und Zählen. |
 | Schleife | `for wort in woerter:` | Wiederholt die eingerückten Zeilen darunter für jedes Element. Die Einrückung gehört zur Syntax! |
 | Bedingung | `if "#" in wort:` | Führt die eingerückten Zeilen nur aus, wenn die Bedingung zutrifft. |
@@ -89,7 +89,7 @@ Das Ergebnis sind Titel und Autoren des Tesserae-Aufsatzes von 2013. Nach demsel
 
 ## 7. Die Demonstration: eine eBL-Zeile zerlegen
 
-Das Skript `erste_schritte.py` (Ordner `_intro`) nimmt eine Zeile aus der Inschrift Marduk-apla-iddinas II., die Erra V 35 zitiert (RIMB 2 B.6.21.1 Z. 34), so wie sie im eBL-ATF steht, und zerlegt sie Schritt für Schritt. Der Kern:
+Das Skript `erste_schritte.py` (Ordner `_intro`) nimmt eine Zeile aus einer Inschrift Marduk-apla-iddinas II. (RIMB 2 B.6.21.1 Z. 34), so wie sie im eBL-ATF steht, und zerlegt sie Schritt für Schritt. Der Kern:
 
 ```
 zeile = "LUGAL#.LUGAL#-MEŠ na-ki-ri-šu₂ nu-huš# kib-rat ar₂#-ba-ʾi-i [hi]-ṣib ..."
@@ -100,21 +100,22 @@ ergaenzt    = re.findall(r"\[([^\]]*)\]", zeile)    # alles zwischen [ und ]
 sauber      = re.sub(r"[#\[\]]", "", zeile)          # Schadensmarken entfernen
 ```
 
-Am Ende steht der Kern des ganzen Projekts in drei Zeilen. Erra V 6 und der Bericht über den achten Feldzug Sargons II. (Z. 95) teilen die Wendung *ḫīṭu maḫrû*, „frühere Plage“ bzw. „frühere Vergehen“, die in den Wörterbüchern sonst nicht belegt ist:
+Am Ende steht der Kern des ganzen Projekts in drei Zeilen. Erra IV 57 nennt drei Werkzeuge in einer Zeile, Feuersteinklinge, Rasiermesser und Skalpell; zusammen kommen sie sonst nur in Sargons Bericht über den Selbstmord des Rusâ vor (Sargon II 1 Z. 162: *ṣur-ti nag-la-bi qu-be₂-e*):
 
 ```
-erra   = {"ina", "ḫīṭu", "maḫrû"}     # Erra V 6: ina ḫīṭi maḫrî
-sargon = {"arki", "ḫīṭu", "maḫrû"}     # Sargon II 65 Z. 95: arki ḫiṭâtēšu maḫrâte
-print(erra & sargon)                   # → {'ḫīṭu', 'maḫrû'}
+erra   = {"ṣurtu", "naglabu", "quppû"}             # Erra IV 57 (nur die Werkzeuge)
+sargon = {"šarru", "ṣurtu", "naglabu", "quppû",
+          "adi", "balāṭu", "šakānu"}             # Sargon II 1 Z. 162 (Auszug)
+print(sorted(erra & sargon))   # → ['naglabu', 'quppû', 'ṣurtu']
 ```
 
-Zwei Fragen nehmen wir in die nächste Sitzung mit. Erstens: Wie selten ist diese Verbindung im ganzen Korpus, und wie misst man das? Zweitens: Stehen *ḫīṭu* und *ḫiṭâtu* in eBL und Oracc wirklich unter demselben Lemma? Wenn nicht, sieht das Programm die Parallele nicht, und das wäre kein Fehler der Statistik, sondern der Lemmatisierung.
+Zwei Fragen nehmen wir in die nächste Sitzung mit. Erstens: Wie selten ist diese Verbindung im ganzen Korpus, und wie misst man das? Zweitens: Stehen die drei Wörter in eBL und Oracc wirklich unter denselben Lemmata? Wenn nicht, sieht das Programm die Parallele nicht, und das wäre kein Fehler der Statistik, sondern der Lemmatisierung.
 
 ## 8. Mit dem KI-Assistenten arbeiten
 
 - **Klein anfangen.** Nicht „Schreibe ein Programm, das Zitate findet“, sondern „Lies die Datei erra.json und zähle, wie oft jedes Lemma vorkommt“.
 - **Erklären lassen.** Zum Beispiel: „Erkläre jede Zeile auf Deutsch. Verwende nur die Standardbibliothek von Python.“ Code, den Sie nicht erklären können, gehört nicht in Ihre Abgabe.
-- **An einem bekannten Fall prüfen.** Wenn das Programm Erra V 6 und Sargon Z. 95 nicht zusammenbringt, stimmt etwas nicht, ganz gleich, wie überzeugend der Code aussieht.
+- **An einem bekannten Fall prüfen.** Wenn das Programm Erra IV 57 und Sargons Bericht über Rusâ nicht zusammenbringt, stimmt etwas nicht, ganz gleich, wie überzeugend der Code aussieht.
 - **Fehlermeldungen vollständig einfügen**, nicht nacherzählen.
 - **Änderungen lesen, bevor Sie sie übernehmen**, und keine Befehle ausführen lassen, deren Wirkung Sie nicht kennen (vor allem nichts, was Dateien löscht).
 - **Protokoll führen.** Eine Datei `protokoll.md`, in der Sie wichtige Anfragen und Entscheidungen notieren. Sie brauchen sie für den Bericht.

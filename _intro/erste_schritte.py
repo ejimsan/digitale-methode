@@ -10,7 +10,7 @@ from collections import Counter
 # ------------------------------------------------------------------
 # 1. Variablen: ein Name für einen Wert
 # ------------------------------------------------------------------
-# Marduk-apla-iddina II., RIMB 2 B.6.21.1 Z. 34 (zitiert Erra V 35),
+# Marduk-apla-iddina II., RIMB 2 B.6.21.1 Z. 34,
 # in eBL-ATF (ohne den abgebrochenen Zeilenanfang).
 # "#" = beschädigtes Zeichen, [ ] = ergänzt, { } = Determinativ.
 zeile = ("LUGAL#.LUGAL#-MEŠ na-ki-ri-šu₂ nu-huš# kib-rat ar₂#-ba-ʾi-i "
@@ -65,12 +65,12 @@ print("\nHäufigste Zeichen dieser Zeile:", haeufigkeit.most_common(3))
 # 6. Der Kern des Projekts in drei Zeilen: gemeinsame Lemmata
 # ------------------------------------------------------------------
 # Lemmata (Wörterbuchformen) zweier Stellen, vereinfacht:
-#   Erra V 6 (Auszug):        ina ḫīṭi maḫrî
-#   Sargon II 65 Z. 95 (Auszug): arki ḫiṭâtēšu maḫrâte
-erra   = {"ina", "ḫīṭu", "maḫrû"}
-sargon = {"arki", "ḫīṭu", "maḫrû"}
+#   Erra IV 57 nennt drei Werkzeuge: Feuersteinklinge, Rasiermesser, Skalpell
+#   Sargon II 1 Z. 162 (Selbstmord des Rusâ): ṣur-ti nag-la-bi qu-be₂-e
+erra   = {"ṣurtu", "naglabu", "quppû"}
+sargon = {"šarru", "ṣurtu", "naglabu", "quppû", "adi", "balāṭu", "šakānu"}
 
-gemeinsam = erra & sargon          # & = Schnittmenge
+gemeinsam = sorted(erra & sargon)   # & = Schnittmenge, sorted = geordnet
 print("\nGemeinsame Lemmata:", gemeinsam)
 # Frage für Sitzung 2: Wie selten ist diese Kombination im ganzen Korpus?
-# Und: Steht ḫiṭâtu in eBL und Oracc wirklich unter demselben Lemma?
+# Und: Stehen die drei Wörter in eBL und Oracc unter denselben Lemmata?

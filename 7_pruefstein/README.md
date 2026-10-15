@@ -8,7 +8,7 @@ Woran misst man ein Programm, das Zitate finden soll? An den Zitaten, die Philol
 
 ## Programm und Vorführung
 
-Eine maschinenlesbare Tabelle der bekannten Zitate des Erra-Epos (Erra-Stelle, zitierender Text und Zeile, Art der Beziehung, Nachweis), z. B. Erra V 35 bei Marduk-apla-iddina II., V 58 bei Nabû-šumu-ibbi, III 175 (*pašīra ṣabātu*) bei Sargon II.; dazu ein Programm, das jede beliebige Trefferliste gegen diese Tabelle prüft (Präzision und Recall). Vorführung: die Bewertung eines einfachen Verfahrens, z. B. „mindestens zwei gemeinsame Lemmata“.
+Eine maschinenlesbare Tabelle der bekannten Zitate des Erra-Epos (Erra-Stelle, zitierender Text und Zeile, Art der Beziehung, Nachweis), z. B. Erra III 175 (*pašīra ṣabātu*) und IV 57 bei Sargon II. oder I 4 bei Assurbanipal; Zitate aus Tafel V gehören in die Tabelle, sind im eBL-Korpus aber noch nicht erfasst; dazu ein Programm, das jede beliebige Trefferliste gegen diese Tabelle prüft (Präzision und Recall). Vorführung: die Bewertung eines einfachen Verfahrens, z. B. „mindestens zwei gemeinsame Lemmata“.
 
 ## Lektüre
 

@@ -23,7 +23,7 @@ Die Zuordnung ist zum Teil mehrdeutig (zu *šarru I* gehören auch Oracc-Einträ
 
 ## Prüffall
 
-Sargon II 65 Z. 95: Wird *ḫiṭâtu* demselben eBL-Lemma zugeordnet wie *ḫīṭu* in Erra V 6, oder einem anderen?
+Sargon II 1 Z. 162 (Selbstmord des Rusâ): Werden die drei Werkzeuge denselben eBL-Lemmata zugeordnet wie in Erra IV 57?
 
 ## Abgabe
 

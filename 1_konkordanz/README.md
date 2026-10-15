@@ -23,7 +23,7 @@ Was übersieht eine Suche nach Lemmata (nicht lemmatisierte Texte, Synonyme, Wor
 
 ## Prüffall
 
-Die Suche nach *ḫīṭu* zusammen mit *maḫrû* findet Erra V 6.
+Die Suche nach *naglabu* zusammen mit *quppû* findet Erra IV 57.
 
 ## Abgabe
 

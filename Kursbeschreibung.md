@@ -18,7 +18,7 @@ Material: [github.com/ejimsan/digitale-methode](https://github.com/ejimsan/digit
 
 Das Blockseminar führt Studierende in die Grundlagen der Programmierung sowie in den Einsatz digitaler Werkzeuge für die assyriologische Forschung ein. Ein besonderes Augenmerk gilt dabei den Möglichkeiten und Grenzen aktueller Werkzeuge der Künstlichen Intelligenz im Umgang mit keilschriftlichen Quellen. Vorkenntnisse in der Programmierung oder Informatik werden ausdrücklich nicht vorausgesetzt.
 
-In diesem Semester arbeitet die Gruppe an einer gemeinsamen Forschungsfrage: Wie lassen sich Zitate und Anspielungen in akkadischen Texten automatisch aufspüren? Die Philologie hat dafür seit langem ein Kriterium: Eine Entlehnung ist dann wahrscheinlich, wenn zwei Stellen nicht bloß ein Wort, sondern eine Wendung teilen und wenn diese Wendung aus seltenen Wörtern oder aus einer seltenen Verbindung gewöhnlicher Wörter besteht. So ist der Ausdruck *ina ḫīṭi maḫrî*, „in der früheren Plage“, aus dem Erra-Epos (V 6) in den Wörterbüchern nur noch einmal belegt, nämlich im Bericht über den achten Feldzug Sargons II. (Z. 95). Bislang findet solche Fälle nur, wer beide Texte im Kopf hat. Die lemmatisierten Korpora des eBL und von Oracc erlauben es zum ersten Mal, die Suche systematisch über Hunderttausende von Zeilen zu führen.
+In diesem Semester arbeitet die Gruppe an einer gemeinsamen Forschungsfrage: Wie lassen sich Zitate und Anspielungen in akkadischen Texten automatisch aufspüren? Die Philologie hat dafür seit langem ein Kriterium: Eine Entlehnung ist dann wahrscheinlich, wenn zwei Stellen nicht bloß ein Wort, sondern eine Wendung teilen und wenn diese Wendung aus seltenen Wörtern oder aus einer seltenen Verbindung gewöhnlicher Wörter besteht. So nennt das Erra-Epos (IV 57) drei Werkzeuge in einer Zeile: Feuersteinklinge, Rasiermesser und Skalpell. Zusammen kommen sie sonst nur noch im Bericht Sargons II. über den Selbstmord des urartäischen Königs Rusâ vor. Bislang findet solche Fälle nur, wer beide Texte im Kopf hat. Die lemmatisierten Korpora des eBL und von Oracc erlauben es zum ersten Mal, die Suche systematisch über Hunderttausende von Zeilen zu führen.
 
 Die Frage wird in acht Module zerlegt (siehe unten); jede Teilnehmerin und jeder Teilnehmer übernimmt eines davon. Jedes Modul ist in sich geschlossen und verbindet drei Dinge: eine philologische Studie zur Intertextualität in der Keilschriftliteratur, die methodische Literatur zum jeweiligen Verfahren (aus Computerlinguistik, Statistik oder der digitalen Klassischen Philologie, wo das Problem für das Lateinische bereits untersucht worden ist) und ein eigenes Programm, das mit Hilfe eines KI-Assistenten entwickelt und in der Sitzung vorgeführt wird. Als Prüfstein dient das Erra-Epos, das in Königsinschriften des 8. und 7. Jh. v. Chr. mehrfach zitiert wird. Die Ergebnisse fließen in einen gemeinsamen Aufsatz ein, zu dem alle Teilnehmenden beitragen.
 
@@ -85,7 +85,7 @@ Die Module sind so angelegt, dass jedes für sich bearbeitet werden kann. Jedes 
 - **Philologische Lektüre:** Hurowitz 2002; Rozzi 2024
 - **Methodische Lektüre:** Cobanoglu et al. 2024; Karsdorp et al. 2021
 - **Zur Diskussion:** Was übersieht eine Suche nach Lemmata (nicht lemmatisierte Texte, Synonyme, Wortspiele)? Was leistet sie im Vergleich zu CAD und AHw?
-- **Prüffall:** Die Suche nach *ḫīṭu* zusammen mit *maḫrû* findet Erra V 6.
+- **Prüffall:** Die Suche nach *naglabu* zusammen mit *quppû* findet Erra IV 57.
 
 ### Modul 2 — Zwei Korpora, zwei Lemmatisierungen: die Königsinschriften aus Oracc
 
@@ -94,7 +94,7 @@ Die Module sind so angelegt, dass jedes für sich bearbeitet werden kann. Jedes 
 - **Philologische Lektüre:** Bach 2024; Bach 2020b
 - **Methodische Lektüre:** [Oracc ATF Primer](https://oracc.museum.upenn.edu/doc/help/editinginatf/primer/); Sahala/Lindén 2023
 - **Zur Diskussion:** Die Zuordnung ist zum Teil mehrdeutig (zu *šarru I* gehören auch Oracc-Einträge wie *abat šarri*): Wann schadet das der Suche? Wie behandelt man Eigennamen? Was, wenn eine Seite falsch lemmatisiert?
-- **Prüffall:** Sargon II 65 Z. 95: Wird *ḫiṭâtu* demselben eBL-Lemma zugeordnet wie *ḫīṭu* in Erra V 6, oder einem anderen?
+- **Prüffall:** Sargon II 1 Z. 162 (Selbstmord des Rusâ): Werden die drei Werkzeuge denselben eBL-Lemmata zugeordnet wie in Erra IV 57?
 
 ### Modul 3 — Erhalten, beschädigt, ergänzt
 
@@ -130,12 +130,12 @@ Die Module sind so angelegt, dass jedes für sich bearbeitet werden kann. Jedes 
 - **Philologische Lektüre:** Hays 1989, 29–32; Sommer 1998 (Einleitung)
 - **Methodische Lektüre:** Dunning 1993; Church/Hanks 1990; Benjamini/Hochberg 1995
 - **Zur Diskussion:** Was ist das richtige Zufallsmodell für eine Literatur voller Formeln und Gattungskonventionen? Kann Statistik die Richtung der Abhängigkeit bestimmen?
-- **Prüffall:** Erra V 6 und Sargon II 65 Z. 95 erhalten einen deutlich kleineren Wert als ein Zeilenpaar, das nur *ina* und *ša* teilt.
+- **Prüffall:** Erra IV 57 und Sargon II 1 Z. 162 erhalten einen deutlich kleineren Wert als ein Zeilenpaar, das nur *ina* und *ša* teilt.
 
 ### Modul 7 — Was die Philologie schon weiß: ein Prüfstein
 
 - **Leitfrage:** Woran misst man ein Programm, das Zitate finden soll? An den Zitaten, die Philologen bereits erkannt haben. Aber was gilt dabei als Treffer?
-- **Programm und Vorführung:** Eine maschinenlesbare Tabelle der bekannten Zitate des Erra-Epos (Erra-Stelle, zitierender Text und Zeile, Art der Beziehung, Nachweis), z. B. Erra V 35 bei Marduk-apla-iddina II., V 58 bei Nabû-šumu-ibbi, III 175 (*pašīra ṣabātu*) bei Sargon II.; dazu ein Programm, das jede beliebige Trefferliste gegen diese Tabelle prüft (Präzision und Recall). Vorführung: die Bewertung eines einfachen Verfahrens, z. B. „mindestens zwei gemeinsame Lemmata“.
+- **Programm und Vorführung:** Eine maschinenlesbare Tabelle der bekannten Zitate des Erra-Epos (Erra-Stelle, zitierender Text und Zeile, Art der Beziehung, Nachweis), z. B. Erra III 175 (*pašīra ṣabātu*) und IV 57 bei Sargon II. oder I 4 bei Assurbanipal; Zitate aus Tafel V gehören in die Tabelle, sind im eBL-Korpus aber noch nicht erfasst; dazu ein Programm, das jede beliebige Trefferliste gegen diese Tabelle prüft (Präzision und Recall). Vorführung: die Bewertung eines einfachen Verfahrens, z. B. „mindestens zwei gemeinsame Lemmata“.
 - **Philologische Lektüre:** Frahm 2019; Gabriel 2024
 - **Methodische Lektüre:** Coffee et al. 2013 (Abschnitt zur Evaluation)
 - **Zur Diskussion:** Zählt die Nachbarzeile als Treffer? Wie bewertet man Funde, die nicht in der Tabelle stehen? Was ist wichtiger, Präzision oder Recall?
