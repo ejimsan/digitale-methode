@@ -14,7 +14,7 @@ Termine: 16.10.2026; 30.10.2026; 13.11.2026; 11.12.2026; 15.01.2027
 
 ## Beschreibung des Kurses
 
-Material: [github.com/ejimsan/digitale-methode](https://github.com/ejimsan/digitale-methode) (Ordner _intro, 2._sitzung usw.)
+Material: [github.com/ejimsan/digitale-methode](https://github.com/ejimsan/digitale-methode) (Ordner `_intro` für die Einführung und je ein Ordner pro Modul)
 
 Das Blockseminar führt Studierende in die Grundlagen der Programmierung sowie in den Einsatz digitaler Werkzeuge für die assyriologische Forschung ein. Ein besonderes Augenmerk gilt dabei den Möglichkeiten und Grenzen aktueller Werkzeuge der Künstlichen Intelligenz im Umgang mit keilschriftlichen Quellen. Vorkenntnisse in der Programmierung oder Informatik werden ausdrücklich nicht vorausgesetzt.
 
@@ -76,7 +76,7 @@ Der Leistungsnachweis besteht aus (1) dem Programmcode des eigenen Moduls im Rep
 
 ## Module
 
-Die Module sind so angelegt, dass jedes für sich bearbeitet werden kann. Bei weniger als acht Teilnehmenden entfallen einzelne Module.
+Die Module sind so angelegt, dass jedes für sich bearbeitet werden kann. Jedes hat im Repositorium einen eigenen Ordner: `1_konkordanz`, `2_oracc`, `3_erhaltung`, `4_seltenheit`, `5_tesserae`, `6_zufall`, `7_pruefstein`, `8_formeln`. Bei weniger als acht Teilnehmenden entfallen einzelne Module.
 
 ### Modul 1 — Ein Wort, alle Stellen: eine Konkordanz des eBL
 

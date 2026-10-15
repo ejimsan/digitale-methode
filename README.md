@@ -22,4 +22,4 @@ Jedes Modul erhält einen eigenen Ordner mit einer kurzen `README.md` (Fragestel
 
 ## Material
 
-Kursbeschreibung mit Modulen, Zeitplan und Bibliographie: [Kursbeschreibung.md](Kursbeschreibung.md). Das Material der ersten Sitzung liegt im Ordner `_intro`, das der folgenden in `2._sitzung` usw.
+Kursbeschreibung mit Modulen, Zeitplan und Bibliographie: [Kursbeschreibung.md](Kursbeschreibung.md). Das Material der Einführung liegt im Ordner `_intro`. Jedes Modul hat einen eigenen Ordner (`1_konkordanz`, `2_oracc`, `3_erhaltung`, `4_seltenheit`, `5_tesserae`, `6_zufall`, `7_pruefstein`, `8_formeln`) mit Leitfrage, Lektüre und Prüffall; dort kommt auch das fertige Modul hinein.
