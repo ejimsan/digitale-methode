@@ -1,6 +1,6 @@
 # Modul 8: Formel oder Anspielung?
 
-Vorstellung: 15.01.2027 · Gemeinsame Lektüre der Sitzung: [Seri 2014](../Kursbeschreibung.md#seri-2014); [Monroe 2018](../Kursbeschreibung.md#monroe-2018)
+Vorstellung: 15.01.2027 · Gemeinsame Lektüre der Sitzung: [Seri 2014](../Kursbeschreibung.md#seri-2014); [Coffee et al. 2012](../Kursbeschreibung.md#coffee-2012)
 
 ## Leitfrage
 

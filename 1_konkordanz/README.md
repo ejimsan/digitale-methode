@@ -12,8 +12,7 @@ Ein Programm, das zu einem oder mehreren Lemmata alle Zeilen des lemmatisierten 
 
 ## Lektüre
 
-- **Philologie:** [Hurowitz 2002](../Kursbeschreibung.md#hurowitz-2002); [Rozzi 2024](../Kursbeschreibung.md#rozzi-2024)
-- **Methode:** [Cobanoglu et al. 2024](../Kursbeschreibung.md#cobanoglu-2024); [Karsdorp et al. 2021](../Kursbeschreibung.md#karsdorp-2021)
+- **Methode:** [Cobanoglu et al. 2024](../Kursbeschreibung.md#cobanoglu-2024)
 
 Vollständige Angaben in der [Kursbeschreibung](../Kursbeschreibung.md#bibliographie).
 

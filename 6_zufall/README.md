@@ -13,7 +13,7 @@ Ein Programm, das für ein gegebenes Zeilenpaar die Wahrscheinlichkeit einer zuf
 ## Lektüre
 
 - **Philologie:** [Hays 1989](../Kursbeschreibung.md#hays-1989), 29–32; [Sommer 1998](../Kursbeschreibung.md#sommer-1998) (Einleitung)
-- **Methode:** [Dunning 1993](../Kursbeschreibung.md#dunning-1993); [Church/Hanks 1990](../Kursbeschreibung.md#church-1990); [Benjamini/Hochberg 1995](../Kursbeschreibung.md#benjamini-1995)
+- **Methode:** [Dunning 1993](../Kursbeschreibung.md#dunning-1993); [Benjamini/Hochberg 1995](../Kursbeschreibung.md#benjamini-1995)
 
 Vollständige Angaben in der [Kursbeschreibung](../Kursbeschreibung.md#bibliographie).
 

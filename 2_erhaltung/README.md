@@ -12,7 +12,7 @@ Ein Programm, das aus der eBL-ATF mit regulären Ausdrücken für jedes Wort bes
 
 ## Lektüre
 
-- **Methode:** [eBL-ATF-Spezifikation](https://github.com/ElectronicBabylonianLiterature/ebl-api/blob/master/docs/ebl-atf.md); [Knox 2013](../Kursbeschreibung.md#knox-2013); [Jurafsky/Martin 2026](../Kursbeschreibung.md#jurafsky-2026), Kap. 2
+- **Methode:** [eBL-ATF-Spezifikation](https://github.com/ElectronicBabylonianLiterature/ebl-api/blob/master/docs/ebl-atf.md); [Knox 2013](../Kursbeschreibung.md#knox-2013)
 
 Vollständige Angaben in der [Kursbeschreibung](../Kursbeschreibung.md#bibliographie).
 
