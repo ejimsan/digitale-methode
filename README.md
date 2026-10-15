@@ -22,4 +22,4 @@ Jedes Modul erhält einen eigenen Ordner mit einer kurzen `README.md` (Fragestel
 
 ## Material
 
-Kursbeschreibung mit Modulen, Zeitplan und Bibliographie: `Kursbeschreibung.docx`. Das Material jeder Sitzung liegt im Ordner `1._sitzung`, `2._sitzung` usw.
+Kursbeschreibung mit Modulen, Zeitplan und Bibliographie: [Kursbeschreibung.md](Kursbeschreibung.md). Das Material jeder Sitzung liegt im Ordner `1._sitzung`, `2._sitzung` usw.

@@ -4,11 +4,11 @@
 
 ## Material
 
-- `Folien_Python_und_Regex.pptx`: Folien der Sitzung, mit sieben Übungen
-- `Uebungsblatt_1.docx`: reguläre Ausdrücke (Teil A) und ein erstes Programm (Teil B)
-- `bm35407.txt`: Text zum Übungsblatt, BM.35407 i 13′–23′ in eBL-ATF
-- `erste_schritte.py`: Beispielprogramm; eine Zeile in eBL-ATF zerlegen
-- `Handout_1_Erste_Schritte.docx`: Einrichtung, Python in elf Begriffen, reguläre Ausdrücke, Literatursuche
+- [Folien](Folien_Python_und_Regex.pdf): Folien der Sitzung, mit sieben Übungen
+- [Übungsblatt 1](Uebungsblatt_1.md): reguläre Ausdrücke (Teil A) und ein erstes Programm (Teil B)
+- [`bm35407.txt`](bm35407.txt): Text zum Übungsblatt, BM.35407 i 13′–23′ in eBL-ATF
+- [`erste_schritte.py`](erste_schritte.py): Beispielprogramm; eine Zeile in eBL-ATF zerlegen
+- [Handout „Erste Schritte“](Handout_1_Erste_Schritte.md): Einrichtung, Python in elf Begriffen, reguläre Ausdrücke, Literatursuche
 
 ## Bis zum 30.10.2026
 
