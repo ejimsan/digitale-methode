@@ -8,7 +8,7 @@ Findet ein einfaches Verfahren nach dem Vorbild von Tesserae (gemeinsame Lemmata
 
 ## Programm und Vorführung
 
-Ein Programm, das für eine gegebene Zeile alle Zeilen anderer Texte des eBL-Korpus findet, die mindestens zwei Lemmata mit ihr teilen, und sie nach einem Wert ordnet; die Seltenheit berechnet es selbst. Damit nicht Milliarden von Zeilenpaaren verglichen werden müssen, arbeitet es über einen Index, der zu jedem Lemma seine Zeilen kennt. Vorführung: Abfrage beliebiger Zeilen durch die Gruppe.
+Ein Programm, das für eine gegebene Zeile alle Zeilen anderer Texte des eBL-Korpus findet, die mindestens zwei Lemmata mit ihr teilen, und sie nach einem Wert ordnet; die Seltenheit der Wörter und ihrer Verbindung berechnet es selbst. Damit nicht Milliarden von Zeilenpaaren verglichen werden müssen, arbeitet es über einen Index, der zu jedem Lemma seine Zeilen kennt. Vorführung: Abfrage beliebiger Zeilen durch die Gruppe.
 
 ## Lektüre
 

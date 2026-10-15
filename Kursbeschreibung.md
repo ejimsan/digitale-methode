@@ -105,17 +105,17 @@ Die Module sind so angelegt, dass jedes für sich bearbeitet werden kann. Jedes 
 
 ### Modul 4 — Was ist selten?
 
-- **Leitfrage:** „Seltene Wörter“ sind das wichtigste Kriterium für eine Anspielung. Aber selten wo: im ganzen Korpus, in der Literatur, in einer Epoche? Und ist ein Wort selten, oder nur selten überliefert?
-- **Programm und Vorführung:** Ein Programm, das die Häufigkeit jedes Lemmas zählt, daraus ein Seltenheitsgewicht berechnet (z. B. den negativen Logarithmus der relativen Häufigkeit) und die Häufigkeitsverteilung als Diagramm zeigt; dazu ein Vergleich der Gewichte in verschiedenen Teilkorpora. Vorführung: der Wortschatz eines Textes nach Seltenheit geordnet, etwa die Theodizee neben dem Erra-Epos.
+- **Leitfrage:** Seltene Wörter und seltene Verbindungen gewöhnlicher Wörter sind die wichtigsten Kriterien für eine Anspielung. Aber selten wo: im ganzen Korpus, in der Literatur, in einer Epoche? Ist ein Wort selten, oder nur selten überliefert? Und wann ist eine Verbindung seltener, als die Häufigkeit ihrer Teile erwarten lässt?
+- **Programm und Vorführung:** Ein Programm, das die Häufigkeit jedes Lemmas zählt, daraus ein Seltenheitsgewicht berechnet (z. B. den negativen Logarithmus der relativen Häufigkeit) und die Häufigkeitsverteilung als Diagramm zeigt; dazu für Lemmapaare die Zahl der Zeilen, in denen beide vorkommen, und ein Vergleich der Gewichte in verschiedenen Teilkorpora. Vorführung: der Wortschatz eines Textes nach Seltenheit geordnet, etwa die Theodizee neben dem Erra-Epos.
 - **Philologische Lektüre:** [Leonard 2008](#leonard-2008); [Jiménez 2018](#jimenez-2018)
 - **Methodische Lektüre:** [Piantadosi 2014](#piantadosi-2014); [Jurafsky/Martin 2026](#jurafsky-2026), Kap. 3
 - **Zur Diskussion:** Wie behandelt man Eigennamen und Hapax legomena? Zählt man Lemmata oder Schreibungen? Wie groß ist der Einfluss des Überlieferungszufalls?
-- **Prüffall:** *ina* und *ša* gehören zu den häufigsten Lemmata und erhalten ein Gewicht nahe null.
+- **Prüffall:** *ina* und *ša* gehören zu den häufigsten Lemmata und erhalten ein Gewicht nahe null. *qātu* steht in über 2.400 Zeilen der Momentaufnahme, *qātu* zusammen mit *asāmu* nur in Erra I 4.
 
 ### Modul 5 — Parallelen finden: Tesserae für das Akkadische
 
 - **Leitfrage:** Findet ein einfaches Verfahren nach dem Vorbild von Tesserae (gemeinsame Lemmata zweier Zeilen, gewichtet nach Seltenheit, unabhängig von der Wortfolge) die Anspielungen, die Wisnom und Seri zwischen Anzû, Enūma eliš und Erra beschrieben haben?
-- **Programm und Vorführung:** Ein Programm, das für eine gegebene Zeile alle Zeilen anderer Texte des eBL-Korpus findet, die mindestens zwei Lemmata mit ihr teilen, und sie nach einem Wert ordnet; die Seltenheit berechnet es selbst. Damit nicht Milliarden von Zeilenpaaren verglichen werden müssen, arbeitet es über einen Index, der zu jedem Lemma seine Zeilen kennt. Vorführung: Abfrage beliebiger Zeilen durch die Gruppe.
+- **Programm und Vorführung:** Ein Programm, das für eine gegebene Zeile alle Zeilen anderer Texte des eBL-Korpus findet, die mindestens zwei Lemmata mit ihr teilen, und sie nach einem Wert ordnet; die Seltenheit der Wörter und ihrer Verbindung berechnet es selbst. Damit nicht Milliarden von Zeilenpaaren verglichen werden müssen, arbeitet es über einen Index, der zu jedem Lemma seine Zeilen kennt. Vorführung: Abfrage beliebiger Zeilen durch die Gruppe.
 - **Philologische Lektüre:** [Wisnom 2019](#wisnom-2019); [Seri 2014](#seri-2014); dazu [Bach 2021](#bach-2021)
 - **Methodische Lektüre:** [Coffee et al. 2013](#coffee-2013); [Forstall et al. 2015](#forstall-2015)
 - **Zur Diskussion:** Ist die Zeile die richtige Einheit, oder das Verspaar? Sollen Wortfolge und Abstand zählen? Wie viele Treffer sind bloße Formeln?

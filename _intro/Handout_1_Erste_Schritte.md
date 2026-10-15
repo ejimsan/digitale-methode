@@ -6,7 +6,7 @@ enrique.jimenez@lmu.de
 
 ## 1. Worum es geht
 
-Das eBL enthält rund 370.000 edierte Zeilen, die Oracc-Projekte viele weitere. Niemand kann sie alle im Kopf haben, aber ein Programm kann sie in Sekunden durchsuchen und zählen. Die Arbeitsteilung in diesem Kurs ist deshalb einfach: **Der Computer zählt, die Philologin und der Philologe urteilen.** Ein Programm findet, dass zwei Zeilen dieselben seltenen Wörter enthalten. Ob es sich um ein Zitat, eine Formel oder einen Zufall handelt, entscheiden wir.
+Das eBL enthält rund 370.000 edierte Zeilen, die Oracc-Projekte viele weitere. Niemand kann sie alle im Kopf haben, aber ein Programm kann sie in Sekunden durchsuchen und zählen. Die Arbeitsteilung in diesem Kurs ist deshalb einfach: **Der Computer zählt, die Philologin und der Philologe urteilen.** Ein Programm findet, dass zwei Zeilen dieselben seltenen Wörter oder dieselbe seltene Verbindung gewöhnlicher Wörter enthalten. Ob es sich um ein Zitat, eine Formel oder einen Zufall handelt, entscheiden wir.
 
 Programmieren heißt dabei vor allem: eine Aufgabe so genau beschreiben, dass eine Maschine sie ausführen kann. Diese Beschreibung schreiben Sie in der Sprache **Python**, einer der am weitesten verbreiteten Programmiersprachen, auch in den Geisteswissenschaften. Ein **KI-Assistent** hilft Ihnen beim Schreiben, aber verstehen müssen Sie das Ergebnis selbst.
 

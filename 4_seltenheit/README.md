@@ -4,11 +4,11 @@ Vorstellung: 13.11.2026 · Gemeinsame Lektüre der Sitzung: [Bach 2024](../Kursb
 
 ## Leitfrage
 
-„Seltene Wörter“ sind das wichtigste Kriterium für eine Anspielung. Aber selten wo: im ganzen Korpus, in der Literatur, in einer Epoche? Und ist ein Wort selten, oder nur selten überliefert?
+Seltene Wörter und seltene Verbindungen gewöhnlicher Wörter sind die wichtigsten Kriterien für eine Anspielung. Aber selten wo: im ganzen Korpus, in der Literatur, in einer Epoche? Ist ein Wort selten, oder nur selten überliefert? Und wann ist eine Verbindung seltener, als die Häufigkeit ihrer Teile erwarten lässt?
 
 ## Programm und Vorführung
 
-Ein Programm, das die Häufigkeit jedes Lemmas zählt, daraus ein Seltenheitsgewicht berechnet (z. B. den negativen Logarithmus der relativen Häufigkeit) und die Häufigkeitsverteilung als Diagramm zeigt; dazu ein Vergleich der Gewichte in verschiedenen Teilkorpora. Vorführung: der Wortschatz eines Textes nach Seltenheit geordnet, etwa die Theodizee neben dem Erra-Epos.
+Ein Programm, das die Häufigkeit jedes Lemmas zählt, daraus ein Seltenheitsgewicht berechnet (z. B. den negativen Logarithmus der relativen Häufigkeit) und die Häufigkeitsverteilung als Diagramm zeigt; dazu für Lemmapaare die Zahl der Zeilen, in denen beide vorkommen, und ein Vergleich der Gewichte in verschiedenen Teilkorpora. Vorführung: der Wortschatz eines Textes nach Seltenheit geordnet, etwa die Theodizee neben dem Erra-Epos.
 
 ## Lektüre
 
@@ -23,7 +23,7 @@ Wie behandelt man Eigennamen und Hapax legomena? Zählt man Lemmata oder Schreib
 
 ## Prüffall
 
-*ina* und *ša* gehören zu den häufigsten Lemmata und erhalten ein Gewicht nahe null.
+*ina* und *ša* gehören zu den häufigsten Lemmata und erhalten ein Gewicht nahe null. *qātu* steht in über 2.400 Zeilen der Momentaufnahme, *qātu* zusammen mit *asāmu* nur in Erra I 4.
 
 ## Abgabe
 
