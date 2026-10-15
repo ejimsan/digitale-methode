@@ -23,7 +23,7 @@ Die Zuordnung ist zum Teil mehrdeutig (zu *šarru I* gehören auch Oracc-Einträ
 
 ## Prüffall
 
-Sargon II 1 Z. 162 (Selbstmord des Rusâ): Werden die drei Werkzeuge denselben eBL-Lemmata zugeordnet wie in Erra IV 57?
+Assurbanipal 197 Rs. 24: Werden *ŠU-MIN* und *as-ma* denselben eBL-Lemmata (*qātu*, *asāmu*) zugeordnet wie in Erra I 4?
 
 ## Abgabe
 

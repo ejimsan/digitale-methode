@@ -65,12 +65,12 @@ print("\nHäufigste Zeichen dieser Zeile:", haeufigkeit.most_common(3))
 # 6. Der Kern des Projekts in drei Zeilen: gemeinsame Lemmata
 # ------------------------------------------------------------------
 # Lemmata (Wörterbuchformen) zweier Stellen, vereinfacht:
-#   Erra IV 57 nennt drei Werkzeuge: Feuersteinklinge, Rasiermesser, Skalpell
-#   Sargon II 1 Z. 162 (Selbstmord des Rusâ): ṣur-ti nag-la-bi qu-be₂-e
-erra   = {"ṣurtu", "naglabu", "quppû"}
-sargon = {"šarru", "ṣurtu", "naglabu", "quppû", "adi", "balāṭu", "šakānu"}
+#   Erra I 4: Išum, „dessen Hände geeignet sind“, die Waffen zu tragen
+#   Assurbanipal 197 Rs. 24: {d}i-šum ša₂ ŠU-MIN-šu₂ as-ma
+erra = {"Išum", "qātu", "asāmu"}
+assurbanipal = {"Nergal", "qarrādu", "ilu", "Išum", "ša", "qātu", "asāmu"}
 
-gemeinsam = sorted(erra & sargon)   # & = Schnittmenge, sorted = geordnet
+gemeinsam = sorted(erra & assurbanipal)   # & = Schnittmenge, sorted = geordnet
 print("\nGemeinsame Lemmata:", gemeinsam)
 # Frage für Sitzung 2: Wie selten ist diese Kombination im ganzen Korpus?
-# Und: Stehen die drei Wörter in eBL und Oracc unter denselben Lemmata?
+# Und: Stehen die Wörter in eBL und Oracc unter denselben Lemmata?

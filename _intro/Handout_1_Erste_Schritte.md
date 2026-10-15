@@ -41,7 +41,7 @@ Wichtiger als die Wahl des Werkzeugs ist der Umgang damit (siehe Abschnitt 8).
 | Zeichenkette (*string*) | `"ša naqba īmuru"` | Text, immer in Anführungszeichen. Sonderzeichen wie š, ḫ, ₂ sind kein Problem. |
 | Zahl | `zeilen = 37` | Ganze Zahlen und Dezimalzahlen (mit Punkt: `0.5`). |
 | Liste | `["Erra", "Išum", "Marduk"]` | Geordnete Folge. Python zählt ab 0: `liste[0]` ist „Erra“, `liste[-1]` das letzte Element. |
-| Menge (*set*) | `{"naglabu", "quppû"}` | Ungeordnet, ohne Doppelte. `a & b` ergibt die gemeinsamen Elemente. |
+| Menge (*set*) | `{"qātu", "asāmu"}` | Ungeordnet, ohne Doppelte. `a & b` ergibt die gemeinsamen Elemente. |
 | Wörterbuch (*dict*) | `{"Erra": 5, "Enūma eliš": 7}` | Schlüssel → Wert (hier: Anzahl der Tafeln). Ideal zum Nachschlagen und Zählen. |
 | Schleife | `for wort in woerter:` | Wiederholt die eingerückten Zeilen darunter für jedes Element. Die Einrückung gehört zur Syntax! |
 | Bedingung | `if "#" in wort:` | Führt die eingerückten Zeilen nur aus, wenn die Bedingung zutrifft. |
@@ -100,22 +100,22 @@ ergaenzt    = re.findall(r"\[([^\]]*)\]", zeile)    # alles zwischen [ und ]
 sauber      = re.sub(r"[#\[\]]", "", zeile)          # Schadensmarken entfernen
 ```
 
-Am Ende steht der Kern des ganzen Projekts in drei Zeilen. Erra IV 57 nennt drei Werkzeuge in einer Zeile, Feuersteinklinge, Rasiermesser und Skalpell; zusammen kommen sie sonst nur in Sargons Bericht über den Selbstmord des Rusâ vor (Sargon II 1 Z. 162: *ṣur-ti nag-la-bi qu-be₂-e*):
+Am Ende steht der Kern des ganzen Projekts in drei Zeilen. Erra I 4 nennt Išum einen, „dessen Hände geeignet sind“, die Waffen zu tragen; dasselbe Epitheton steht in einer Inschrift Assurbanipals (Nr. 197 Rs. 24: *{d}i-šum ša₂ ŠU-MIN-šu₂ as-ma*):
 
 ```
-erra   = {"ṣurtu", "naglabu", "quppû"}             # Erra IV 57 (nur die Werkzeuge)
-sargon = {"šarru", "ṣurtu", "naglabu", "quppû",
-          "adi", "balāṭu", "šakānu"}             # Sargon II 1 Z. 162 (Auszug)
-print(sorted(erra & sargon))   # → ['naglabu', 'quppû', 'ṣurtu']
+erra = {"Išum", "qātu", "asāmu"}                     # Erra I 4 (Auszug)
+assurbanipal = {"Nergal", "qarrādu", "ilu", "Išum",
+                "ša", "qātu", "asāmu"}             # Assurbanipal 197 Rs. 24
+print(sorted(erra & assurbanipal))   # → ['Išum', 'asāmu', 'qātu']
 ```
 
-Zwei Fragen nehmen wir in die nächste Sitzung mit. Erstens: Wie selten ist diese Verbindung im ganzen Korpus, und wie misst man das? Zweitens: Stehen die drei Wörter in eBL und Oracc wirklich unter denselben Lemmata? Wenn nicht, sieht das Programm die Parallele nicht, und das wäre kein Fehler der Statistik, sondern der Lemmatisierung.
+Zwei Fragen nehmen wir in die nächste Sitzung mit. Erstens: Wie selten ist diese Verbindung im ganzen Korpus, und wie misst man das? Zweitens: Stehen die Wörter in eBL und Oracc wirklich unter denselben Lemmata? Wenn nicht, sieht das Programm die Parallele nicht, und das wäre kein Fehler der Statistik, sondern der Lemmatisierung.
 
 ## 8. Mit dem KI-Assistenten arbeiten
 
 - **Klein anfangen.** Nicht „Schreibe ein Programm, das Zitate findet“, sondern „Lies die Datei erra.json und zähle, wie oft jedes Lemma vorkommt“.
 - **Erklären lassen.** Zum Beispiel: „Erkläre jede Zeile auf Deutsch. Verwende nur die Standardbibliothek von Python.“ Code, den Sie nicht erklären können, gehört nicht in Ihre Abgabe.
-- **An einem bekannten Fall prüfen.** Wenn das Programm Erra IV 57 und Sargons Bericht über Rusâ nicht zusammenbringt, stimmt etwas nicht, ganz gleich, wie überzeugend der Code aussieht.
+- **An einem bekannten Fall prüfen.** Wenn das Programm Erra I 4 und Assurbanipal 197 Rs. 24 nicht zusammenbringt, stimmt etwas nicht, ganz gleich, wie überzeugend der Code aussieht.
 - **Fehlermeldungen vollständig einfügen**, nicht nacherzählen.
 - **Änderungen lesen, bevor Sie sie übernehmen**, und keine Befehle ausführen lassen, deren Wirkung Sie nicht kennen (vor allem nichts, was Dateien löscht).
 - **Protokoll führen.** Eine Datei `protokoll.md`, in der Sie wichtige Anfragen und Entscheidungen notieren. Sie brauchen sie für den Bericht.

@@ -23,7 +23,7 @@ Was ist das richtige Zufallsmodell für eine Literatur voller Formeln und Gattun
 
 ## Prüffall
 
-Erra IV 57 und Sargon II 1 Z. 162 erhalten einen deutlich kleineren Wert als ein Zeilenpaar, das nur *ina* und *ša* teilt.
+Erra I 4 und Assurbanipal 197 Rs. 24 erhalten einen deutlich kleineren Wert als ein Zeilenpaar, das nur *ina* und *ša* teilt.
 
 ## Abgabe
 
