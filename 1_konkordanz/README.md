@@ -1,6 +1,6 @@
 # Modul 1: Ein Wort, alle Stellen: eine Konkordanz des eBL
 
-Vorstellung: 30.10.2026 · Gemeinsame Lektüre der Sitzung: Leonard 2008; Coffee et al. 2013
+Vorstellung: 30.10.2026 · Gemeinsame Lektüre der Sitzung: Leonard 2008; Jiménez 2017, 79–82; Coffee et al. 2013
 
 ## Leitfrage
 

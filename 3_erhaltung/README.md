@@ -1,6 +1,6 @@
 # Modul 3: Erhalten, beschädigt, ergänzt
 
-Vorstellung: 30.10.2026 · Gemeinsame Lektüre der Sitzung: Leonard 2008; Coffee et al. 2013
+Vorstellung: 30.10.2026 · Gemeinsame Lektüre der Sitzung: Leonard 2008; Jiménez 2017, 79–82; Coffee et al. 2013
 
 ## Leitfrage
 

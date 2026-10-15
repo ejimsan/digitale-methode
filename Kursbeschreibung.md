@@ -56,7 +56,7 @@ Der Leistungsnachweis besteht aus (1) dem Programmcode des eigenen Moduls im Rep
 
 - **Inhalt:** Arbeiten mit einem KI-Assistenten (GitHub Copilot): Aufgaben formulieren, Code lesen, Ergebnisse prüfen. Die Daten von eBL und Oracc.
 - **Module:** 1 (Konkordanz), 3 (Erhaltung und Ergänzung)
-- **Lektüre:** Leonard 2008; Coffee et al. 2013
+- **Lektüre:** Leonard 2008; Jiménez 2017, 79–82; Coffee et al. 2013
 
 **3. 13.11.2026 — Module 2 und 4**
 
@@ -162,7 +162,7 @@ Bach, J. (2024): A Methodology for the Transtextual Analysis of Assyrian Royal N
 
 Ballesteros, B. (2023): Naming the Gods: Traditional Verse-Making in Homer and Old Babylonian Akkadian Poetry, Manuscript and Text Cultures 2/2 (DOI: <https://doi.org/10.56004/v2.2bb>).
 
-Benjamini, Y./Y. Hochberg (1995): Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing, Journal of the Royal Statistical Society, Series B 57, 289–300 (DOI: <https://doi.org/10.1111/j.2517-6161.1995.tb02031.x>).
+Benjamini, Y./Y. Hochberg (1995): Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing, Journal of the Royal Statistical Society, Series B 57, 289–300 (DOI: <https://doi.org/10.1111/j.2517-6161.1995.tb02031.x>; JSTOR: <https://www.jstor.org/stable/2346101>).
 
 Church, K. W./P. Hanks (1990): Word Association Norms, Mutual Information, and Lexicography, Computational Linguistics 16, 22–29 (<https://aclanthology.org/J90-1003/>).
 
@@ -196,9 +196,9 @@ Karsdorp, F./M. Kestemont/A. Riddell (2021): Humanities Data Analysis: Case Stud
 
 Knox, D. (2013): Understanding Regular Expressions, Programming Historian 2 (DOI: <https://doi.org/10.46430/phen0033>).
 
-Leonard, J. M. (2008): Identifying Inner-Biblical Allusions: Psalm 78 as a Test Case, Journal of Biblical Literature 127, 241–265 (DOI: <https://doi.org/10.2307/25610119>).
+Leonard, J. M. (2008): Identifying Inner-Biblical Allusions: Psalm 78 as a Test Case, Journal of Biblical Literature 127, 241–265 (DOI: <https://doi.org/10.2307/25610119>; JSTOR: <https://www.jstor.org/stable/25610119>).
 
-Monroe, M. W. (2018): Using Quantitative Methods for Measuring Inter-Textual Relations in Cuneiform, in: V. Bigot Juloux [e. a.] (ed.), CyberResearch on the Ancient Near East and Neighboring Regions. Digital Biblical Studies 2. Leiden/Boston, 257–281.
+Monroe, M. W. (2018): Using Quantitative Methods for Measuring Inter-Textual Relations in Cuneiform, in: V. Bigot Juloux [e. a.] (ed.), CyberResearch on the Ancient Near East and Neighboring Regions. Digital Biblical Studies 2. Leiden/Boston, 257–281 (JSTOR: <https://www.jstor.org/stable/10.1163/j.ctv4v349g.17>).
 
 Piantadosi, S. T. (2014): Zipf’s Word Frequency Law in Natural Language: A Critical Review and Future Directions, Psychonomic Bulletin & Review 21, 1112–1130 (DOI: <https://doi.org/10.3758/s13423-014-0585-6>).
 
@@ -206,13 +206,13 @@ Rozzi, G. (2024): A Mosaic of Quotations: Intertextual Relationships in the Grea
 
 Sahala, A./K. Lindén (2023): A Neural Pipeline for POS-tagging and Lemmatizing Cuneiform Languages, in: Proceedings of the Ancient Language Processing Workshop. Varna, 203–212 (<https://aclanthology.org/2023.alp-1.23/>).
 
-Seri, A. (2014): Borrowings to Create Anew: Intertextuality in the Babylonian Poem of “Creation” (Enūma eliš), Journal of the American Oriental Society 134, 89–106 (DOI: <https://doi.org/10.7817/jameroriesoci.134.1.0089>).
+Seri, A. (2014): Borrowings to Create Anew: Intertextuality in the Babylonian Poem of “Creation” (Enūma eliš), Journal of the American Oriental Society 134, 89–106 (DOI: <https://doi.org/10.7817/jameroriesoci.134.1.0089>; JSTOR: <https://www.jstor.org/stable/10.7817/jameroriesoci.134.1.0089>).
 
 Sommer, B. D. (1998): A Prophet Reads Scripture: Allusion in Isaiah 40–66. Stanford.
 
 Wasserman, N. (2003): Style and Form in Old-Babylonian Literary Texts. Cuneiform Monographs 27. Leiden/Boston.
 
-Wisnom, S. (2019): Blood on the Wind and the Tablet of Destinies: Intertextuality in Anzû, Enūma eliš, and Erra and Išum, Journal of the American Oriental Society 139, 269–286 (DOI: <https://doi.org/10.7817/jameroriesoci.139.2.0269>).
+Wisnom, S. (2019): Blood on the Wind and the Tablet of Destinies: Intertextuality in Anzû, Enūma eliš, and Erra and Išum, Journal of the American Oriental Society 139, 269–286 (DOI: <https://doi.org/10.7817/jameroriesoci.139.2.0269>; JSTOR: <https://www.jstor.org/stable/10.7817/jameroriesoci.139.2.0269>).
 
 Worthington, M. (2012): Principles of Akkadian Textual Criticism. Studies in Ancient Near Eastern Records 1. Boston/Berlin.
 
@@ -228,7 +228,7 @@ Machinist, P. (1983): Assyria and Its Image in the First Isaiah, Journal of the 
 
 Sommerschield, T. [e. a.] (2023): Machine Learning for Ancient Languages: A Survey, Computational Linguistics 49, 703–747 (DOI: <https://doi.org/10.1162/coli_a_00481>).
 
-Thomas, R. F. (1986): Virgil’s Georgics and the Art of Reference, Harvard Studies in Classical Philology 90, 171–198.
+Thomas, R. F. (1986): Virgil’s Georgics and the Art of Reference, Harvard Studies in Classical Philology 90, 171–198 (JSTOR: <https://www.jstor.org/stable/311468>).
 
 Tigay, J. H. (1982): The Evolution of the Gilgamesh Epic. Philadelphia.
 
