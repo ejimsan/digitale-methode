@@ -49,7 +49,7 @@ Der Leistungsnachweis besteht aus (1) dem Programmcode des eigenen Moduls im Rep
 
 **1. 16.10.2026 — Einführung: Python, reguläre Ausdrücke, APIs, GitHub**
 
-- **Inhalt:** Was ist ein Programm? Variablen, Datentypen, Listen, Funktionen, Schleifen, Module. Reguläre Ausdrücke. APIs und JSON. Git und GitHub. Literatur finden (Google Scholar, Semantic Scholar, ACL Anthology, KeiBi; Zotero). Nach jedem Block eine Übung, meist an Enūma eliš I 1–4; zum Schluss ein erstes Programm. Verteilung der Module.
+- **Inhalt:** Einrichtung von Python und VS Code. Git und GitHub. Regular Expressions. Python I: Program, Variables, Data Types, Lists. Python II: Modules, Functions, Loops, Errors. APIs und JSON. Literatur finden (Google Scholar, Semantic Scholar, ACL Anthology, KeiBi; Zotero). Eine Parallele (Erra I 4 und Assurbanipal); Vorstellung und Verteilung der Module. Nach jedem Block eine Übung, meist an Enūma eliš I 1–4; zum Schluss ein erstes Programm.
 - **Material:** Folien, Übungsblatt 1, bm35407.txt, Handout „Erste Schritte“
 
 **2. 30.10.2026 — Werkzeuge; Module 1 und 3**

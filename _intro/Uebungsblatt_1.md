@@ -23,7 +23,7 @@ i 23′   a-na ku-um ša₂-kan a-bu-bu a-na šul-mu giš-kim-mu DU₃-uš NAM.B
 
 ## Teil A: Reguläre Ausdrücke
 
-Öffnen Sie [regex101.com](https://regex101.com/), wählen Sie links „Python“ und fügen Sie den Text in das untere Feld ein. Schreiben Sie oben ein Muster, das genau das Verlangte findet. Die Tabelle im Handout (Abschnitt 5) hilft.
+Öffnen Sie [regex101.com](https://regex101.com/), wählen Sie links „Python“ und fügen Sie den Text in das untere Feld ein. Schreiben Sie oben ein Muster, das genau das Verlangte findet. Die Tabelle im Handout (Abschnitt 4) hilft.
 
 1. Alle Vorkommen der Zeichenfolge *tu₄*. Wie viele sind es?
 2. Alle Zeichen mit Indexziffer (*u₂*, *tu₄*, *DU₃* …). Tipp: Die Indexziffern lassen sich als Bereich `[₀-₉]` schreiben; `\d` findet sie nicht.
@@ -31,8 +31,8 @@ i 23′   a-na ku-um ša₂-kan a-bu-bu a-na šul-mu giš-kim-mu DU₃-uš NAM.B
 4. Den Inhalt aller Determinative, also nur *d* und *ki*, ohne die Klammern. Tipp: runde Klammern ( ) bilden eine Gruppe.
 5. Alle ergänzten Stellen, d. h. alles zwischen eckigen Klammern.
 6. Alle Wörter, die auf *-tu₄* enden. Was geschieht mit *sur-ra-[a-tu₄]*?
-7. Alle Wörter, die mit *u₂-* beginnen (*u₂-hal-laq* usw.), aber nicht die Konjunktion *u₂* in *e-liš u₂ šap-liš*.
-8. **Zusatz:** Alle Stellen, an denen ein Konsonant über die Zeichengrenze hinweg doppelt geschrieben ist (*ig-ga-ag-ma*, *im-tal-lik*). Tipp: `\1` verweist auf den Inhalt der ersten Gruppe.
+7. Alle Wörter, die mit *u₂-* beginnen (*u₂-hal-laq* usw.), aber nicht die Konjunktion *u₂* in *e-liš u₂ šap-liš* und nicht das Ende von *UN-MEŠ-šu₂-nu*. Es sind drei.
+8. **Zusatz:** Alle Stellen, an denen ein Konsonant über die Zeichengrenze hinweg doppelt geschrieben ist (*ig-ga-ag-ma*, *im-tal-lik*). Nur Konsonanten, auch *h* (= *ḫ*). Tipp: `\1` verweist auf den Inhalt der ersten Gruppe.
 
 ## Teil B: Ein erstes Programm
 
@@ -51,7 +51,7 @@ for zeile in open("bm35407.txt", encoding="utf-8"):
 5. Die fünf häufigsten Zeichen des Textes ermitteln. Entfernen Sie vorher die Schadensmarken und zerlegen Sie an Bindestrichen, Punkten und Leerzeichen. Tipp: `Counter` aus dem Modul `collections`, wie in `erste_schritte.py`.
 6. **Zusatz:** Das Ergebnis in eine Datei `bericht.txt` schreiben, oder das Programm auf eine andere Tafel aus dem eBL anwenden.
 
-**Zur Kontrolle:** Zeile i 23′ hat neun Wörter; der Text enthält zwölf verschiedene Logogramme.
+**Zur Kontrolle:** Zeile i 23′ hat neun Wörter; der Text enthält zwölf verschiedene Logogramme, darunter MEŠ, DU₃ und BUR₂.
 
 ## Bis zum 30.10.2026
 

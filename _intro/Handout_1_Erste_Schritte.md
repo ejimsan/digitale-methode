@@ -33,23 +33,7 @@ Alle verbreiteten Assistenten können Code schreiben, erklären und Dateien bear
 
 Wichtiger als die Wahl des Werkzeugs ist der Umgang damit (siehe Abschnitt 8).
 
-## 4. Python in elf Begriffen
-
-| Begriff | Beispiel | Erklärung |
-|---|---|---|
-| Variable | `gott = "Erra"` | Ein Name für einen Wert. Das Gleichheitszeichen bedeutet „wird zu“, nicht „ist gleich“. |
-| Zeichenkette (*string*) | `"ša naqba īmuru"` | Text, immer in Anführungszeichen. Sonderzeichen wie š, ḫ, ₂ sind kein Problem. |
-| Zahl | `zeilen = 37` | Ganze Zahlen und Dezimalzahlen (mit Punkt: `0.5`). |
-| Liste | `["Erra", "Išum", "Marduk"]` | Geordnete Folge. Python zählt ab 0: `liste[0]` ist „Erra“, `liste[-1]` das letzte Element. |
-| Menge (*set*) | `{"qātu", "asāmu"}` | Ungeordnet, ohne Doppelte. `a & b` ergibt die gemeinsamen Elemente. |
-| Wörterbuch (*dict*) | `{"Erra": 5, "Enūma eliš": 7}` | Schlüssel → Wert (hier: Anzahl der Tafeln). Ideal zum Nachschlagen und Zählen. |
-| Schleife | `for wort in woerter:` | Wiederholt die eingerückten Zeilen darunter für jedes Element. Die Einrückung gehört zur Syntax! |
-| Bedingung | `if "#" in wort:` | Führt die eingerückten Zeilen nur aus, wenn die Bedingung zutrifft. |
-| Funktion | `len(woerter)`, `zeile.split()` | Ein benannter Arbeitsschritt. Eigene Funktionen definiert man mit `def`. |
-| Bibliothek (Modul) | `import re` | Fertige Werkzeuge anderer, z. B. `re` (reguläre Ausdrücke), `json`, `requests`. |
-| Fehlermeldung | `NameError: name 'wort' is not defined` | Kein Grund zur Sorge. Die letzte Zeile nennt die Art des Fehlers, die Zeilen darüber den Ort. Ganz in den Chat kopieren. |
-
-## 5. Reguläre Ausdrücke
+## 4. Regular Expressions
 
 Ein regulärer Ausdruck (*regular expression*, kurz *regex*) beschreibt ein Muster statt einer festen Zeichenfolge: nicht „finde *šu₂*“, sondern „finde jedes Zeichen mit einer Indexziffer“. Damit lassen sich ATF-Zeilen zerlegen, Schadensmarken entfernen oder Determinative finden.
 
@@ -67,6 +51,22 @@ Ein regulärer Ausdruck (*regular expression*, kurz *regex*) beschreibt ein Must
 | `^`  `$` | Anfang · Ende der Zeichenkette | `^#lem` findet Lemmatisierungszeilen |
 
 Muster lassen sich bequem auf [regex101.com](https://regex101.com/) ausprobieren (links „Python“ als *flavor* wählen). Eine gute Einführung ist Knox 2013 im *Programming Historian*.
+
+## 5. Python in elf Begriffen
+
+| Begriff | Beispiel | Erklärung |
+|---|---|---|
+| **Variable** | `gott = "Erra"` | Ein Name für einen Wert. Das Gleichheitszeichen bedeutet „wird zu“, nicht „ist gleich“. |
+| **String** (Zeichenkette) | `"ša naqba īmuru"` | Text, immer in Anführungszeichen. Sonderzeichen wie š, ḫ, ₂ sind kein Problem. |
+| **Number** (`int`, `float`) | `zeilen = 37` | Ganze Zahlen und Dezimalzahlen (mit Punkt: `0.5`). |
+| **List** (Liste) | `["Erra", "Išum", "Marduk"]` | Geordnete Folge. Python zählt ab 0: `liste[0]` ist „Erra“, `liste[-1]` das letzte Element. |
+| **Set** (Menge) | `{"qātu", "asāmu"}` | Ungeordnet, ohne Doppelte. `a & b` ergibt die gemeinsamen Elemente. |
+| **Dictionary** (`dict`, Wörterbuch) | `{"Erra": 5, "Enūma eliš": 7}` | Schlüssel → Wert (hier: Anzahl der Tafeln). Ideal zum Nachschlagen und Zählen. |
+| **Loop** (Schleife) | `for wort in woerter:` | Wiederholt die eingerückten Zeilen darunter für jedes Element. Die Einrückung gehört zur Syntax! |
+| **Condition** (Bedingung) | `if "#" in wort:` | Führt die eingerückten Zeilen nur aus, wenn die Bedingung zutrifft. |
+| **Function** (Funktion) | `len(woerter)`, `zeile.split()` | Ein benannter Arbeitsschritt. Eigene Funktionen definiert man mit `def`. |
+| **Module** (Modul, Bibliothek) | `import re` | Fertige Werkzeuge anderer, z. B. `re` (reguläre Ausdrücke), `json`, `requests`. |
+| **Error** (Fehlermeldung) | `NameError: name 'wort' is not defined` | Kein Grund zur Sorge. Die letzte Zeile nennt die Art des Fehlers, die Zeilen darüber den Ort. Ganz in den Chat kopieren. |
 
 ## 6. Was ist eine API?
 
