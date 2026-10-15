@@ -1,6 +1,6 @@
-# Modul 3: Erhalten, beschädigt, ergänzt
+# Modul 2: Erhalten, beschädigt, ergänzt
 
-Vorstellung: 30.10.2026 · Gemeinsame Lektüre der Sitzung: Leonard 2008; Jiménez 2017, 79–82; Coffee et al. 2013
+Vorstellung: 30.10.2026 · Gemeinsame Lektüre der Sitzung: [Leonard 2008](../Kursbeschreibung.md#leonard-2008); [Jiménez 2017](../Kursbeschreibung.md#jimenez-2017), 79–82; [Coffee et al. 2013](../Kursbeschreibung.md#coffee-2013)
 
 ## Leitfrage
 
@@ -12,8 +12,7 @@ Ein Programm, das aus der eBL-ATF mit regulären Ausdrücken für jedes Wort bes
 
 ## Lektüre
 
-- **Philologie:** Worthington 2012 (in Auswahl)
-- **Methode:** [eBL-ATF-Spezifikation](https://github.com/ElectronicBabylonianLiterature/ebl-api/blob/master/docs/ebl-atf.md); Knox 2013; Jurafsky/Martin 2026, Kap. 2
+- **Methode:** [eBL-ATF-Spezifikation](https://github.com/ElectronicBabylonianLiterature/ebl-api/blob/master/docs/ebl-atf.md); [Knox 2013](../Kursbeschreibung.md#knox-2013); [Jurafsky/Martin 2026](../Kursbeschreibung.md#jurafsky-2026), Kap. 2
 
 Vollständige Angaben in der [Kursbeschreibung](../Kursbeschreibung.md#bibliographie).
 

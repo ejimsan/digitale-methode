@@ -1,6 +1,6 @@
 # Modul 5: Parallelen finden: Tesserae für das Akkadische
 
-Vorstellung: 11.12.2026 · Gemeinsame Lektüre der Sitzung: Wisnom 2019; Forstall et al. 2015
+Vorstellung: 11.12.2026 · Gemeinsame Lektüre der Sitzung: [Wisnom 2019](../Kursbeschreibung.md#wisnom-2019); [Forstall et al. 2015](../Kursbeschreibung.md#forstall-2015)
 
 ## Leitfrage
 
@@ -12,8 +12,8 @@ Ein Programm, das für eine gegebene Zeile alle Zeilen anderer Texte des eBL-Kor
 
 ## Lektüre
 
-- **Philologie:** Wisnom 2019; Seri 2014; dazu Bach 2021
-- **Methode:** Coffee et al. 2013; Forstall et al. 2015; Monroe 2018
+- **Philologie:** [Wisnom 2019](../Kursbeschreibung.md#wisnom-2019); [Seri 2014](../Kursbeschreibung.md#seri-2014); dazu [Bach 2021](../Kursbeschreibung.md#bach-2021)
+- **Methode:** [Coffee et al. 2013](../Kursbeschreibung.md#coffee-2013); [Forstall et al. 2015](../Kursbeschreibung.md#forstall-2015); [Monroe 2018](../Kursbeschreibung.md#monroe-2018)
 
 Vollständige Angaben in der [Kursbeschreibung](../Kursbeschreibung.md#bibliographie).
 

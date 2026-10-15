@@ -14,5 +14,5 @@
 
 - Das Programm aus Teil B des Übungsblatts fertigstellen.
 - Bei GitHub Education den Studierendenstatus bestätigen lassen (für GitHub Copilot).
-- Module 1 und 3: Literatur, Ansatz und einen ersten Programmentwurf für die Sitzung vorbereiten.
-- Lektüre: Leonard 2008; Jiménez 2017, 79–82; Coffee et al. 2013.
+- Module 1 und 2: Literatur, Ansatz und einen ersten Programmentwurf für die Sitzung vorbereiten.
+- Lektüre: [Leonard 2008](../Kursbeschreibung.md#leonard-2008); [Jiménez 2017](../Kursbeschreibung.md#jimenez-2017), 79–82; [Coffee et al. 2013](../Kursbeschreibung.md#coffee-2013).

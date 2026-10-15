@@ -1,6 +1,6 @@
 # Modul 4: Was ist selten?
 
-Vorstellung: 13.11.2026 · Gemeinsame Lektüre der Sitzung: Bach 2024; Cobanoglu et al. 2024
+Vorstellung: 13.11.2026 · Gemeinsame Lektüre der Sitzung: [Bach 2024](../Kursbeschreibung.md#bach-2024); [Cobanoglu et al. 2024](../Kursbeschreibung.md#cobanoglu-2024)
 
 ## Leitfrage
 
@@ -12,8 +12,8 @@ Ein Programm, das die Häufigkeit jedes Lemmas zählt, daraus ein Seltenheitsgew
 
 ## Lektüre
 
-- **Philologie:** Leonard 2008; Jiménez 2018
-- **Methode:** Piantadosi 2014; Jurafsky/Martin 2026, Kap. 3
+- **Philologie:** [Leonard 2008](../Kursbeschreibung.md#leonard-2008); [Jiménez 2018](../Kursbeschreibung.md#jimenez-2018)
+- **Methode:** [Piantadosi 2014](../Kursbeschreibung.md#piantadosi-2014); [Jurafsky/Martin 2026](../Kursbeschreibung.md#jurafsky-2026), Kap. 3
 
 Vollständige Angaben in der [Kursbeschreibung](../Kursbeschreibung.md#bibliographie).
 

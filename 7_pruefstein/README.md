@@ -1,6 +1,6 @@
 # Modul 7: Was die Philologie schon weiß: ein Prüfstein
 
-Vorstellung: 15.01.2027 · Gemeinsame Lektüre der Sitzung: Seri 2014; Monroe 2018
+Vorstellung: 15.01.2027 · Gemeinsame Lektüre der Sitzung: [Seri 2014](../Kursbeschreibung.md#seri-2014); [Monroe 2018](../Kursbeschreibung.md#monroe-2018)
 
 ## Leitfrage
 
@@ -12,8 +12,8 @@ Eine maschinenlesbare Tabelle der bekannten Zitate des Erra-Epos (Erra-Stelle, z
 
 ## Lektüre
 
-- **Philologie:** Frahm 2019; Gabriel 2024; Jiménez 2017, 79–82
-- **Methode:** Coffee et al. 2013 (Abschnitt zur Evaluation)
+- **Philologie:** [Frahm 2019](../Kursbeschreibung.md#frahm-2019); [Gabriel 2024](../Kursbeschreibung.md#gabriel-2024); [Jiménez 2017](../Kursbeschreibung.md#jimenez-2017), 79–82
+- **Methode:** [Coffee et al. 2013](../Kursbeschreibung.md#coffee-2013) (Abschnitt zur Evaluation)
 
 Vollständige Angaben in der [Kursbeschreibung](../Kursbeschreibung.md#bibliographie).
 

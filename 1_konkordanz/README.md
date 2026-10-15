@@ -1,6 +1,6 @@
 # Modul 1: Ein Wort, alle Stellen: eine Konkordanz des eBL
 
-Vorstellung: 30.10.2026 · Gemeinsame Lektüre der Sitzung: Leonard 2008; Jiménez 2017, 79–82; Coffee et al. 2013
+Vorstellung: 30.10.2026 · Gemeinsame Lektüre der Sitzung: [Leonard 2008](../Kursbeschreibung.md#leonard-2008); [Jiménez 2017](../Kursbeschreibung.md#jimenez-2017), 79–82; [Coffee et al. 2013](../Kursbeschreibung.md#coffee-2013)
 
 ## Leitfrage
 
@@ -12,8 +12,8 @@ Ein Programm, das zu einem oder mehreren Lemmata alle Zeilen des lemmatisierten 
 
 ## Lektüre
 
-- **Philologie:** Hurowitz 2002; Rozzi 2024
-- **Methode:** Cobanoglu et al. 2024; Karsdorp et al. 2021
+- **Philologie:** [Hurowitz 2002](../Kursbeschreibung.md#hurowitz-2002); [Rozzi 2024](../Kursbeschreibung.md#rozzi-2024)
+- **Methode:** [Cobanoglu et al. 2024](../Kursbeschreibung.md#cobanoglu-2024); [Karsdorp et al. 2021](../Kursbeschreibung.md#karsdorp-2021)
 
 Vollständige Angaben in der [Kursbeschreibung](../Kursbeschreibung.md#bibliographie).
 

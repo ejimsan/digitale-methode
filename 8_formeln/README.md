@@ -1,6 +1,6 @@
 # Modul 8: Formel oder Anspielung?
 
-Vorstellung: 15.01.2027 · Gemeinsame Lektüre der Sitzung: Seri 2014; Monroe 2018
+Vorstellung: 15.01.2027 · Gemeinsame Lektüre der Sitzung: [Seri 2014](../Kursbeschreibung.md#seri-2014); [Monroe 2018](../Kursbeschreibung.md#monroe-2018)
 
 ## Leitfrage
 
@@ -12,8 +12,8 @@ Ein Programm, das Verbindungen von Lemmata findet, die in vielen verschiedenen T
 
 ## Lektüre
 
-- **Philologie:** Jiménez 2017, 79–97; Wasserman 2003 (in Auswahl); Ballesteros 2023; Conte 1986 (in Auswahl)
-- **Methode:** Church/Hanks 1990; Coffee et al. 2012
+- **Philologie:** [Jiménez 2017](../Kursbeschreibung.md#jimenez-2017), 79–97; [Wasserman 2003](../Kursbeschreibung.md#wasserman-2003) (in Auswahl); [Ballesteros 2023](../Kursbeschreibung.md#ballesteros-2023); [Conte 1986](../Kursbeschreibung.md#conte-1986) (in Auswahl)
+- **Methode:** [Church/Hanks 1990](../Kursbeschreibung.md#church-1990); [Coffee et al. 2012](../Kursbeschreibung.md#coffee-2012)
 
 Vollständige Angaben in der [Kursbeschreibung](../Kursbeschreibung.md#bibliographie).
 

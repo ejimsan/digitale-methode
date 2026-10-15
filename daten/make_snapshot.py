@@ -140,7 +140,7 @@ def manuscript_label(m):
 
 
 def manuscript_lines(docs):
-    """Die Zeilen der einzelnen Manuskripte der Kapitel, mit # und [ ] (für Modul 3)."""
+    """Die Zeilen der einzelnen Manuskripte der Kapitel, mit # und [ ] (für Modul 2)."""
     for doc in docs:
         tid = doc.get("textId") or {}
         text = f"{tid.get('genre', '')} {tid.get('category', '')}.{tid.get('index', '')} {doc.get('stage', '')} {doc.get('name', '')}".strip()

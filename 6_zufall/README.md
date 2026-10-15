@@ -1,6 +1,6 @@
 # Modul 6: Zufall oder Zitat?
 
-Vorstellung: 11.12.2026 · Gemeinsame Lektüre der Sitzung: Wisnom 2019; Forstall et al. 2015
+Vorstellung: 11.12.2026 · Gemeinsame Lektüre der Sitzung: [Wisnom 2019](../Kursbeschreibung.md#wisnom-2019); [Forstall et al. 2015](../Kursbeschreibung.md#forstall-2015)
 
 ## Leitfrage
 
@@ -12,8 +12,8 @@ Ein Programm, das für ein gegebenes Zeilenpaar die Wahrscheinlichkeit einer zuf
 
 ## Lektüre
 
-- **Philologie:** Hays 1989, 29–32; Sommer 1998 (Einleitung)
-- **Methode:** Dunning 1993; Church/Hanks 1990; Benjamini/Hochberg 1995
+- **Philologie:** [Hays 1989](../Kursbeschreibung.md#hays-1989), 29–32; [Sommer 1998](../Kursbeschreibung.md#sommer-1998) (Einleitung)
+- **Methode:** [Dunning 1993](../Kursbeschreibung.md#dunning-1993); [Church/Hanks 1990](../Kursbeschreibung.md#church-1990); [Benjamini/Hochberg 1995](../Kursbeschreibung.md#benjamini-1995)
 
 Vollständige Angaben in der [Kursbeschreibung](../Kursbeschreibung.md#bibliographie).
 

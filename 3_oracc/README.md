@@ -1,6 +1,6 @@
-# Modul 2: Zwei Korpora, zwei Lemmatisierungen: die Königsinschriften aus Oracc
+# Modul 3: Zwei Korpora, zwei Lemmatisierungen: die Königsinschriften aus Oracc
 
-Vorstellung: 13.11.2026 · Gemeinsame Lektüre der Sitzung: Bach 2024; Cobanoglu et al. 2024
+Vorstellung: 13.11.2026 · Gemeinsame Lektüre der Sitzung: [Bach 2024](../Kursbeschreibung.md#bach-2024); [Cobanoglu et al. 2024](../Kursbeschreibung.md#cobanoglu-2024)
 
 ## Leitfrage
 
@@ -12,8 +12,8 @@ Ein Programm, das eine Oracc-Inschrift lädt und ihre Lemmata (z. B. *šarru[kin
 
 ## Lektüre
 
-- **Philologie:** Bach 2024; Bach 2020b
-- **Methode:** [Oracc ATF Primer](https://oracc.museum.upenn.edu/doc/help/editinginatf/primer/); Sahala/Lindén 2023
+- **Philologie:** [Bach 2024](../Kursbeschreibung.md#bach-2024); [Bach 2020b](../Kursbeschreibung.md#bach-2020b)
+- **Methode:** [Oracc ATF Primer](https://oracc.museum.upenn.edu/doc/help/editinginatf/primer/); [Sahala/Lindén 2023](../Kursbeschreibung.md#sahala-2023)
 
 Vollständige Angaben in der [Kursbeschreibung](../Kursbeschreibung.md#bibliographie).
 
@@ -23,7 +23,7 @@ Die Zuordnung ist zum Teil mehrdeutig (zu *šarru I* gehören auch Oracc-Einträ
 
 ## Prüffall
 
-Assurbanipal 197 Rs. 24 (*{d}i-šum ša₂ ŠU.II-šu₂ as-ma*): *ŠU.II-šu₂* wird *qātu I* zugeordnet, *as-ma* aber über Oracc *wasmu* dem eBL-Lemma *asmu I*, während Erra I 4 *asāmu I* hat. Das Programm muss diesen Fall als Fehlzuordnung melden.
+Assurbanipal 197 Rs. 24 (*{d}i-šum ša₂ ŠU.II-šu₂ as-ma*): *ŠU.II-šu₂* wird *qātu I* zugeordnet, *as-ma* aber über Oracc *wasmu* dem eBL-Lemma *asmu I*, während Erra I 4 *asāmu I* hat. Das Programm muss diese abweichende Lemmatisierung melden.
 
 ## Abgabe
 

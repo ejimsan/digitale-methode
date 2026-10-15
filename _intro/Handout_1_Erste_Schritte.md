@@ -143,5 +143,5 @@ Ihr Modul berührt fast immer ein Gebiet, in dem andere schon gearbeitet haben: 
 
 1. Einrichtung abschließen; `erste_schritte.py` ausführen und eine Sache ändern (z. B. eine andere Zeile aus dem eBL einsetzen).
 2. Für Ihr Modul drei Titel finden, die nicht in der Bibliographie der Kursbeschreibung stehen, und im Katalog überprüfen.
-3. Wer am 30.10. sein Modul vorstellt (Module 1 und 3): Literatur, Ansatz und einen ersten Programmentwurf mitbringen, dazu die Fragen, bei denen Sie Hilfe brauchen.
+3. Wer am 30.10. sein Modul vorstellt (Module 1 und 2): Literatur, Ansatz und einen ersten Programmentwurf mitbringen, dazu die Fragen, bei denen Sie Hilfe brauchen.
 4. Lektüre: Leonard 2008 (*Identifying Inner-Biblical Allusions*), Jiménez 2017, 79–82 (*Literary Quotations*) und Coffee et al. 2013 (*The Tesserae Project*).
