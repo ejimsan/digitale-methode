@@ -94,7 +94,7 @@ Die Module sind so angelegt, dass jedes für sich bearbeitet werden kann. Jedes 
 - **Philologische Lektüre:** Bach 2024; Bach 2020b
 - **Methodische Lektüre:** [Oracc ATF Primer](https://oracc.museum.upenn.edu/doc/help/editinginatf/primer/); Sahala/Lindén 2023
 - **Zur Diskussion:** Die Zuordnung ist zum Teil mehrdeutig (zu *šarru I* gehören auch Oracc-Einträge wie *abat šarri*): Wann schadet das der Suche? Wie behandelt man Eigennamen? Was, wenn eine Seite falsch lemmatisiert?
-- **Prüffall:** Assurbanipal 197 Rs. 24: Werden *ŠU-MIN* und *as-ma* denselben eBL-Lemmata (*qātu*, *asāmu*) zugeordnet wie in Erra I 4?
+- **Prüffall:** Assurbanipal 197 Rs. 24 (*{d}i-šum ša₂ ŠU.II-šu₂ as-ma*): *ŠU.II-šu₂* wird *qātu I* zugeordnet, *as-ma* aber über Oracc *wasmu* dem eBL-Lemma *asmu I*, während Erra I 4 *asāmu I* hat. Das Programm muss diesen Fall als Fehlzuordnung melden.
 
 ### Modul 3 — Erhalten, beschädigt, ergänzt
 

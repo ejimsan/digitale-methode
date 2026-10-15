@@ -23,7 +23,7 @@ Die Zuordnung ist zum Teil mehrdeutig (zu *šarru I* gehören auch Oracc-Einträ
 
 ## Prüffall
 
-Assurbanipal 197 Rs. 24: Werden *ŠU-MIN* und *as-ma* denselben eBL-Lemmata (*qātu*, *asāmu*) zugeordnet wie in Erra I 4?
+Assurbanipal 197 Rs. 24 (*{d}i-šum ša₂ ŠU.II-šu₂ as-ma*): *ŠU.II-šu₂* wird *qātu I* zugeordnet, *as-ma* aber über Oracc *wasmu* dem eBL-Lemma *asmu I*, während Erra I 4 *asāmu I* hat. Das Programm muss diesen Fall als Fehlzuordnung melden.
 
 ## Abgabe
 

@@ -66,7 +66,7 @@ print("\nHäufigste Zeichen dieser Zeile:", haeufigkeit.most_common(3))
 # ------------------------------------------------------------------
 # Lemmata (Wörterbuchformen) zweier Stellen, vereinfacht:
 #   Erra I 4: Išum, „dessen Hände geeignet sind“, die Waffen zu tragen
-#   Assurbanipal 197 Rs. 24: {d}i-šum ša₂ ŠU-MIN-šu₂ as-ma
+#   Assurbanipal 197 Rs. 24: {d}i-šum ša₂ ŠU.II-šu₂ as-ma
 erra = {"Išum", "qātu", "asāmu"}
 assurbanipal = {"Nergal", "qarrādu", "ilu", "Išum", "ša", "qātu", "asāmu"}
 
@@ -74,3 +74,4 @@ gemeinsam = sorted(erra & assurbanipal)   # & = Schnittmenge, sorted = geordnet
 print("\nGemeinsame Lemmata:", gemeinsam)
 # Frage für Sitzung 2: Wie selten ist diese Kombination im ganzen Korpus?
 # Und: Stehen die Wörter in eBL und Oracc unter denselben Lemmata?
+# (Nicht immer: Oracc führt as-ma hier unter wasmu, eBL in Erra I 4 unter asāmu.)

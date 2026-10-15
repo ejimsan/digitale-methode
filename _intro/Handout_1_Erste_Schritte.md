@@ -100,7 +100,7 @@ ergaenzt    = re.findall(r"\[([^\]]*)\]", zeile)    # alles zwischen [ und ]
 sauber      = re.sub(r"[#\[\]]", "", zeile)          # Schadensmarken entfernen
 ```
 
-Am Ende steht der Kern des ganzen Projekts in drei Zeilen. Erra I 4 nennt Išum einen, „dessen Hände geeignet sind“, die Waffen zu tragen; dasselbe Epitheton steht in einer Inschrift Assurbanipals (Nr. 197 Rs. 24: *{d}i-šum ša₂ ŠU-MIN-šu₂ as-ma*):
+Am Ende steht der Kern des ganzen Projekts in drei Zeilen. Erra I 4 nennt Išum einen, „dessen Hände geeignet sind“, die Waffen zu tragen; dasselbe Epitheton steht in einer Inschrift Assurbanipals (Nr. 197 Rs. 24: *{d}i-šum ša₂ ŠU.II-šu₂ as-ma*):
 
 ```
 erra = {"Išum", "qātu", "asāmu"}                     # Erra I 4 (Auszug)
