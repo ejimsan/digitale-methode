@@ -19,3 +19,7 @@ git clone https://github.com/ejimsan/digitale-methode
 ```
 
 Jedes Modul erhält einen eigenen Ordner mit einer kurzen `README.md` (Fragestellung, Anleitung, Ergebnisse) und dem Programmcode.
+
+## Material
+
+Kursbeschreibung mit Modulen, Zeitplan und Bibliographie: `Kursbeschreibung.docx`. Das Material jeder Sitzung liegt im Ordner `1._sitzung`, `2._sitzung` usw.
