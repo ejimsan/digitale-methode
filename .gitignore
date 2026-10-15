@@ -1,0 +1,13 @@
+# Daten der Momentaufnahme: nicht ins Repositorium
+export/
+oracc/
+ebl_oracc_snapshots/
+snapshot_*/
+*.jsonl
+*.jsonl.gz
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/
