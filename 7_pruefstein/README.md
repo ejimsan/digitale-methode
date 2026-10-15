@@ -12,7 +12,7 @@ Eine maschinenlesbare Tabelle der bekannten Zitate des Erra-Epos (Erra-Stelle, z
 
 ## Lektüre
 
-- **Philologie:** Frahm 2019; Gabriel 2024
+- **Philologie:** Frahm 2019; Gabriel 2024; Jiménez 2017, 79–82
 - **Methode:** Coffee et al. 2013 (Abschnitt zur Evaluation)
 
 Vollständige Angaben in der [Kursbeschreibung](../Kursbeschreibung.md#bibliographie).

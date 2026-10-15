@@ -136,7 +136,7 @@ Die Module sind so angelegt, dass jedes für sich bearbeitet werden kann. Jedes 
 
 - **Leitfrage:** Woran misst man ein Programm, das Zitate finden soll? An den Zitaten, die Philologen bereits erkannt haben. Aber was gilt dabei als Treffer?
 - **Programm und Vorführung:** Eine maschinenlesbare Tabelle der bekannten Zitate des Erra-Epos (Erra-Stelle, zitierender Text und Zeile, Art der Beziehung, Nachweis), z. B. Erra I 4 bei Assurbanipal, I 5 bei Sargon II., I 28–29 in einem spätbabylonischen Kommentar; Zitate aus den Tafeln II–V gehören in die Tabelle, sind im eBL-Korpus aber noch nicht erfasst; dazu ein Programm, das jede beliebige Trefferliste gegen diese Tabelle prüft (Präzision und Recall). Vorführung: die Bewertung eines einfachen Verfahrens, z. B. „mindestens zwei gemeinsame Lemmata“.
-- **Philologische Lektüre:** Frahm 2019; Gabriel 2024
+- **Philologische Lektüre:** Frahm 2019; Gabriel 2024; Jiménez 2017, 79–82
 - **Methodische Lektüre:** Coffee et al. 2013 (Abschnitt zur Evaluation)
 - **Zur Diskussion:** Zählt die Nachbarzeile als Treffer? Wie bewertet man Funde, die nicht in der Tabelle stehen? Was ist wichtiger, Präzision oder Recall?
 - **Prüffall:** Eine von Hand erstellte Trefferliste ergibt genau die Werte, die man von Hand nachrechnet.
@@ -145,7 +145,7 @@ Die Module sind so angelegt, dass jedes für sich bearbeitet werden kann. Jedes 
 
 - **Leitfrage:** Viele gemeinsame Wendungen sind keine Zitate, sondern Formeln, die vielen Texten gemeinsam sind. Lassen sich Formeln automatisch erkennen und von Anspielungen trennen?
 - **Programm und Vorführung:** Ein Programm, das Verbindungen von Lemmata findet, die in vielen verschiedenen Texten wiederkehren, und sie nach Verbreitung und Assoziationsstärke ordnet (z. B. *Pointwise Mutual Information*). Vorführung: die verbreitetsten „Formeln“ des Korpus; welche davon würde eine Philologin als Formel anerkennen?
-- **Philologische Lektüre:** Wasserman 2003 (in Auswahl); Ballesteros 2023; Conte 1986 (in Auswahl)
+- **Philologische Lektüre:** Jiménez 2017, 79–97; Wasserman 2003 (in Auswahl); Ballesteros 2023; Conte 1986 (in Auswahl)
 - **Methodische Lektüre:** Church/Hanks 1990; Coffee et al. 2012
 - **Zur Diskussion:** Wo endet die Formel und beginnt die Anspielung (Conte: „Code“ und „Modell“)? Kann man auf eine Formel anspielen?
 - **Prüffall:** Die gängige Redeeinleitung *pâšu īpuš-ma iqabbi* erscheint unter den gefundenen Formeln.
@@ -185,6 +185,8 @@ Gabriel, G. I. (2024): Allusion or No Allusion: Commenting on the Interpretation
 Hays, R. B. (1989): Echoes of Scripture in the Letters of Paul. New Haven.
 
 Hurowitz, V. A. (2002): An Overlooked Allusion to Ludlul in Urad-Gula’s Letter to Assurbanipal, State Archives of Assyria Bulletin 14, 129–132.
+
+Jiménez, E. (2017): The Babylonian Disputation Poems: With Editions of the Series of the Poplar, Palm and Vine, the Series of the Spider, and the Story of the Poor, Forlorn Wren. Culture and History of the Ancient Near East 87. Leiden/Boston, 79–97 (Abschnitt i.4.c „Literary Quotations“; DOI des Kapitels: <https://doi.org/10.1163/9789004336261_006>).
 
 Jiménez, E. (2018): An Almost Irresistible Target: Parodying the Theodicy in Babylonian Literature, in: T. M. Oshima (ed.), Teaching Morality in Antiquity: Wisdom Texts, Oral Traditions, and Images. Orientalische Religionen in der Antike. Tübingen, 124–134 (DOI des Bandes: <https://doi.org/10.1628/978-3-16-156481-9>).
 

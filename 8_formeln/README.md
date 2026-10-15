@@ -12,7 +12,7 @@ Ein Programm, das Verbindungen von Lemmata findet, die in vielen verschiedenen T
 
 ## Lektüre
 
-- **Philologie:** Wasserman 2003 (in Auswahl); Ballesteros 2023; Conte 1986 (in Auswahl)
+- **Philologie:** Jiménez 2017, 79–97; Wasserman 2003 (in Auswahl); Ballesteros 2023; Conte 1986 (in Auswahl)
 - **Methode:** Church/Hanks 1990; Coffee et al. 2012
 
 Vollständige Angaben in der [Kursbeschreibung](../Kursbeschreibung.md#bibliographie).
