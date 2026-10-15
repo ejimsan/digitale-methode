@@ -1,6 +1,6 @@
 # Digitale Methoden in der Assyriologie
 
-Blockseminar, LMU München, Wintersemester 2026/27 · Enrique Jiménez
+Blockseminar, LMU München, Wintersemester 2026/27
 
 Termine: 16.10.2026 · 30.10.2026 · 13.11.2026 · 11.12.2026 · 15.01.2027
 
