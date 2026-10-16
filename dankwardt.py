@@ -1,3 +1,5 @@
-for i in range(29):
-    print(f"u₄.-{i+1}-kam")
-print("u₄-nu₂-a")
+flurname = "a-ša₃-du₆-a-hu-ni"
+flurname = flurname.split("-")
+
+print(len(flurname))
+print(flurname[2])
