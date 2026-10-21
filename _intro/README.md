@@ -4,6 +4,7 @@
 
 ## Material
 
+- [Moodle](https://moodle.lmu.de/course/view.php?id=49800)
 - [Folien](Folien_Python_und_Regex.pdf): Folien der Sitzung, mit acht Übungen und der Vorstellung der Module
 - [Übungsblatt 1](Uebungsblatt_1.md): reguläre Ausdrücke (Teil A) und ein erstes Programm (Teil B)
 - [`bm35407.txt`](bm35407.txt): Text zum Übungsblatt, BM.35407 i 13′–23′ in eBL-ATF
