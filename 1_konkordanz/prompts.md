@@ -1,4 +1,4 @@
-# Notizen für Prompts in Github Copilot
+# Notizen und Kontext für Prompts in Github Copilot
 ## Übersicht
 ### Ziel
 
@@ -110,3 +110,81 @@ Nutze vorhandene Funktionen
 
 - Belege optional nach Komposition oder Manuskript sortieren → mache diese Funktion rückgängig
 
+### 7. Verbessern
+
+Passe das Skript folgendermaßen an:
+1. bei einer Suche mit mehreren Lemma soll nur das erste als KWIC ausgegeben werden
+2. Damit die Lemma-Auswahl übersichtlicher wird: füge in Klammern eine Übersetzung an
+    - In der Wörterbuch-Datei (daten\ebl_woerterbuch.jsonl.gz) unter "meaning"
+    - Bsp.: dadmū I (pl. tant. "villages, settlements; the inhabited world" Bab.(lit.))
+3. Die Übersetzung soll nur angezeigt werden, wenn "info" eingegeben wird. Ansonsten wie vor der Änderung
+
+```Dokument konkordanz.py in keyword_in_context.py umbenannt!```
+
+### 8. Füge Daten von Oracc ein
+
+Ziel ist es, die Daten von Oracc einzufügen (daten\oracc.jsonl.gz)
+
+1. Suche nach den Belegen in Oracc
+2. Erstelle eine Konkordanz zwischen den EBL-Lemmata und den Oracc-Lematta, über `oraccWords` in daten\ebl_woerterbuch.jsonl.gz
+
+### 10. Neuorganisation des Skripts in keyword_in_context_2.py
+
+Ziel ist es, das Skript übersichtlich zu gestalten
+- Es soll einfach zu lesen werden
+- Die Funktionen können in anderen Skripten genutzt und das Programm einfacher modifiziert werden
+- Nutze Bestandteile/Funktionen von keyword_in_context.py
+- Das neue Skript wird komplett in keyword_in_context_2.py geschrieben. Keine Veränderung in keyword_in_context.py
+
+Folgendes Schema soll genutzt werden:
+
+1. Funktion bestimme_lemma():
+    - entspricht etwa lemma_eingabe()
+    - fragt nach einem akkadischen Wort in der Grundform und eine Liste an Lemmata ausgibt, die mit diesem Wort verbunden werden kann
+        - Nutze dafür daten\ebl_woerterbuch.jsonl.gz
+    - Aus dieser Liste kann das gewünschte Lemma ausgewählt werden
+    - über `oraccWords` in daten\ebl_woerterbuch.jsonl.gz wird das entsprechende Oracc-Lemma gesucht
+    - Die Funktion fragt, ob die Suche ein weiteres Wort einschließen soll
+        - Wenn ja, wird das Vorgehen wiederholt
+    - Bei einer einzelnen Suche wird das gewünschte Lemma als ein tuple zurückgegeben (Ebl-lemma, Oracc-Lemma)
+    - Bei mehreren Suchen werden die gewünschten Lemmata als list zurückgegeben [(Ebl-Lemma_1, Oracc-Lemma_1), (Ebl-Lemma_2, Oracc-Lemma_2)]
+
+2. Funktion suche_belege():
+    Nimmt ein Tuple oder eine Liste an Tuple (vgl. bestimme_lemma())
+    - Das einzelne Tuple ist das Keyword; bei einer Liste ist das erste Tuple das Keyword
+    - Sucht in den Daten nach Belegen für die Lemmata
+    - Bei mehreren Suchbegriffen als AND
+        - Nach EBL-Lemma in:
+            - daten\ebl_korpus.jsonl.gz
+            - daten\ebl_korpus_manuskripte.jsonl.gz
+        - Nach Oracc-Lemma in:
+            - daten\oracc.jsonl.gz
+    Gibt die Einträge aus Daten mit entsprechenden Übereinstimmungen als Liste von Tuple (Beleg, Wörter vor Keyword, Keyword, Wörter nach Keyword) zurück
+    - Belege nach folgendem Schema:
+        - Für Belege aus daten\ebl_korpus.jsonl.gz: Komposition, Zeile
+        - Für Belege aus daten\ebl_korpus_manuskripte.jsonl.gz: Period, Manuskript, Zeile
+        - Für Belege aus daten\oracc.jsonl.gz: text, zeile
+
+3. Funktion keyword_in_context_ausgabe():
+    - Nimmt die Liste der Belege; Liste von Tuple (Beleg, Wörter vor Keyword, Keyword, Wörter nach Keyword)
+    - Fragt nach Kontextbreite in Wörtern je Seite (leer = ganze Zeile)
+    - Gibt die Belege als keyword in context aus
+
+4. Ergänze die Möglichkeit, die KWIC als CSV-Datei auszugeben
+    - Speicherort: 1_konkordanz\csv_belege
+
+### 11. Probleme und möglichkeiten der Ausgabe
+
+1. Wieso findet eine Suche nach asāmu I nicht Q007605, r 24?
+- Antwort Copilot:
+    "Die Ursache ist die Lemmaschreibung: Im eBL-Wörterbuch heißt der Eintrag asmu I, nicht asāmu I. Seine Formen sind wasmu, asmum und wasmum; die Oracc-Zuordnung lautet wasmu[fitting]. Das Oracc-Wort in Q007605, r 24 ist as-ma, wird dort als wasmu[fitting]AJ geführt und trägt das Lemma asmu I.
+
+    bestimme_lemma() vergleicht die Eingabe mit den Wörterbuchformen exakt, abgesehen von Groß-/Kleinschreibung. asāmu wird daher nicht dem Eintrag asmu I zugeordnet. Gib stattdessen asmu ein und wähle asmu I; dann liefert suche_belege() den Beleg Q007605, r 24."
+
+- `Anderes Problem, wird in Modul 3_oracc besprochen`
+
+2. Gibt es eine Möglichkeit, die Oracc-Belege statt mit der Q-Nummer mit dem Namen des Textes zu versehen? Das gleiche für EBL-Corpus-Bezeichnungen
+
+3. Bei langen Zeilen wird das Format in der Ausgabe unübersichtlich
+    - Kontextweite kann im Script bereits beschränkt werden, bspw. 5 enthält die meisten ganzen Zeilen und kürzt überlange Zeilen
+    - Ausgabe der Belege in einem neuen Fenster als KWIC, bspw. als HTML-Datei, die sich im Browser öffnen lässt, oder als MD-Datei, bei der die Belege mit `keyword` hervorgehoben werden.
