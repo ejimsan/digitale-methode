@@ -1,1 +1,3 @@
-print("hallo")
+import dankwardt
+
+print(dankwardt.flurname)
