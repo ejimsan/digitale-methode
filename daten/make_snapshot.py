@@ -8,6 +8,8 @@ eine Zeile Text pro JSON-Zeile:
    "gattung": [...], "periode": "...", "atf": "...",
    "woerter": [{"wert": "ša₂", "lemma": ["ša I"], "zustand": "erhalten"}, ...]}
 
+Dazu kommt das eBL-Wörterbuch (Sammlung words) unverändert, ein Eintrag pro JSON-Zeile.
+
 Aufruf:
   python make_snapshot.py --out snapshot_2026-10-20
   python make_snapshot.py --out snapshot_2026-10-20 --db ebl          # falls die URI keinen Datenbanknamen enthält
@@ -339,7 +341,7 @@ def write(records, path):
     n = 0
     with gzip.open(path, "wt", encoding="utf-8") as f:
         for r in records:
-            f.write(json.dumps(r, ensure_ascii=False) + "\n")
+            f.write(json.dumps(r, ensure_ascii=False, default=str) + "\n")
             n += 1
     print(f"{path}: {n} Zeilen")
 
@@ -377,15 +379,19 @@ def main():
 
         fragments = source("fragments") if a.fragmente else None
         chapters, words = source("chapters"), source("words")
+        dictionary = words
     else:
         db = open_database(a.db, a.tls_ca_file, a.tls_insecure)
         print(f"Datenbank: {db.name}")
         fragments = (lambda: db["fragments"].find(FRAGMENT_QUERY, FRAGMENT_FIELDS)) if a.fragmente else None
         chapters = lambda: db["chapters"].find({}, CHAPTER_FIELDS)
         words = lambda: db["words"].find({"oraccWords.0": {"$exists": True}}, WORD_FIELDS)
+        dictionary = lambda: db["words"].find({})
 
     if a.nur_oracc:
-        fragments = chapters = None
+        fragments = chapters = dictionary = None
+    if dictionary:
+        write(dictionary(), out / "ebl_woerterbuch.jsonl.gz")
     if fragments:
         write(fragment_lines(fragments()), out / "ebl_fragmente.jsonl.gz")
     if chapters:
