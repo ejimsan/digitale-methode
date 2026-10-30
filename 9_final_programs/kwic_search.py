@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from kwic_data import (
     DATENORDNER,
     KWICTreffer,
@@ -42,8 +44,8 @@ def suche_belege(
     oracc_suchmengen = [
         {
             schluessel
-            for oracc_lemma in oracc_lemmata
-            if (schluessel := _oracc_schluessel(oracc_lemma)) is not None
+            for schluessel in map(_oracc_schluessel, oracc_lemmata)
+            if schluessel is not None
         }
         for _, oracc_lemmata in lemmata
     ]

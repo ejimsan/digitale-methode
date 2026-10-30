@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from kwic_data import DATENORDNER, LemmaAuswahl, _lese_jsonl_gz
 
 

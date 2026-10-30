@@ -1,16 +1,19 @@
+from __future__ import annotations
+
 import gzip
 import json
 from collections.abc import Iterable
 from pathlib import Path
+from typing import Tuple, Union
 
 
 ORDNER = Path(__file__).resolve().parent
 DATENORDNER = ORDNER.parent / "daten"
 CSV_ORDNER = ORDNER / "csv_belege"
 
-OraccLemma = str | tuple[str, ...]
-LemmaAuswahl = tuple[str, OraccLemma]
-KWICTreffer = tuple[str, str, str, str]
+OraccLemma = Union[str, Tuple[str, ...]]
+LemmaAuswahl = Tuple[str, OraccLemma]
+KWICTreffer = Tuple[str, str, str, str]
 
 
 def _lese_jsonl_gz(dateipfad: Path) -> Iterable[dict]:
