@@ -1,2 +1,2 @@
 print("welcome")
-print ("Beispiel")
+print ("")
