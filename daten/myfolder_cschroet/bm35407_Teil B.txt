@@ -1,0 +1,2 @@
+
+Häufigste Zeichen des Textes: [('a', 11), ('bu', 8), ('tu₄', 8)]
