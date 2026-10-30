@@ -24,7 +24,49 @@ with gzip.open("daten/ebl_korpus.jsonl.gz", "rt", encoding="utf-8") as f:
     for zeile in f:
 ```
 
-## Prompts
+### Keyword_in_context_2.py schematische Darstellung
+
+```mermaid
+flowchart TD
+    A([Start]) --> B["bestimme_lemma(): Wort eingeben"]
+    B --> C["EBL-Wörterbuch nach Grundform und Formen durchsuchen"]
+    C --> D{Passende Lemmata gefunden?}
+    D -- Nein --> B
+    D -- Ja --> E["Lemma auswählen; EBL-Lemma und zugeordnete Oracc-Lemmata merken"]
+    E --> F{Weiteres Wort suchen?}
+    F -- Ja --> B
+    F -- Nein --> G["Suchbegriffe normalisieren und Duplikate entfernen"]
+
+    G --> H["EBL-Korpus und EBL-Manuskriptkorpus durchsuchen"]
+    H --> I{"Enthält ein Eintrag alle EBL-Lemmata?"}
+    I -- Nein --> H
+    I -- Ja --> J["Jedes Vorkommen des ersten EBL-Lemmas als Keyword erfassen"]
+    J --> K["Quellenangabe und Wörter links/rechts bilden"]
+
+    G --> L{Sind für alle Suchbegriffe Oracc-Zuordnungen vorhanden?}
+    L -- Nein --> Q["EBL- und ggf. Oracc-Belege zusammenführen"]
+    L -- Ja --> M["Oracc-Lemmata in Lemma-Guideword-Schlüssel umwandeln"]
+    M --> N["Oracc-Korpus nach allen Suchbegriffen (AND) durchsuchen"]
+    N --> O{"Mindestens ein passender Oracc-Schlüssel je Suchbegriff?"}
+    O -- Nein --> N
+    O -- Ja --> P["Jedes Vorkommen des ersten Oracc-Lemmas als Keyword erfassen"]
+    P --> K
+    K --> Q
+
+    Q --> R["Kontextbreite abfragen; links/rechts kürzen und KWIC-Spalten ausrichten"]
+    R --> S{Belege gefunden?}
+    S -- Nein --> T["Keine Belege gefunden"]
+    S -- Ja --> U["KWIC-Belege im Terminal ausgeben"]
+    T --> V{CSV-Export gewünscht?}
+    U --> V
+    V -- Nein --> W([Ende])
+    V -- Ja --> X["Dateiname prüfen und CSV in csv_belege schreiben"]
+    X --> W
+```
+
+**Ergebnisformat:** Jeder Treffer enthält Belegangabe, Kontext links, Keyword und Kontext rechts. Bei mehreren Suchbegriffen ist jeweils das erste Lemma das KWIC-Keyword; in EBL und Oracc müssen die Suchbegriffe gemeinsam im Eintrag vorkommen.
+
+## Prompts keyword_in_context.py und keyword_in_context_2.py
 ### 1. Definiere Ziel und schreibe erste Funktionen
 
 Ziel: Ein Programm, das zu einem oder mehreren Lemmata alle Zeilen des lemmatisierten eBL-Korpus mit ihrem Kontext ausgibt (Konkordanz, *keyword in context*), dazu eine Übersicht über das Korpus: Texte, Gattungen, Anteil der lemmatisierten Zeilen. (1_konkordanz\README.md)
@@ -188,3 +230,42 @@ Folgendes Schema soll genutzt werden:
 3. Bei langen Zeilen wird das Format in der Ausgabe unübersichtlich
     - Kontextweite kann im Script bereits beschränkt werden, bspw. 5 enthält die meisten ganzen Zeilen und kürzt überlange Zeilen
     - Ausgabe der Belege in einem neuen Fenster als KWIC, bspw. als HTML-Datei, die sich im Browser öffnen lässt, oder als MD-Datei, bei der die Belege mit `keyword` hervorgehoben werden.
+
+4. Übersicht über die Funktionsweise des Programms
+
+### 12. Probleme mit den Snapshot-Dateien
+
+1. 
+
+
+## Prompts ueberblick.ipynb
+
+### 1. Erstelle Überblick über EBL- und ORACC-Koprus in 1_konkordanz\ueberblick.ipynb
+
+Schreibe alles in das Jupyter-Notebook 1_konkordanz\ueberblick.ipynb. Ändere keine andere Datei
+
+Ziel ist es, einen Überblick über die Korpora von EBL und Oracc anhand der Daten in folgenden Dateien zu bekommen:
+- daten\ebl_korpus_manuskripte.jsonl.gz
+- daten\ebl_korpus.jsonl.gz
+- daten\oracc.jsonl.gz
+Differenziere für die nachfolgenden Fragen die verschiedenen Datenquellen
+
+Beantworte folgende Fragen:
+- Wieviele Kopositionen/Manuskripte/Wörter sind in der jeweiligen Datenquelle vorhanden?
+- Wieviel Prozent der Wörter sind annotiert, d.h. einem Lemma zugeordnet?
+- Wieviele Prozent der Zeilen sind komplett annotiert, d.h. jedes Wort ist einem Lemma zugeordnet?
+
+Speziell für die Manuskripte (daten\ebl_korpus_manuskripte.jsonl.gz):
+- Aus welchen Perioden stammen die Texte?
+- Welchen Genres lassen sich die Texte zuordnen?
+
+Schreibe alles in das Jupyter-Notebook 1_konkordanz\ueberblick.ipynb und visualisiere die Ergebnisse
+- Die Ergebnisse als Markdown
+- Code in Python
+- Nutze die Matplotlib-Library
+
+### 2. Korrekturen
+
+Die Zahlen für EBL können nicht Stimmen. Vgl. https://www.ebl.lmu.de/library
+Siehe auch https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.148
+Überprüfe anhand der EBL-API
