@@ -28,3 +28,53 @@ Wie behandelt man Eigennamen und Hapax legomena? Zählt man Lemmata oder Schreib
 ## Abgabe
 
 Nach der Sitzung, überarbeitet nach den Rückmeldungen: der Programmcode als Python-Modul in diesem Ordner, eine Anleitung zum Ausführen in dieser Datei und eine kurze Notiz dazu, wofür KI-Werkzeuge verwendet wurden.
+
+## Ausführen
+
+Vom Projektverzeichnis aus erzeugt
+
+```text
+python 4_seltenheit/seltenheit.py
+```
+
+die Datei `4_seltenheit/Seltenheit.txt`. Das Programm liest
+`daten/ebl_korpus_manuskripte.jsonl.gz` nur lesend ein. Die Ausgabe enthält
+für `## I.5 Erra and Išum` und `## II.1 The Babylonian Theodicy` jeweils
+davon alle Lemmata, nach Häufigkeit sortiert, mit dem Seltenheitsgewicht
+`-ln(relative Häufigkeit)`. Lemmapaare werden nicht ausgegeben. Zusätzlich
+entstehen die beiden skalierbaren SVG-Grafiken `4_seltenheit/erra_isum.svg`
+und `4_seltenheit/theodizee.svg`. Diese zeigen die Häufigkeitsverteilung mit
+dem Seltenheitsgewicht auf der X-Achse und dem nach Seltenheit geordneten
+Wortschatz auf der Y-Achse. Die seltensten Lemmata stehen oben.
+
+Die Funktionen können mit
+
+```text
+python -m unittest discover -s 4_seltenheit -p "test_*.py" -v
+```
+
+getestet werden.
+
+Für eine interaktive Lemma-Abfrage:
+
+```text
+python 4_seltenheit/Seltenheit_Anfrage.py
+```
+
+Das Programm liest `Seltenheit.txt` und gibt die absolute und relative
+Häufigkeit des eingegebenen Lemmas für beide Texte aus. Mit `ende` wird die
+Abfrage beendet.
+
+Für Bigramm-Abfragen:
+
+```text
+python 4_seltenheit/Seltenheit_Bigramme.py
+```
+
+Das Programm fragt zwei Lemmata ab und zählt Zeilen, in denen beide Lemmata
+vorkommen. Es erkennt auch Eingaben ohne Homonymnummer, etwa `ina` für
+`ina I`. Für die gemeinsame Zeilenzählung liest es das unveränderte
+`daten/ebl_korpus_manuskripte.jsonl.gz`; die relativen Häufigkeiten beziehen
+sich auf die Zeilenzahlen aus `Seltenheit.txt`. Nach `ende` wird die Grafik
+des zuletzt abgefragten Bigramms als `4_seltenheit/Bigramme_output.svg`
+gespeichert.

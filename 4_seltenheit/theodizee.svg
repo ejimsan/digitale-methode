@@ -1,0 +1,2123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="12807" viewBox="0 0 1000 12807">
+<style>text { font-family: sans-serif; fill: #222; } .title { font-size: 20px; font-weight: bold; } .label { font-size: 12px; } .value { font-size: 11px; } .axis { stroke: #222; stroke-width: 1; } .bar { fill: #4c78a8; }</style>
+<text x="210" y="30" class="title">## II.1 The Babylonian Theodicy</text>
+<text x="210" y="52" class="label">Wortschatz nach Seltenheit (seltenste zuerst)</text>
+<text x="210" y="68" class="label">Gewicht: -ln(relative Häufigkeit)</text>
+<text x="202" y="93" text-anchor="end" class="label">Aruru I</text>
+<rect x="210" y="82" width="735" height="12" class="bar"/>
+<text x="951" y="93" class="value">6.693</text>
+<text x="202" y="111" text-anchor="end" class="label">Belet-ili I</text>
+<rect x="210" y="100" width="735" height="12" class="bar"/>
+<text x="951" y="111" class="value">6.693</text>
+<text x="202" y="129" text-anchor="end" class="label">Damkina I</text>
+<rect x="210" y="118" width="735" height="12" class="bar"/>
+<text x="951" y="129" class="value">6.693</text>
+<text x="202" y="147" text-anchor="end" class="label">Ellil I</text>
+<rect x="210" y="136" width="735" height="12" class="bar"/>
+<text x="951" y="147" class="value">6.693</text>
+<text x="202" y="165" text-anchor="end" class="label">Ištar I</text>
+<rect x="210" y="154" width="735" height="12" class="bar"/>
+<text x="951" y="165" class="value">6.693</text>
+<text x="202" y="183" text-anchor="end" class="label">agû II</text>
+<rect x="210" y="172" width="735" height="12" class="bar"/>
+<text x="951" y="183" class="value">6.693</text>
+<text x="202" y="201" text-anchor="end" class="label">ali I</text>
+<rect x="210" y="190" width="735" height="12" class="bar"/>
+<text x="951" y="201" class="value">6.693</text>
+<text x="202" y="219" text-anchor="end" class="label">apkallu I</text>
+<rect x="210" y="208" width="735" height="12" class="bar"/>
+<text x="951" y="219" class="value">6.693</text>
+<text x="202" y="237" text-anchor="end" class="label">aplu II</text>
+<rect x="210" y="226" width="735" height="12" class="bar"/>
+<text x="951" y="237" class="value">6.693</text>
+<text x="202" y="255" text-anchor="end" class="label">apu I</text>
+<rect x="210" y="244" width="735" height="12" class="bar"/>
+<text x="951" y="255" class="value">6.693</text>
+<text x="202" y="273" text-anchor="end" class="label">ardu I</text>
+<rect x="210" y="262" width="735" height="12" class="bar"/>
+<text x="951" y="273" class="value">6.693</text>
+<text x="202" y="291" text-anchor="end" class="label">arkatu I</text>
+<rect x="210" y="280" width="735" height="12" class="bar"/>
+<text x="951" y="291" class="value">6.693</text>
+<text x="202" y="309" text-anchor="end" class="label">arkû I</text>
+<rect x="210" y="298" width="735" height="12" class="bar"/>
+<text x="951" y="309" class="value">6.693</text>
+<text x="202" y="327" text-anchor="end" class="label">ayyu I</text>
+<rect x="210" y="316" width="735" height="12" class="bar"/>
+<text x="951" y="327" class="value">6.693</text>
+<text x="202" y="345" text-anchor="end" class="label">azibatu I</text>
+<rect x="210" y="334" width="735" height="12" class="bar"/>
+<text x="951" y="345" class="value">6.693</text>
+<text x="202" y="363" text-anchor="end" class="label">ašû II</text>
+<rect x="210" y="352" width="735" height="12" class="bar"/>
+<text x="951" y="363" class="value">6.693</text>
+<text x="202" y="381" text-anchor="end" class="label">ašāšu IV</text>
+<rect x="210" y="370" width="735" height="12" class="bar"/>
+<text x="951" y="381" class="value">6.693</text>
+<text x="202" y="399" text-anchor="end" class="label">aššaru I</text>
+<rect x="210" y="388" width="735" height="12" class="bar"/>
+<text x="951" y="399" class="value">6.693</text>
+<text x="202" y="417" text-anchor="end" class="label">balālu I</text>
+<rect x="210" y="406" width="735" height="12" class="bar"/>
+<text x="951" y="417" class="value">6.693</text>
+<text x="202" y="435" text-anchor="end" class="label">batāqu I</text>
+<rect x="210" y="424" width="735" height="12" class="bar"/>
+<text x="951" y="435" class="value">6.693</text>
+<text x="202" y="453" text-anchor="end" class="label">biltu I</text>
+<rect x="210" y="442" width="735" height="12" class="bar"/>
+<text x="951" y="453" class="value">6.693</text>
+<text x="202" y="471" text-anchor="end" class="label">biri- I</text>
+<rect x="210" y="460" width="735" height="12" class="bar"/>
+<text x="951" y="471" class="value">6.693</text>
+<text x="202" y="489" text-anchor="end" class="label">birītu I</text>
+<rect x="210" y="478" width="735" height="12" class="bar"/>
+<text x="951" y="489" class="value">6.693</text>
+<text x="202" y="507" text-anchor="end" class="label">bitrû II</text>
+<rect x="210" y="496" width="735" height="12" class="bar"/>
+<text x="951" y="507" class="value">6.693</text>
+<text x="202" y="525" text-anchor="end" class="label">bunnanu I</text>
+<rect x="210" y="514" width="735" height="12" class="bar"/>
+<text x="951" y="525" class="value">6.693</text>
+<text x="202" y="543" text-anchor="end" class="label">bāntu I</text>
+<rect x="210" y="532" width="735" height="12" class="bar"/>
+<text x="951" y="543" class="value">6.693</text>
+<text x="202" y="561" text-anchor="end" class="label">bēltu I</text>
+<rect x="210" y="550" width="735" height="12" class="bar"/>
+<text x="951" y="561" class="value">6.693</text>
+<text x="202" y="579" text-anchor="end" class="label">bēru III</text>
+<rect x="210" y="568" width="735" height="12" class="bar"/>
+<text x="951" y="579" class="value">6.693</text>
+<text x="202" y="597" text-anchor="end" class="label">bīru III</text>
+<rect x="210" y="586" width="735" height="12" class="bar"/>
+<text x="951" y="597" class="value">6.693</text>
+<text x="202" y="615" text-anchor="end" class="label">dagālu I</text>
+<rect x="210" y="604" width="735" height="12" class="bar"/>
+<text x="951" y="615" class="value">6.693</text>
+<text x="202" y="633" text-anchor="end" class="label">damāqu I</text>
+<rect x="210" y="622" width="735" height="12" class="bar"/>
+<text x="951" y="633" class="value">6.693</text>
+<text x="202" y="651" text-anchor="end" class="label">damāṣu I</text>
+<rect x="210" y="640" width="735" height="12" class="bar"/>
+<text x="951" y="651" class="value">6.693</text>
+<text x="202" y="669" text-anchor="end" class="label">dunnu I</text>
+<rect x="210" y="658" width="735" height="12" class="bar"/>
+<text x="951" y="669" class="value">6.693</text>
+<text x="202" y="687" text-anchor="end" class="label">eleppu I</text>
+<rect x="210" y="676" width="735" height="12" class="bar"/>
+<text x="951" y="687" class="value">6.693</text>
+<text x="202" y="705" text-anchor="end" class="label">emūqu I</text>
+<rect x="210" y="694" width="735" height="12" class="bar"/>
+<text x="951" y="705" class="value">6.693</text>
+<text x="202" y="723" text-anchor="end" class="label">epištu I</text>
+<rect x="210" y="712" width="735" height="12" class="bar"/>
+<text x="951" y="723" class="value">6.693</text>
+<text x="202" y="741" text-anchor="end" class="label">esēru III</text>
+<rect x="210" y="730" width="735" height="12" class="bar"/>
+<text x="951" y="741" class="value">6.693</text>
+<text x="202" y="759" text-anchor="end" class="label">eṭlu I</text>
+<rect x="210" y="748" width="735" height="12" class="bar"/>
+<text x="951" y="759" class="value">6.693</text>
+<text x="202" y="777" text-anchor="end" class="label">eṭlūtu I</text>
+<rect x="210" y="766" width="735" height="12" class="bar"/>
+<text x="951" y="777" class="value">6.693</text>
+<text x="202" y="795" text-anchor="end" class="label">gamālu I</text>
+<rect x="210" y="784" width="735" height="12" class="bar"/>
+<text x="951" y="795" class="value">6.693</text>
+<text x="202" y="813" text-anchor="end" class="label">gapāšu I</text>
+<rect x="210" y="802" width="735" height="12" class="bar"/>
+<text x="951" y="813" class="value">6.693</text>
+<text x="202" y="831" text-anchor="end" class="label">ginâ I</text>
+<rect x="210" y="820" width="735" height="12" class="bar"/>
+<text x="951" y="831" class="value">6.693</text>
+<text x="202" y="849" text-anchor="end" class="label">guzallu I</text>
+<rect x="210" y="838" width="735" height="12" class="bar"/>
+<text x="951" y="849" class="value">6.693</text>
+<text x="202" y="867" text-anchor="end" class="label">gīsu I</text>
+<rect x="210" y="856" width="735" height="12" class="bar"/>
+<text x="951" y="867" class="value">6.693</text>
+<text x="202" y="885" text-anchor="end" class="label">halāpu I</text>
+<rect x="210" y="874" width="735" height="12" class="bar"/>
+<text x="951" y="885" class="value">6.693</text>
+<text x="202" y="903" text-anchor="end" class="label">hamāmu I</text>
+<rect x="210" y="892" width="735" height="12" class="bar"/>
+<text x="951" y="903" class="value">6.693</text>
+<text x="202" y="921" text-anchor="end" class="label">hatānu I</text>
+<rect x="210" y="910" width="735" height="12" class="bar"/>
+<text x="951" y="921" class="value">6.693</text>
+<text x="202" y="939" text-anchor="end" class="label">hengallu I</text>
+<rect x="210" y="928" width="735" height="12" class="bar"/>
+<text x="951" y="939" class="value">6.693</text>
+<text x="202" y="957" text-anchor="end" class="label">hepû II</text>
+<rect x="210" y="946" width="735" height="12" class="bar"/>
+<text x="951" y="957" class="value">6.693</text>
+<text x="202" y="975" text-anchor="end" class="label">hibiltu I</text>
+<rect x="210" y="964" width="735" height="12" class="bar"/>
+<text x="951" y="975" class="value">6.693</text>
+<text x="202" y="993" text-anchor="end" class="label">hiššā&#x27;u I</text>
+<rect x="210" y="982" width="735" height="12" class="bar"/>
+<text x="951" y="993" class="value">6.693</text>
+<text x="202" y="1011" text-anchor="end" class="label">hurāṣu I</text>
+<rect x="210" y="1000" width="735" height="12" class="bar"/>
+<text x="951" y="1011" class="value">6.693</text>
+<text x="202" y="1029" text-anchor="end" class="label">hušahhu I</text>
+<rect x="210" y="1018" width="735" height="12" class="bar"/>
+<text x="951" y="1029" class="value">6.693</text>
+<text x="202" y="1047" text-anchor="end" class="label">ikkibu I</text>
+<rect x="210" y="1036" width="735" height="12" class="bar"/>
+<text x="951" y="1047" class="value">6.693</text>
+<text x="202" y="1065" text-anchor="end" class="label">illu I</text>
+<rect x="210" y="1054" width="735" height="12" class="bar"/>
+<text x="951" y="1065" class="value">6.693</text>
+<text x="202" y="1083" text-anchor="end" class="label">inanna I</text>
+<rect x="210" y="1072" width="735" height="12" class="bar"/>
+<text x="951" y="1083" class="value">6.693</text>
+<text x="202" y="1101" text-anchor="end" class="label">iptu I</text>
+<rect x="210" y="1090" width="735" height="12" class="bar"/>
+<text x="951" y="1101" class="value">6.693</text>
+<text x="202" y="1119" text-anchor="end" class="label">izuzzu I</text>
+<rect x="210" y="1108" width="735" height="12" class="bar"/>
+<text x="951" y="1119" class="value">6.693</text>
+<text x="202" y="1137" text-anchor="end" class="label">ištānu I</text>
+<rect x="210" y="1126" width="735" height="12" class="bar"/>
+<text x="951" y="1137" class="value">6.693</text>
+<text x="202" y="1155" text-anchor="end" class="label">ištēn I</text>
+<rect x="210" y="1144" width="735" height="12" class="bar"/>
+<text x="951" y="1155" class="value">6.693</text>
+<text x="202" y="1173" text-anchor="end" class="label">iṣṣūru I</text>
+<rect x="210" y="1162" width="735" height="12" class="bar"/>
+<text x="951" y="1173" class="value">6.693</text>
+<text x="202" y="1191" text-anchor="end" class="label">kabāsu I</text>
+<rect x="210" y="1180" width="735" height="12" class="bar"/>
+<text x="951" y="1191" class="value">6.693</text>
+<text x="202" y="1209" text-anchor="end" class="label">kalîš I</text>
+<rect x="210" y="1198" width="735" height="12" class="bar"/>
+<text x="951" y="1209" class="value">6.693</text>
+<text x="202" y="1227" text-anchor="end" class="label">kanāšu I</text>
+<rect x="210" y="1216" width="735" height="12" class="bar"/>
+<text x="951" y="1227" class="value">6.693</text>
+<text x="202" y="1245" text-anchor="end" class="label">kanšu I</text>
+<rect x="210" y="1234" width="735" height="12" class="bar"/>
+<text x="951" y="1245" class="value">6.693</text>
+<text x="202" y="1263" text-anchor="end" class="label">karšu I</text>
+<rect x="210" y="1252" width="735" height="12" class="bar"/>
+<text x="951" y="1263" class="value">6.693</text>
+<text x="202" y="1281" text-anchor="end" class="label">katāmu I</text>
+<rect x="210" y="1270" width="735" height="12" class="bar"/>
+<text x="951" y="1281" class="value">6.693</text>
+<text x="202" y="1299" text-anchor="end" class="label">kullatu I</text>
+<rect x="210" y="1288" width="735" height="12" class="bar"/>
+<text x="951" y="1299" class="value">6.693</text>
+<text x="202" y="1317" text-anchor="end" class="label">kullumu I</text>
+<rect x="210" y="1306" width="735" height="12" class="bar"/>
+<text x="951" y="1317" class="value">6.693</text>
+<text x="202" y="1335" text-anchor="end" class="label">kulu&#x27;u I</text>
+<rect x="210" y="1324" width="735" height="12" class="bar"/>
+<text x="951" y="1335" class="value">6.693</text>
+<text x="202" y="1353" text-anchor="end" class="label">kurummatu I</text>
+<rect x="210" y="1342" width="735" height="12" class="bar"/>
+<text x="951" y="1353" class="value">6.693</text>
+<text x="202" y="1371" text-anchor="end" class="label">kīdu I</text>
+<rect x="210" y="1360" width="735" height="12" class="bar"/>
+<text x="951" y="1371" class="value">6.693</text>
+<text x="202" y="1389" text-anchor="end" class="label">kīniš I</text>
+<rect x="210" y="1378" width="735" height="12" class="bar"/>
+<text x="951" y="1389" class="value">6.693</text>
+<text x="202" y="1407" text-anchor="end" class="label">kīšama I</text>
+<rect x="210" y="1396" width="735" height="12" class="bar"/>
+<text x="951" y="1407" class="value">6.693</text>
+<text x="202" y="1425" text-anchor="end" class="label">labāku I</text>
+<rect x="210" y="1414" width="735" height="12" class="bar"/>
+<text x="951" y="1425" class="value">6.693</text>
+<text x="202" y="1443" text-anchor="end" class="label">labāšu I</text>
+<rect x="210" y="1432" width="735" height="12" class="bar"/>
+<text x="951" y="1443" class="value">6.693</text>
+<text x="202" y="1461" text-anchor="end" class="label">lamassu I</text>
+<rect x="210" y="1450" width="735" height="12" class="bar"/>
+<text x="951" y="1461" class="value">6.693</text>
+<text x="202" y="1479" text-anchor="end" class="label">lasāmu I</text>
+<rect x="210" y="1468" width="735" height="12" class="bar"/>
+<text x="951" y="1479" class="value">6.693</text>
+<text x="202" y="1497" text-anchor="end" class="label">lemuttu I</text>
+<rect x="210" y="1486" width="735" height="12" class="bar"/>
+<text x="951" y="1497" class="value">6.693</text>
+<text x="202" y="1515" text-anchor="end" class="label">lupnu I</text>
+<rect x="210" y="1504" width="735" height="12" class="bar"/>
+<text x="951" y="1515" class="value">6.693</text>
+<text x="202" y="1533" text-anchor="end" class="label">lābiš I</text>
+<rect x="210" y="1522" width="735" height="12" class="bar"/>
+<text x="951" y="1533" class="value">6.693</text>
+<text x="202" y="1551" text-anchor="end" class="label">lāmû I</text>
+<rect x="210" y="1540" width="735" height="12" class="bar"/>
+<text x="951" y="1551" class="value">6.693</text>
+<text x="202" y="1569" text-anchor="end" class="label">lānu I</text>
+<rect x="210" y="1558" width="735" height="12" class="bar"/>
+<text x="951" y="1569" class="value">6.693</text>
+<text x="202" y="1587" text-anchor="end" class="label">lē&#x27;ûtu I</text>
+<rect x="210" y="1576" width="735" height="12" class="bar"/>
+<text x="951" y="1587" class="value">6.693</text>
+<text x="202" y="1605" text-anchor="end" class="label">magāru I</text>
+<rect x="210" y="1594" width="735" height="12" class="bar"/>
+<text x="951" y="1605" class="value">6.693</text>
+<text x="202" y="1623" text-anchor="end" class="label">malālu I</text>
+<rect x="210" y="1612" width="735" height="12" class="bar"/>
+<text x="951" y="1623" class="value">6.693</text>
+<text x="202" y="1641" text-anchor="end" class="label">maruṣtu I</text>
+<rect x="210" y="1630" width="735" height="12" class="bar"/>
+<text x="951" y="1641" class="value">6.693</text>
+<text x="202" y="1659" text-anchor="end" class="label">marāṣu I</text>
+<rect x="210" y="1648" width="735" height="12" class="bar"/>
+<text x="951" y="1659" class="value">6.693</text>
+<text x="202" y="1677" text-anchor="end" class="label">masāku I</text>
+<rect x="210" y="1666" width="735" height="12" class="bar"/>
+<text x="951" y="1677" class="value">6.693</text>
+<text x="202" y="1695" text-anchor="end" class="label">minsu I</text>
+<rect x="210" y="1684" width="735" height="12" class="bar"/>
+<text x="951" y="1695" class="value">6.693</text>
+<text x="202" y="1713" text-anchor="end" class="label">mithāru I</text>
+<rect x="210" y="1702" width="735" height="12" class="bar"/>
+<text x="951" y="1713" class="value">6.693</text>
+<text x="202" y="1731" text-anchor="end" class="label">mitluku I</text>
+<rect x="210" y="1720" width="735" height="12" class="bar"/>
+<text x="951" y="1731" class="value">6.693</text>
+<text x="202" y="1749" text-anchor="end" class="label">mulmullu I</text>
+<rect x="210" y="1738" width="735" height="12" class="bar"/>
+<text x="951" y="1749" class="value">6.693</text>
+<text x="202" y="1767" text-anchor="end" class="label">munnarbu I</text>
+<rect x="210" y="1756" width="735" height="12" class="bar"/>
+<text x="951" y="1767" class="value">6.693</text>
+<text x="202" y="1785" text-anchor="end" class="label">murṣu I</text>
+<rect x="210" y="1774" width="735" height="12" class="bar"/>
+<text x="951" y="1785" class="value">6.693</text>
+<text x="202" y="1803" text-anchor="end" class="label">mutu I</text>
+<rect x="210" y="1792" width="735" height="12" class="bar"/>
+<text x="951" y="1803" class="value">6.693</text>
+<text x="202" y="1821" text-anchor="end" class="label">mâdu I</text>
+<rect x="210" y="1810" width="735" height="12" class="bar"/>
+<text x="951" y="1821" class="value">6.693</text>
+<text x="202" y="1839" text-anchor="end" class="label">mâtu I</text>
+<rect x="210" y="1828" width="735" height="12" class="bar"/>
+<text x="951" y="1839" class="value">6.693</text>
+<text x="202" y="1857" text-anchor="end" class="label">mā I</text>
+<rect x="210" y="1846" width="735" height="12" class="bar"/>
+<text x="951" y="1857" class="value">6.693</text>
+<text x="202" y="1875" text-anchor="end" class="label">mādidu I</text>
+<rect x="210" y="1864" width="735" height="12" class="bar"/>
+<text x="951" y="1875" class="value">6.693</text>
+<text x="202" y="1893" text-anchor="end" class="label">mādu I</text>
+<rect x="210" y="1882" width="735" height="12" class="bar"/>
+<text x="951" y="1893" class="value">6.693</text>
+<text x="202" y="1911" text-anchor="end" class="label">māgiru I</text>
+<rect x="210" y="1900" width="735" height="12" class="bar"/>
+<text x="951" y="1911" class="value">6.693</text>
+<text x="202" y="1929" text-anchor="end" class="label">māliku I</text>
+<rect x="210" y="1918" width="735" height="12" class="bar"/>
+<text x="951" y="1929" class="value">6.693</text>
+<text x="202" y="1947" text-anchor="end" class="label">na&#x27;du I</text>
+<rect x="210" y="1936" width="735" height="12" class="bar"/>
+<text x="951" y="1947" class="value">6.693</text>
+<text x="202" y="1965" text-anchor="end" class="label">naharmuṭu I</text>
+<rect x="210" y="1954" width="735" height="12" class="bar"/>
+<text x="951" y="1965" class="value">6.693</text>
+<text x="202" y="1983" text-anchor="end" class="label">nakāsu I</text>
+<rect x="210" y="1972" width="735" height="12" class="bar"/>
+<text x="951" y="1983" class="value">6.693</text>
+<text x="202" y="2001" text-anchor="end" class="label">napharu I</text>
+<rect x="210" y="1990" width="735" height="12" class="bar"/>
+<text x="951" y="2001" class="value">6.693</text>
+<text x="202" y="2019" text-anchor="end" class="label">nashuru I</text>
+<rect x="210" y="2008" width="735" height="12" class="bar"/>
+<text x="951" y="2019" class="value">6.693</text>
+<text x="202" y="2037" text-anchor="end" class="label">nasru I</text>
+<rect x="210" y="2026" width="735" height="12" class="bar"/>
+<text x="951" y="2037" class="value">6.693</text>
+<text x="202" y="2055" text-anchor="end" class="label">nayyādu I</text>
+<rect x="210" y="2044" width="735" height="12" class="bar"/>
+<text x="951" y="2055" class="value">6.693</text>
+<text x="202" y="2073" text-anchor="end" class="label">nesîš I</text>
+<rect x="210" y="2062" width="735" height="12" class="bar"/>
+<text x="951" y="2073" class="value">6.693</text>
+<text x="202" y="2091" text-anchor="end" class="label">nikkassu I</text>
+<rect x="210" y="2080" width="735" height="12" class="bar"/>
+<text x="951" y="2091" class="value">6.693</text>
+<text x="202" y="2109" text-anchor="end" class="label">nê&#x27;u I</text>
+<rect x="210" y="2098" width="735" height="12" class="bar"/>
+<text x="951" y="2109" class="value">6.693</text>
+<text x="202" y="2127" text-anchor="end" class="label">nēštu I</text>
+<rect x="210" y="2116" width="735" height="12" class="bar"/>
+<text x="951" y="2127" class="value">6.693</text>
+<text x="202" y="2145" text-anchor="end" class="label">nūnu I</text>
+<rect x="210" y="2134" width="735" height="12" class="bar"/>
+<text x="951" y="2145" class="value">6.693</text>
+<text x="202" y="2163" text-anchor="end" class="label">pahāru I</text>
+<rect x="210" y="2152" width="735" height="12" class="bar"/>
+<text x="951" y="2163" class="value">6.693</text>
+<text x="202" y="2181" text-anchor="end" class="label">palhu I</text>
+<rect x="210" y="2170" width="735" height="12" class="bar"/>
+<text x="951" y="2181" class="value">6.693</text>
+<text x="202" y="2199" text-anchor="end" class="label">parû I</text>
+<rect x="210" y="2188" width="735" height="12" class="bar"/>
+<text x="951" y="2199" class="value">6.693</text>
+<text x="202" y="2217" text-anchor="end" class="label">parādu I</text>
+<rect x="210" y="2206" width="735" height="12" class="bar"/>
+<text x="951" y="2217" class="value">6.693</text>
+<text x="202" y="2235" text-anchor="end" class="label">pasālu I</text>
+<rect x="210" y="2224" width="735" height="12" class="bar"/>
+<text x="951" y="2235" class="value">6.693</text>
+<text x="202" y="2253" text-anchor="end" class="label">pašālu I</text>
+<rect x="210" y="2242" width="735" height="12" class="bar"/>
+<text x="951" y="2253" class="value">6.693</text>
+<text x="202" y="2271" text-anchor="end" class="label">pānû I</text>
+<rect x="210" y="2260" width="735" height="12" class="bar"/>
+<text x="951" y="2271" class="value">6.693</text>
+<text x="202" y="2289" text-anchor="end" class="label">qaqqadu I</text>
+<rect x="210" y="2278" width="735" height="12" class="bar"/>
+<text x="951" y="2289" class="value">6.693</text>
+<text x="202" y="2307" text-anchor="end" class="label">qerēbu I</text>
+<rect x="210" y="2296" width="735" height="12" class="bar"/>
+<text x="951" y="2307" class="value">6.693</text>
+<text x="202" y="2325" text-anchor="end" class="label">qiāšu I</text>
+<rect x="210" y="2314" width="735" height="12" class="bar"/>
+<text x="951" y="2325" class="value">6.693</text>
+<text x="202" y="2343" text-anchor="end" class="label">qudmu I</text>
+<rect x="210" y="2332" width="735" height="12" class="bar"/>
+<text x="951" y="2343" class="value">6.693</text>
+<text x="202" y="2361" text-anchor="end" class="label">qūlu I</text>
+<rect x="210" y="2350" width="735" height="12" class="bar"/>
+<text x="951" y="2361" class="value">6.693</text>
+<text x="202" y="2379" text-anchor="end" class="label">radādu I</text>
+<rect x="210" y="2368" width="735" height="12" class="bar"/>
+<text x="951" y="2379" class="value">6.693</text>
+<text x="202" y="2397" text-anchor="end" class="label">rakāsu I</text>
+<rect x="210" y="2386" width="735" height="12" class="bar"/>
+<text x="951" y="2397" class="value">6.693</text>
+<text x="202" y="2415" text-anchor="end" class="label">ramû II</text>
+<rect x="210" y="2404" width="735" height="12" class="bar"/>
+<text x="951" y="2415" class="value">6.693</text>
+<text x="202" y="2433" text-anchor="end" class="label">rapāšu I</text>
+<rect x="210" y="2422" width="735" height="12" class="bar"/>
+<text x="951" y="2433" class="value">6.693</text>
+<text x="202" y="2451" text-anchor="end" class="label">riddu I</text>
+<rect x="210" y="2440" width="735" height="12" class="bar"/>
+<text x="951" y="2451" class="value">6.693</text>
+<text x="202" y="2469" text-anchor="end" class="label">rugbu I</text>
+<rect x="210" y="2458" width="735" height="12" class="bar"/>
+<text x="951" y="2469" class="value">6.693</text>
+<text x="202" y="2487" text-anchor="end" class="label">râṣu I</text>
+<rect x="210" y="2476" width="735" height="12" class="bar"/>
+<text x="951" y="2487" class="value">6.693</text>
+<text x="202" y="2505" text-anchor="end" class="label">rēštû I</text>
+<rect x="210" y="2494" width="735" height="12" class="bar"/>
+<text x="951" y="2505" class="value">6.693</text>
+<text x="202" y="2523" text-anchor="end" class="label">sakkû I</text>
+<rect x="210" y="2512" width="735" height="12" class="bar"/>
+<text x="951" y="2523" class="value">6.693</text>
+<text x="202" y="2541" text-anchor="end" class="label">saklu I</text>
+<rect x="210" y="2530" width="735" height="12" class="bar"/>
+<text x="951" y="2541" class="value">6.693</text>
+<text x="202" y="2559" text-anchor="end" class="label">sakānu I</text>
+<rect x="210" y="2548" width="735" height="12" class="bar"/>
+<text x="951" y="2559" class="value">6.693</text>
+<text x="202" y="2577" text-anchor="end" class="label">samû I</text>
+<rect x="210" y="2566" width="735" height="12" class="bar"/>
+<text x="951" y="2577" class="value">6.693</text>
+<text x="202" y="2595" text-anchor="end" class="label">sanninu I</text>
+<rect x="210" y="2584" width="735" height="12" class="bar"/>
+<text x="951" y="2595" class="value">6.693</text>
+<text x="202" y="2613" text-anchor="end" class="label">sapāhu I</text>
+<rect x="210" y="2602" width="735" height="12" class="bar"/>
+<text x="951" y="2613" class="value">6.693</text>
+<text x="202" y="2631" text-anchor="end" class="label">sartu I</text>
+<rect x="210" y="2620" width="735" height="12" class="bar"/>
+<text x="951" y="2631" class="value">6.693</text>
+<text x="202" y="2649" text-anchor="end" class="label">sūqu I</text>
+<rect x="210" y="2638" width="735" height="12" class="bar"/>
+<text x="951" y="2649" class="value">6.693</text>
+<text x="202" y="2667" text-anchor="end" class="label">takšīru I</text>
+<rect x="210" y="2656" width="735" height="12" class="bar"/>
+<text x="951" y="2667" class="value">6.693</text>
+<text x="202" y="2685" text-anchor="end" class="label">takšītu I</text>
+<rect x="210" y="2674" width="735" height="12" class="bar"/>
+<text x="951" y="2685" class="value">6.693</text>
+<text x="202" y="2703" text-anchor="end" class="label">talīmātu I</text>
+<rect x="210" y="2692" width="735" height="12" class="bar"/>
+<text x="951" y="2703" class="value">6.693</text>
+<text x="202" y="2721" text-anchor="end" class="label">tappû I</text>
+<rect x="210" y="2710" width="735" height="12" class="bar"/>
+<text x="951" y="2721" class="value">6.693</text>
+<text x="202" y="2739" text-anchor="end" class="label">tarû II</text>
+<rect x="210" y="2728" width="735" height="12" class="bar"/>
+<text x="951" y="2739" class="value">6.693</text>
+<text x="202" y="2757" text-anchor="end" class="label">tattūru I</text>
+<rect x="210" y="2746" width="735" height="12" class="bar"/>
+<text x="951" y="2757" class="value">6.693</text>
+<text x="202" y="2775" text-anchor="end" class="label">tawwertu I</text>
+<rect x="210" y="2764" width="735" height="12" class="bar"/>
+<text x="951" y="2775" class="value">6.693</text>
+<text x="202" y="2793" text-anchor="end" class="label">tibûtu I</text>
+<rect x="210" y="2782" width="735" height="12" class="bar"/>
+<text x="951" y="2793" class="value">6.693</text>
+<text x="202" y="2811" text-anchor="end" class="label">ugummu I</text>
+<rect x="210" y="2800" width="735" height="12" class="bar"/>
+<text x="951" y="2811" class="value">6.693</text>
+<text x="202" y="2829" text-anchor="end" class="label">ukkupiš I</text>
+<rect x="210" y="2818" width="735" height="12" class="bar"/>
+<text x="951" y="2829" class="value">6.693</text>
+<text x="202" y="2847" text-anchor="end" class="label">ukultu I</text>
+<rect x="210" y="2836" width="735" height="12" class="bar"/>
+<text x="951" y="2847" class="value">6.693</text>
+<text x="202" y="2865" text-anchor="end" class="label">ullalla I</text>
+<rect x="210" y="2854" width="735" height="12" class="bar"/>
+<text x="951" y="2865" class="value">6.693</text>
+<text x="202" y="2883" text-anchor="end" class="label">umma I</text>
+<rect x="210" y="2872" width="735" height="12" class="bar"/>
+<text x="951" y="2883" class="value">6.693</text>
+<text x="202" y="2901" text-anchor="end" class="label">ummu I</text>
+<rect x="210" y="2890" width="735" height="12" class="bar"/>
+<text x="951" y="2901" class="value">6.693</text>
+<text x="202" y="2919" text-anchor="end" class="label">usātu I</text>
+<rect x="210" y="2908" width="735" height="12" class="bar"/>
+<text x="951" y="2919" class="value">6.693</text>
+<text x="202" y="2937" text-anchor="end" class="label">wašbu I</text>
+<rect x="210" y="2926" width="735" height="12" class="bar"/>
+<text x="951" y="2937" class="value">6.693</text>
+<text x="202" y="2955" text-anchor="end" class="label">wašru I</text>
+<rect x="210" y="2944" width="735" height="12" class="bar"/>
+<text x="951" y="2955" class="value">6.693</text>
+<text x="202" y="2973" text-anchor="end" class="label">zaqāpu I</text>
+<rect x="210" y="2962" width="735" height="12" class="bar"/>
+<text x="951" y="2973" class="value">6.693</text>
+<text x="202" y="2991" text-anchor="end" class="label">zenû II</text>
+<rect x="210" y="2980" width="735" height="12" class="bar"/>
+<text x="951" y="2991" class="value">6.693</text>
+<text x="202" y="3009" text-anchor="end" class="label">āliku I</text>
+<rect x="210" y="2998" width="735" height="12" class="bar"/>
+<text x="951" y="3009" class="value">6.693</text>
+<text x="202" y="3027" text-anchor="end" class="label">āšibu I</text>
+<rect x="210" y="3016" width="735" height="12" class="bar"/>
+<text x="951" y="3027" class="value">6.693</text>
+<text x="202" y="3045" text-anchor="end" class="label">šadlu I</text>
+<rect x="210" y="3034" width="735" height="12" class="bar"/>
+<text x="951" y="3045" class="value">6.693</text>
+<text x="202" y="3063" text-anchor="end" class="label">šalbābu I</text>
+<rect x="210" y="3052" width="735" height="12" class="bar"/>
+<text x="951" y="3063" class="value">6.693</text>
+<text x="202" y="3081" text-anchor="end" class="label">šalummatu I</text>
+<rect x="210" y="3070" width="735" height="12" class="bar"/>
+<text x="951" y="3081" class="value">6.693</text>
+<text x="202" y="3099" text-anchor="end" class="label">šamāhu I</text>
+<rect x="210" y="3088" width="735" height="12" class="bar"/>
+<text x="951" y="3099" class="value">6.693</text>
+<text x="202" y="3117" text-anchor="end" class="label">šanû III</text>
+<rect x="210" y="3106" width="735" height="12" class="bar"/>
+<text x="951" y="3117" class="value">6.693</text>
+<text x="202" y="3135" text-anchor="end" class="label">šaplu II</text>
+<rect x="210" y="3124" width="735" height="12" class="bar"/>
+<text x="951" y="3135" class="value">6.693</text>
+<text x="202" y="3153" text-anchor="end" class="label">šapṣu I</text>
+<rect x="210" y="3142" width="735" height="12" class="bar"/>
+<text x="951" y="3153" class="value">6.693</text>
+<text x="202" y="3171" text-anchor="end" class="label">šarhu I</text>
+<rect x="210" y="3160" width="735" height="12" class="bar"/>
+<text x="951" y="3171" class="value">6.693</text>
+<text x="202" y="3189" text-anchor="end" class="label">šarû II</text>
+<rect x="210" y="3178" width="735" height="12" class="bar"/>
+<text x="951" y="3189" class="value">6.693</text>
+<text x="202" y="3207" text-anchor="end" class="label">šarūru I</text>
+<rect x="210" y="3196" width="735" height="12" class="bar"/>
+<text x="951" y="3207" class="value">6.693</text>
+<text x="202" y="3225" text-anchor="end" class="label">šatāqu I</text>
+<rect x="210" y="3214" width="735" height="12" class="bar"/>
+<text x="951" y="3225" class="value">6.693</text>
+<text x="202" y="3243" text-anchor="end" class="label">šebû I</text>
+<rect x="210" y="3232" width="735" height="12" class="bar"/>
+<text x="951" y="3243" class="value">6.693</text>
+<text x="202" y="3261" text-anchor="end" class="label">šikaru I</text>
+<rect x="210" y="3250" width="735" height="12" class="bar"/>
+<text x="951" y="3261" class="value">6.693</text>
+<text x="202" y="3279" text-anchor="end" class="label">šiltāhu I</text>
+<rect x="210" y="3268" width="735" height="12" class="bar"/>
+<text x="951" y="3279" class="value">6.693</text>
+<text x="202" y="3297" text-anchor="end" class="label">šitluṭu I</text>
+<rect x="210" y="3286" width="735" height="12" class="bar"/>
+<text x="951" y="3297" class="value">6.693</text>
+<text x="202" y="3315" text-anchor="end" class="label">šittu I</text>
+<rect x="210" y="3304" width="735" height="12" class="bar"/>
+<text x="951" y="3315" class="value">6.693</text>
+<text x="202" y="3333" text-anchor="end" class="label">šubtu I</text>
+<rect x="210" y="3322" width="735" height="12" class="bar"/>
+<text x="951" y="3333" class="value">6.693</text>
+<text x="202" y="3351" text-anchor="end" class="label">šuhhû II</text>
+<rect x="210" y="3340" width="735" height="12" class="bar"/>
+<text x="951" y="3351" class="value">6.693</text>
+<text x="202" y="3369" text-anchor="end" class="label">šuluštu I</text>
+<rect x="210" y="3358" width="735" height="12" class="bar"/>
+<text x="951" y="3369" class="value">6.693</text>
+<text x="202" y="3387" text-anchor="end" class="label">šutašnû I</text>
+<rect x="210" y="3376" width="735" height="12" class="bar"/>
+<text x="951" y="3387" class="value">6.693</text>
+<text x="202" y="3405" text-anchor="end" class="label">šutāpu I</text>
+<rect x="210" y="3394" width="735" height="12" class="bar"/>
+<text x="951" y="3405" class="value">6.693</text>
+<text x="202" y="3423" text-anchor="end" class="label">šâlu I</text>
+<rect x="210" y="3412" width="735" height="12" class="bar"/>
+<text x="951" y="3423" class="value">6.693</text>
+<text x="202" y="3441" text-anchor="end" class="label">šâmu I</text>
+<rect x="210" y="3430" width="735" height="12" class="bar"/>
+<text x="951" y="3441" class="value">6.693</text>
+<text x="202" y="3459" text-anchor="end" class="label">šūquru I</text>
+<rect x="210" y="3448" width="735" height="12" class="bar"/>
+<text x="951" y="3459" class="value">6.693</text>
+<text x="202" y="3477" text-anchor="end" class="label">šūt I</text>
+<rect x="210" y="3466" width="735" height="12" class="bar"/>
+<text x="951" y="3477" class="value">6.693</text>
+<text x="202" y="3495" text-anchor="end" class="label">ṣadû I</text>
+<rect x="210" y="3484" width="735" height="12" class="bar"/>
+<text x="951" y="3495" class="value">6.693</text>
+<text x="202" y="3513" text-anchor="end" class="label">ṣamāru I</text>
+<rect x="210" y="3502" width="735" height="12" class="bar"/>
+<text x="951" y="3513" class="value">6.693</text>
+<text x="202" y="3531" text-anchor="end" class="label">ṣarāmu I</text>
+<rect x="210" y="3520" width="735" height="12" class="bar"/>
+<text x="951" y="3531" class="value">6.693</text>
+<text x="202" y="3549" text-anchor="end" class="label">ṣullû I</text>
+<rect x="210" y="3538" width="735" height="12" class="bar"/>
+<text x="951" y="3549" class="value">6.693</text>
+<text x="202" y="3567" text-anchor="end" class="label">ṣītu I</text>
+<rect x="210" y="3556" width="735" height="12" class="bar"/>
+<text x="951" y="3567" class="value">6.693</text>
+<text x="202" y="3585" text-anchor="end" class="label">ṭikmēnu I</text>
+<rect x="210" y="3574" width="735" height="12" class="bar"/>
+<text x="951" y="3585" class="value">6.693</text>
+<text x="202" y="3603" text-anchor="end" class="label">ṭuhdu I</text>
+<rect x="210" y="3592" width="735" height="12" class="bar"/>
+<text x="951" y="3603" class="value">6.693</text>
+<text x="202" y="3621" text-anchor="end" class="label">ṭuppu I</text>
+<rect x="210" y="3610" width="735" height="12" class="bar"/>
+<text x="951" y="3621" class="value">6.693</text>
+<text x="202" y="3639" text-anchor="end" class="label">ṭēmānu I</text>
+<rect x="210" y="3628" width="735" height="12" class="bar"/>
+<text x="951" y="3639" class="value">6.693</text>
+<text x="202" y="3657" text-anchor="end" class="label">Ea I</text>
+<rect x="210" y="3646" width="659" height="12" class="bar"/>
+<text x="875" y="3657" class="value">6.000</text>
+<text x="202" y="3675" text-anchor="end" class="label">Hubur I</text>
+<rect x="210" y="3664" width="659" height="12" class="bar"/>
+<text x="875" y="3675" class="value">6.000</text>
+<text x="202" y="3693" text-anchor="end" class="label">Kurnugi I</text>
+<rect x="210" y="3682" width="659" height="12" class="bar"/>
+<text x="875" y="3693" class="value">6.000</text>
+<text x="202" y="3711" text-anchor="end" class="label">Narru I</text>
+<rect x="210" y="3700" width="659" height="12" class="bar"/>
+<text x="875" y="3711" class="value">6.000</text>
+<text x="202" y="3729" text-anchor="end" class="label">abātu I</text>
+<rect x="210" y="3718" width="659" height="12" class="bar"/>
+<text x="875" y="3729" class="value">6.000</text>
+<text x="202" y="3747" text-anchor="end" class="label">adnātu I</text>
+<rect x="210" y="3736" width="659" height="12" class="bar"/>
+<text x="875" y="3747" class="value">6.000</text>
+<text x="202" y="3765" text-anchor="end" class="label">ai I</text>
+<rect x="210" y="3754" width="659" height="12" class="bar"/>
+<text x="875" y="3765" class="value">6.000</text>
+<text x="202" y="3783" text-anchor="end" class="label">akkannu I</text>
+<rect x="210" y="3772" width="659" height="12" class="bar"/>
+<text x="875" y="3783" class="value">6.000</text>
+<text x="202" y="3801" text-anchor="end" class="label">akāšu I</text>
+<rect x="210" y="3790" width="659" height="12" class="bar"/>
+<text x="875" y="3801" class="value">6.000</text>
+<text x="202" y="3819" text-anchor="end" class="label">alādu I</text>
+<rect x="210" y="3808" width="659" height="12" class="bar"/>
+<text x="875" y="3819" class="value">6.000</text>
+<text x="202" y="3837" text-anchor="end" class="label">alālu III</text>
+<rect x="210" y="3826" width="659" height="12" class="bar"/>
+<text x="875" y="3837" class="value">6.000</text>
+<text x="202" y="3855" text-anchor="end" class="label">alīlu I</text>
+<rect x="210" y="3844" width="659" height="12" class="bar"/>
+<text x="875" y="3855" class="value">6.000</text>
+<text x="202" y="3873" text-anchor="end" class="label">arqu I</text>
+<rect x="210" y="3862" width="659" height="12" class="bar"/>
+<text x="875" y="3873" class="value">6.000</text>
+<text x="202" y="3891" text-anchor="end" class="label">arû VI</text>
+<rect x="210" y="3880" width="659" height="12" class="bar"/>
+<text x="875" y="3891" class="value">6.000</text>
+<text x="202" y="3909" text-anchor="end" class="label">atappu I</text>
+<rect x="210" y="3898" width="659" height="12" class="bar"/>
+<text x="875" y="3909" class="value">6.000</text>
+<text x="202" y="3927" text-anchor="end" class="label">awû I</text>
+<rect x="210" y="3916" width="659" height="12" class="bar"/>
+<text x="875" y="3927" class="value">6.000</text>
+<text x="202" y="3945" text-anchor="end" class="label">ayyiš I</text>
+<rect x="210" y="3934" width="659" height="12" class="bar"/>
+<text x="875" y="3945" class="value">6.000</text>
+<text x="202" y="3963" text-anchor="end" class="label">ašpaltu I</text>
+<rect x="210" y="3952" width="659" height="12" class="bar"/>
+<text x="875" y="3963" class="value">6.000</text>
+<text x="202" y="3981" text-anchor="end" class="label">bahû I</text>
+<rect x="210" y="3970" width="659" height="12" class="bar"/>
+<text x="875" y="3981" class="value">6.000</text>
+<text x="202" y="3999" text-anchor="end" class="label">bubūtu I</text>
+<rect x="210" y="3988" width="659" height="12" class="bar"/>
+<text x="875" y="3999" class="value">6.000</text>
+<text x="202" y="4017" text-anchor="end" class="label">buqlu I</text>
+<rect x="210" y="4006" width="659" height="12" class="bar"/>
+<text x="875" y="4017" class="value">6.000</text>
+<text x="202" y="4035" text-anchor="end" class="label">bâ&#x27;u I</text>
+<rect x="210" y="4024" width="659" height="12" class="bar"/>
+<text x="875" y="4035" class="value">6.000</text>
+<text x="202" y="4053" text-anchor="end" class="label">bâlu I</text>
+<rect x="210" y="4042" width="659" height="12" class="bar"/>
+<text x="875" y="4053" class="value">6.000</text>
+<text x="202" y="4071" text-anchor="end" class="label">bīru II</text>
+<rect x="210" y="4060" width="659" height="12" class="bar"/>
+<text x="875" y="4071" class="value">6.000</text>
+<text x="202" y="4089" text-anchor="end" class="label">bīru IV</text>
+<rect x="210" y="4078" width="659" height="12" class="bar"/>
+<text x="875" y="4089" class="value">6.000</text>
+<text x="202" y="4107" text-anchor="end" class="label">bītu I</text>
+<rect x="210" y="4096" width="659" height="12" class="bar"/>
+<text x="875" y="4107" class="value">6.000</text>
+<text x="202" y="4125" text-anchor="end" class="label">bīšu II</text>
+<rect x="210" y="4114" width="659" height="12" class="bar"/>
+<text x="875" y="4125" class="value">6.000</text>
+<text x="202" y="4143" text-anchor="end" class="label">būnu II</text>
+<rect x="210" y="4132" width="659" height="12" class="bar"/>
+<text x="875" y="4143" class="value">6.000</text>
+<text x="202" y="4161" text-anchor="end" class="label">būru II</text>
+<rect x="210" y="4150" width="659" height="12" class="bar"/>
+<text x="875" y="4161" class="value">6.000</text>
+<text x="202" y="4179" text-anchor="end" class="label">būštu I</text>
+<rect x="210" y="4168" width="659" height="12" class="bar"/>
+<text x="875" y="4179" class="value">6.000</text>
+<text x="202" y="4197" text-anchor="end" class="label">būšu I</text>
+<rect x="210" y="4186" width="659" height="12" class="bar"/>
+<text x="875" y="4197" class="value">6.000</text>
+<text x="202" y="4215" text-anchor="end" class="label">dabābu I</text>
+<rect x="210" y="4204" width="659" height="12" class="bar"/>
+<text x="875" y="4215" class="value">6.000</text>
+<text x="202" y="4233" text-anchor="end" class="label">dalālu II</text>
+<rect x="210" y="4222" width="659" height="12" class="bar"/>
+<text x="875" y="4233" class="value">6.000</text>
+<text x="202" y="4251" text-anchor="end" class="label">danānu II</text>
+<rect x="210" y="4240" width="659" height="12" class="bar"/>
+<text x="875" y="4251" class="value">6.000</text>
+<text x="202" y="4269" text-anchor="end" class="label">duppussû I</text>
+<rect x="210" y="4258" width="659" height="12" class="bar"/>
+<text x="875" y="4269" class="value">6.000</text>
+<text x="202" y="4287" text-anchor="end" class="label">dâṣu I</text>
+<rect x="210" y="4276" width="659" height="12" class="bar"/>
+<text x="875" y="4287" class="value">6.000</text>
+<text x="202" y="4305" text-anchor="end" class="label">dārû I</text>
+<rect x="210" y="4294" width="659" height="12" class="bar"/>
+<text x="875" y="4305" class="value">6.000</text>
+<text x="202" y="4323" text-anchor="end" class="label">dīšu II</text>
+<rect x="210" y="4312" width="659" height="12" class="bar"/>
+<text x="875" y="4323" class="value">6.000</text>
+<text x="202" y="4341" text-anchor="end" class="label">ebēru I</text>
+<rect x="210" y="4330" width="659" height="12" class="bar"/>
+<text x="875" y="4341" class="value">6.000</text>
+<text x="202" y="4359" text-anchor="end" class="label">edlu I</text>
+<rect x="210" y="4348" width="659" height="12" class="bar"/>
+<text x="875" y="4359" class="value">6.000</text>
+<text x="202" y="4377" text-anchor="end" class="label">elēṣu I</text>
+<rect x="210" y="4366" width="659" height="12" class="bar"/>
+<text x="875" y="4377" class="value">6.000</text>
+<text x="202" y="4395" text-anchor="end" class="label">enšu I</text>
+<rect x="210" y="4384" width="659" height="12" class="bar"/>
+<text x="875" y="4395" class="value">6.000</text>
+<text x="202" y="4413" text-anchor="end" class="label">eršu I</text>
+<rect x="210" y="4402" width="659" height="12" class="bar"/>
+<text x="875" y="4413" class="value">6.000</text>
+<text x="202" y="4431" text-anchor="end" class="label">erṣetu I</text>
+<rect x="210" y="4420" width="659" height="12" class="bar"/>
+<text x="875" y="4431" class="value">6.000</text>
+<text x="202" y="4449" text-anchor="end" class="label">gegunû I</text>
+<rect x="210" y="4438" width="659" height="12" class="bar"/>
+<text x="875" y="4449" class="value">6.000</text>
+<text x="202" y="4467" text-anchor="end" class="label">gerru I</text>
+<rect x="210" y="4456" width="659" height="12" class="bar"/>
+<text x="875" y="4467" class="value">6.000</text>
+<text x="202" y="4485" text-anchor="end" class="label">gīru I</text>
+<rect x="210" y="4474" width="659" height="12" class="bar"/>
+<text x="875" y="4485" class="value">6.000</text>
+<text x="202" y="4503" text-anchor="end" class="label">harūbu I</text>
+<rect x="210" y="4492" width="659" height="12" class="bar"/>
+<text x="875" y="4503" class="value">6.000</text>
+<text x="202" y="4521" text-anchor="end" class="label">hašikkiš I</text>
+<rect x="210" y="4510" width="659" height="12" class="bar"/>
+<text x="875" y="4521" class="value">6.000</text>
+<text x="202" y="4539" text-anchor="end" class="label">haṣānu I</text>
+<rect x="210" y="4528" width="659" height="12" class="bar"/>
+<text x="875" y="4539" class="value">6.000</text>
+<text x="202" y="4557" text-anchor="end" class="label">hiāṭu I</text>
+<rect x="210" y="4546" width="659" height="12" class="bar"/>
+<text x="875" y="4557" class="value">6.000</text>
+<text x="202" y="4575" text-anchor="end" class="label">hišihtu I</text>
+<rect x="210" y="4564" width="659" height="12" class="bar"/>
+<text x="875" y="4575" class="value">6.000</text>
+<text x="202" y="4593" text-anchor="end" class="label">hiṣbu I</text>
+<rect x="210" y="4582" width="659" height="12" class="bar"/>
+<text x="875" y="4593" class="value">6.000</text>
+<text x="202" y="4611" text-anchor="end" class="label">hubūru I</text>
+<rect x="210" y="4600" width="659" height="12" class="bar"/>
+<text x="875" y="4611" class="value">6.000</text>
+<text x="202" y="4629" text-anchor="end" class="label">hurru I</text>
+<rect x="210" y="4618" width="659" height="12" class="bar"/>
+<text x="875" y="4629" class="value">6.000</text>
+<text x="202" y="4647" text-anchor="end" class="label">hābilu I</text>
+<rect x="210" y="4636" width="659" height="12" class="bar"/>
+<text x="875" y="4647" class="value">6.000</text>
+<text x="202" y="4665" text-anchor="end" class="label">idirtu I</text>
+<rect x="210" y="4654" width="659" height="12" class="bar"/>
+<text x="875" y="4665" class="value">6.000</text>
+<text x="202" y="4683" text-anchor="end" class="label">ilku I</text>
+<rect x="210" y="4672" width="659" height="12" class="bar"/>
+<text x="875" y="4683" class="value">6.000</text>
+<text x="202" y="4701" text-anchor="end" class="label">illatu I</text>
+<rect x="210" y="4690" width="659" height="12" class="bar"/>
+<text x="875" y="4701" class="value">6.000</text>
+<text x="202" y="4719" text-anchor="end" class="label">itbāru I</text>
+<rect x="210" y="4708" width="659" height="12" class="bar"/>
+<text x="875" y="4719" class="value">6.000</text>
+<text x="202" y="4737" text-anchor="end" class="label">ittu I</text>
+<rect x="210" y="4726" width="659" height="12" class="bar"/>
+<text x="875" y="4737" class="value">6.000</text>
+<text x="202" y="4755" text-anchor="end" class="label">išdihu I</text>
+<rect x="210" y="4744" width="659" height="12" class="bar"/>
+<text x="875" y="4755" class="value">6.000</text>
+<text x="202" y="4773" text-anchor="end" class="label">išittu I</text>
+<rect x="210" y="4762" width="659" height="12" class="bar"/>
+<text x="875" y="4773" class="value">6.000</text>
+<text x="202" y="4791" text-anchor="end" class="label">ištartu I</text>
+<rect x="210" y="4780" width="659" height="12" class="bar"/>
+<text x="875" y="4791" class="value">6.000</text>
+<text x="202" y="4809" text-anchor="end" class="label">kamāsu I</text>
+<rect x="210" y="4798" width="659" height="12" class="bar"/>
+<text x="875" y="4809" class="value">6.000</text>
+<text x="202" y="4827" text-anchor="end" class="label">kanû I</text>
+<rect x="210" y="4816" width="659" height="12" class="bar"/>
+<text x="875" y="4827" class="value">6.000</text>
+<text x="202" y="4845" text-anchor="end" class="label">karāṣu I</text>
+<rect x="210" y="4834" width="659" height="12" class="bar"/>
+<text x="875" y="4845" class="value">6.000</text>
+<text x="202" y="4863" text-anchor="end" class="label">kayyānu I</text>
+<rect x="210" y="4852" width="659" height="12" class="bar"/>
+<text x="875" y="4863" class="value">6.000</text>
+<text x="202" y="4881" text-anchor="end" class="label">kaṣru I</text>
+<rect x="210" y="4870" width="659" height="12" class="bar"/>
+<text x="875" y="4881" class="value">6.000</text>
+<text x="202" y="4899" text-anchor="end" class="label">kibsu I</text>
+<rect x="210" y="4888" width="659" height="12" class="bar"/>
+<text x="875" y="4899" class="value">6.000</text>
+<text x="202" y="4917" text-anchor="end" class="label">kidudû I</text>
+<rect x="210" y="4906" width="659" height="12" class="bar"/>
+<text x="875" y="4917" class="value">6.000</text>
+<text x="202" y="4935" text-anchor="end" class="label">kikurrû I</text>
+<rect x="210" y="4924" width="659" height="12" class="bar"/>
+<text x="875" y="4935" class="value">6.000</text>
+<text x="202" y="4953" text-anchor="end" class="label">kipdu I</text>
+<rect x="210" y="4942" width="659" height="12" class="bar"/>
+<text x="875" y="4953" class="value">6.000</text>
+<text x="202" y="4971" text-anchor="end" class="label">kuttumu I</text>
+<rect x="210" y="4960" width="659" height="12" class="bar"/>
+<text x="875" y="4971" class="value">6.000</text>
+<text x="202" y="4989" text-anchor="end" class="label">labānu I</text>
+<rect x="210" y="4978" width="659" height="12" class="bar"/>
+<text x="875" y="4989" class="value">6.000</text>
+<text x="202" y="5007" text-anchor="end" class="label">lakādu I</text>
+<rect x="210" y="4996" width="659" height="12" class="bar"/>
+<text x="875" y="5007" class="value">6.000</text>
+<text x="202" y="5025" text-anchor="end" class="label">lapānu I</text>
+<rect x="210" y="5014" width="659" height="12" class="bar"/>
+<text x="875" y="5025" class="value">6.000</text>
+<text x="202" y="5043" text-anchor="end" class="label">le&#x27;û I</text>
+<rect x="210" y="5032" width="659" height="12" class="bar"/>
+<text x="875" y="5043" class="value">6.000</text>
+<text x="202" y="5061" text-anchor="end" class="label">lillidu I</text>
+<rect x="210" y="5050" width="659" height="12" class="bar"/>
+<text x="875" y="5061" class="value">6.000</text>
+<text x="202" y="5079" text-anchor="end" class="label">liptu I</text>
+<rect x="210" y="5068" width="659" height="12" class="bar"/>
+<text x="875" y="5079" class="value">6.000</text>
+<text x="202" y="5097" text-anchor="end" class="label">lē&#x27;îš I</text>
+<rect x="210" y="5086" width="659" height="12" class="bar"/>
+<text x="875" y="5097" class="value">6.000</text>
+<text x="202" y="5115" text-anchor="end" class="label">mahra I</text>
+<rect x="210" y="5104" width="659" height="12" class="bar"/>
+<text x="875" y="5115" class="value">6.000</text>
+<text x="202" y="5133" text-anchor="end" class="label">makû II</text>
+<rect x="210" y="5122" width="659" height="12" class="bar"/>
+<text x="875" y="5133" class="value">6.000</text>
+<text x="202" y="5151" text-anchor="end" class="label">malku I</text>
+<rect x="210" y="5140" width="659" height="12" class="bar"/>
+<text x="875" y="5151" class="value">6.000</text>
+<text x="202" y="5169" text-anchor="end" class="label">malāku II</text>
+<rect x="210" y="5158" width="659" height="12" class="bar"/>
+<text x="875" y="5169" class="value">6.000</text>
+<text x="202" y="5187" text-anchor="end" class="label">maṣhatu I</text>
+<rect x="210" y="5176" width="659" height="12" class="bar"/>
+<text x="875" y="5187" class="value">6.000</text>
+<text x="202" y="5205" text-anchor="end" class="label">maṣṣaru I</text>
+<rect x="210" y="5194" width="659" height="12" class="bar"/>
+<text x="875" y="5205" class="value">6.000</text>
+<text x="202" y="5223" text-anchor="end" class="label">miṭītu I</text>
+<rect x="210" y="5212" width="659" height="12" class="bar"/>
+<text x="875" y="5223" class="value">6.000</text>
+<text x="202" y="5241" text-anchor="end" class="label">mumtalku I</text>
+<rect x="210" y="5230" width="659" height="12" class="bar"/>
+<text x="875" y="5241" class="value">6.000</text>
+<text x="202" y="5259" text-anchor="end" class="label">mutūtu I</text>
+<rect x="210" y="5248" width="659" height="12" class="bar"/>
+<text x="875" y="5259" class="value">6.000</text>
+<text x="202" y="5277" text-anchor="end" class="label">muškēnu I</text>
+<rect x="210" y="5266" width="659" height="12" class="bar"/>
+<text x="875" y="5277" class="value">6.000</text>
+<text x="202" y="5295" text-anchor="end" class="label">mušte&#x27;&#x27;û I</text>
+<rect x="210" y="5284" width="659" height="12" class="bar"/>
+<text x="875" y="5295" class="value">6.000</text>
+<text x="202" y="5313" text-anchor="end" class="label">muštēmiqu I</text>
+<rect x="210" y="5302" width="659" height="12" class="bar"/>
+<text x="875" y="5313" class="value">6.000</text>
+<text x="202" y="5331" text-anchor="end" class="label">mānitu I</text>
+<rect x="210" y="5320" width="659" height="12" class="bar"/>
+<text x="875" y="5331" class="value">6.000</text>
+<text x="202" y="5349" text-anchor="end" class="label">mārtu I</text>
+<rect x="210" y="5338" width="659" height="12" class="bar"/>
+<text x="875" y="5349" class="value">6.000</text>
+<text x="202" y="5367" text-anchor="end" class="label">mātu I</text>
+<rect x="210" y="5356" width="659" height="12" class="bar"/>
+<text x="875" y="5367" class="value">6.000</text>
+<text x="202" y="5385" text-anchor="end" class="label">mērênû I</text>
+<rect x="210" y="5374" width="659" height="12" class="bar"/>
+<text x="875" y="5385" class="value">6.000</text>
+<text x="202" y="5403" text-anchor="end" class="label">nahāšu I</text>
+<rect x="210" y="5392" width="659" height="12" class="bar"/>
+<text x="875" y="5403" class="value">6.000</text>
+<text x="202" y="5421" text-anchor="end" class="label">naklu I</text>
+<rect x="210" y="5410" width="659" height="12" class="bar"/>
+<text x="875" y="5421" class="value">6.000</text>
+<text x="202" y="5439" text-anchor="end" class="label">nammaštû I</text>
+<rect x="210" y="5428" width="659" height="12" class="bar"/>
+<text x="875" y="5439" class="value">6.000</text>
+<text x="202" y="5457" text-anchor="end" class="label">namūtu I</text>
+<rect x="210" y="5446" width="659" height="12" class="bar"/>
+<text x="875" y="5457" class="value">6.000</text>
+<text x="202" y="5475" text-anchor="end" class="label">narāmu I</text>
+<rect x="210" y="5464" width="659" height="12" class="bar"/>
+<text x="875" y="5475" class="value">6.000</text>
+<text x="202" y="5493" text-anchor="end" class="label">nesû I</text>
+<rect x="210" y="5482" width="659" height="12" class="bar"/>
+<text x="875" y="5493" class="value">6.000</text>
+<text x="202" y="5511" text-anchor="end" class="label">nešbû I</text>
+<rect x="210" y="5500" width="659" height="12" class="bar"/>
+<text x="875" y="5511" class="value">6.000</text>
+<text x="202" y="5529" text-anchor="end" class="label">niṣirtu I</text>
+<rect x="210" y="5518" width="659" height="12" class="bar"/>
+<text x="875" y="5529" class="value">6.000</text>
+<text x="202" y="5547" text-anchor="end" class="label">nēhiš I</text>
+<rect x="210" y="5536" width="659" height="12" class="bar"/>
+<text x="875" y="5547" class="value">6.000</text>
+<text x="202" y="5565" text-anchor="end" class="label">nērtu I</text>
+<rect x="210" y="5554" width="659" height="12" class="bar"/>
+<text x="875" y="5565" class="value">6.000</text>
+<text x="202" y="5583" text-anchor="end" class="label">palāhu I</text>
+<rect x="210" y="5572" width="659" height="12" class="bar"/>
+<text x="875" y="5583" class="value">6.000</text>
+<text x="202" y="5601" text-anchor="end" class="label">parāru I</text>
+<rect x="210" y="5590" width="659" height="12" class="bar"/>
+<text x="875" y="5601" class="value">6.000</text>
+<text x="202" y="5619" text-anchor="end" class="label">patāqu I</text>
+<rect x="210" y="5608" width="659" height="12" class="bar"/>
+<text x="875" y="5619" class="value">6.000</text>
+<text x="202" y="5637" text-anchor="end" class="label">paṣādu I</text>
+<rect x="210" y="5626" width="659" height="12" class="bar"/>
+<text x="875" y="5637" class="value">6.000</text>
+<text x="202" y="5655" text-anchor="end" class="label">paṭāru I</text>
+<rect x="210" y="5644" width="659" height="12" class="bar"/>
+<text x="875" y="5655" class="value">6.000</text>
+<text x="202" y="5673" text-anchor="end" class="label">pelludû I</text>
+<rect x="210" y="5662" width="659" height="12" class="bar"/>
+<text x="875" y="5673" class="value">6.000</text>
+<text x="202" y="5691" text-anchor="end" class="label">pisnuqiš I</text>
+<rect x="210" y="5680" width="659" height="12" class="bar"/>
+<text x="875" y="5691" class="value">6.000</text>
+<text x="202" y="5709" text-anchor="end" class="label">pisnuqu I</text>
+<rect x="210" y="5698" width="659" height="12" class="bar"/>
+<text x="875" y="5709" class="value">6.000</text>
+<text x="202" y="5727" text-anchor="end" class="label">pênu I</text>
+<rect x="210" y="5716" width="659" height="12" class="bar"/>
+<text x="875" y="5727" class="value">6.000</text>
+<text x="202" y="5745" text-anchor="end" class="label">pūhu I</text>
+<rect x="210" y="5734" width="659" height="12" class="bar"/>
+<text x="875" y="5745" class="value">6.000</text>
+<text x="202" y="5763" text-anchor="end" class="label">qablu I</text>
+<rect x="210" y="5752" width="659" height="12" class="bar"/>
+<text x="875" y="5763" class="value">6.000</text>
+<text x="202" y="5781" text-anchor="end" class="label">qamû II</text>
+<rect x="210" y="5770" width="659" height="12" class="bar"/>
+<text x="875" y="5781" class="value">6.000</text>
+<text x="202" y="5799" text-anchor="end" class="label">qaqqaru I</text>
+<rect x="210" y="5788" width="659" height="12" class="bar"/>
+<text x="875" y="5799" class="value">6.000</text>
+<text x="202" y="5817" text-anchor="end" class="label">qardu I</text>
+<rect x="210" y="5806" width="659" height="12" class="bar"/>
+<text x="875" y="5817" class="value">6.000</text>
+<text x="202" y="5835" text-anchor="end" class="label">qarrādu I</text>
+<rect x="210" y="5824" width="659" height="12" class="bar"/>
+<text x="875" y="5835" class="value">6.000</text>
+<text x="202" y="5853" text-anchor="end" class="label">qatû I</text>
+<rect x="210" y="5842" width="659" height="12" class="bar"/>
+<text x="875" y="5853" class="value">6.000</text>
+<text x="202" y="5871" text-anchor="end" class="label">qatû II</text>
+<rect x="210" y="5860" width="659" height="12" class="bar"/>
+<text x="875" y="5871" class="value">6.000</text>
+<text x="202" y="5889" text-anchor="end" class="label">qatāru II</text>
+<rect x="210" y="5878" width="659" height="12" class="bar"/>
+<text x="875" y="5889" class="value">6.000</text>
+<text x="202" y="5907" text-anchor="end" class="label">rabû I</text>
+<rect x="210" y="5896" width="659" height="12" class="bar"/>
+<text x="875" y="5907" class="value">6.000</text>
+<text x="202" y="5925" text-anchor="end" class="label">rabû II</text>
+<rect x="210" y="5914" width="659" height="12" class="bar"/>
+<text x="875" y="5925" class="value">6.000</text>
+<text x="202" y="5943" text-anchor="end" class="label">raggu I</text>
+<rect x="210" y="5932" width="659" height="12" class="bar"/>
+<text x="875" y="5943" class="value">6.000</text>
+<text x="202" y="5961" text-anchor="end" class="label">raqû I</text>
+<rect x="210" y="5950" width="659" height="12" class="bar"/>
+<text x="875" y="5961" class="value">6.000</text>
+<text x="202" y="5979" text-anchor="end" class="label">rebītu I</text>
+<rect x="210" y="5968" width="659" height="12" class="bar"/>
+<text x="875" y="5979" class="value">6.000</text>
+<text x="202" y="5997" text-anchor="end" class="label">rigmu I</text>
+<rect x="210" y="5986" width="659" height="12" class="bar"/>
+<text x="875" y="5997" class="value">6.000</text>
+<text x="202" y="6015" text-anchor="end" class="label">ripittu I</text>
+<rect x="210" y="6004" width="659" height="12" class="bar"/>
+<text x="875" y="6015" class="value">6.000</text>
+<text x="202" y="6033" text-anchor="end" class="label">ritpāšu I</text>
+<rect x="210" y="6022" width="659" height="12" class="bar"/>
+<text x="875" y="6033" class="value">6.000</text>
+<text x="202" y="6051" text-anchor="end" class="label">riābu I</text>
+<rect x="210" y="6040" width="659" height="12" class="bar"/>
+<text x="875" y="6051" class="value">6.000</text>
+<text x="202" y="6069" text-anchor="end" class="label">riāqu I</text>
+<rect x="210" y="6058" width="659" height="12" class="bar"/>
+<text x="875" y="6069" class="value">6.000</text>
+<text x="202" y="6087" text-anchor="end" class="label">rubû I</text>
+<rect x="210" y="6076" width="659" height="12" class="bar"/>
+<text x="875" y="6087" class="value">6.000</text>
+<text x="202" y="6105" text-anchor="end" class="label">ruššû I</text>
+<rect x="210" y="6094" width="659" height="12" class="bar"/>
+<text x="875" y="6105" class="value">6.000</text>
+<text x="202" y="6123" text-anchor="end" class="label">rāšû I</text>
+<rect x="210" y="6112" width="659" height="12" class="bar"/>
+<text x="875" y="6123" class="value">6.000</text>
+<text x="202" y="6141" text-anchor="end" class="label">rē&#x27;û I</text>
+<rect x="210" y="6130" width="659" height="12" class="bar"/>
+<text x="875" y="6141" class="value">6.000</text>
+<text x="202" y="6159" text-anchor="end" class="label">rēmu I</text>
+<rect x="210" y="6148" width="659" height="12" class="bar"/>
+<text x="875" y="6159" class="value">6.000</text>
+<text x="202" y="6177" text-anchor="end" class="label">rēšiš I</text>
+<rect x="210" y="6166" width="659" height="12" class="bar"/>
+<text x="875" y="6177" class="value">6.000</text>
+<text x="202" y="6195" text-anchor="end" class="label">rū&#x27;u I</text>
+<rect x="210" y="6184" width="659" height="12" class="bar"/>
+<text x="875" y="6195" class="value">6.000</text>
+<text x="202" y="6213" text-anchor="end" class="label">sahhu II</text>
+<rect x="210" y="6202" width="659" height="12" class="bar"/>
+<text x="875" y="6213" class="value">6.000</text>
+<text x="202" y="6231" text-anchor="end" class="label">sakālu I</text>
+<rect x="210" y="6220" width="659" height="12" class="bar"/>
+<text x="875" y="6231" class="value">6.000</text>
+<text x="202" y="6249" text-anchor="end" class="label">salātu II</text>
+<rect x="210" y="6238" width="659" height="12" class="bar"/>
+<text x="875" y="6249" class="value">6.000</text>
+<text x="202" y="6267" text-anchor="end" class="label">samku I</text>
+<rect x="210" y="6256" width="659" height="12" class="bar"/>
+<text x="875" y="6267" class="value">6.000</text>
+<text x="202" y="6285" text-anchor="end" class="label">sanāqu I</text>
+<rect x="210" y="6274" width="659" height="12" class="bar"/>
+<text x="875" y="6285" class="value">6.000</text>
+<text x="202" y="6303" text-anchor="end" class="label">sarmā&#x27;u I</text>
+<rect x="210" y="6292" width="659" height="12" class="bar"/>
+<text x="875" y="6303" class="value">6.000</text>
+<text x="202" y="6321" text-anchor="end" class="label">tamû II</text>
+<rect x="210" y="6310" width="659" height="12" class="bar"/>
+<text x="875" y="6321" class="value">6.000</text>
+<text x="202" y="6339" text-anchor="end" class="label">terku I</text>
+<rect x="210" y="6328" width="659" height="12" class="bar"/>
+<text x="875" y="6339" class="value">6.000</text>
+<text x="202" y="6357" text-anchor="end" class="label">tiāmtu I</text>
+<rect x="210" y="6346" width="659" height="12" class="bar"/>
+<text x="875" y="6357" class="value">6.000</text>
+<text x="202" y="6375" text-anchor="end" class="label">ukkuliš I</text>
+<rect x="210" y="6364" width="659" height="12" class="bar"/>
+<text x="875" y="6375" class="value">6.000</text>
+<text x="202" y="6393" text-anchor="end" class="label">ulla II</text>
+<rect x="210" y="6382" width="659" height="12" class="bar"/>
+<text x="875" y="6393" class="value">6.000</text>
+<text x="202" y="6411" text-anchor="end" class="label">ulālu I</text>
+<rect x="210" y="6400" width="659" height="12" class="bar"/>
+<text x="875" y="6411" class="value">6.000</text>
+<text x="202" y="6429" text-anchor="end" class="label">usandû I</text>
+<rect x="210" y="6418" width="659" height="12" class="bar"/>
+<text x="875" y="6429" class="value">6.000</text>
+<text x="202" y="6447" text-anchor="end" class="label">wašāru I</text>
+<rect x="210" y="6436" width="659" height="12" class="bar"/>
+<text x="875" y="6447" class="value">6.000</text>
+<text x="202" y="6465" text-anchor="end" class="label">yâšim I</text>
+<rect x="210" y="6454" width="659" height="12" class="bar"/>
+<text x="875" y="6465" class="value">6.000</text>
+<text x="202" y="6483" text-anchor="end" class="label">zilullîš I</text>
+<rect x="210" y="6472" width="659" height="12" class="bar"/>
+<text x="875" y="6483" class="value">6.000</text>
+<text x="202" y="6501" text-anchor="end" class="label">ālittu I</text>
+<rect x="210" y="6490" width="659" height="12" class="bar"/>
+<text x="875" y="6501" class="value">6.000</text>
+<text x="202" y="6519" text-anchor="end" class="label">ālu I</text>
+<rect x="210" y="6508" width="659" height="12" class="bar"/>
+<text x="875" y="6519" class="value">6.000</text>
+<text x="202" y="6537" text-anchor="end" class="label">šagāšu I</text>
+<rect x="210" y="6526" width="659" height="12" class="bar"/>
+<text x="875" y="6537" class="value">6.000</text>
+<text x="202" y="6555" text-anchor="end" class="label">šalṭu I</text>
+<rect x="210" y="6544" width="659" height="12" class="bar"/>
+<text x="875" y="6555" class="value">6.000</text>
+<text x="202" y="6573" text-anchor="end" class="label">šamšu I</text>
+<rect x="210" y="6562" width="659" height="12" class="bar"/>
+<text x="875" y="6573" class="value">6.000</text>
+<text x="202" y="6591" text-anchor="end" class="label">šanîš I</text>
+<rect x="210" y="6580" width="659" height="12" class="bar"/>
+<text x="875" y="6591" class="value">6.000</text>
+<text x="202" y="6609" text-anchor="end" class="label">šanûti I</text>
+<rect x="210" y="6598" width="659" height="12" class="bar"/>
+<text x="875" y="6609" class="value">6.000</text>
+<text x="202" y="6627" text-anchor="end" class="label">šapû II</text>
+<rect x="210" y="6616" width="659" height="12" class="bar"/>
+<text x="875" y="6627" class="value">6.000</text>
+<text x="202" y="6645" text-anchor="end" class="label">šarhiš I</text>
+<rect x="210" y="6634" width="659" height="12" class="bar"/>
+<text x="875" y="6645" class="value">6.000</text>
+<text x="202" y="6663" text-anchor="end" class="label">šarrabu I</text>
+<rect x="210" y="6652" width="659" height="12" class="bar"/>
+<text x="875" y="6663" class="value">6.000</text>
+<text x="202" y="6681" text-anchor="end" class="label">šarratu I</text>
+<rect x="210" y="6670" width="659" height="12" class="bar"/>
+<text x="875" y="6681" class="value">6.000</text>
+<text x="202" y="6699" text-anchor="end" class="label">šattu I</text>
+<rect x="210" y="6688" width="659" height="12" class="bar"/>
+<text x="875" y="6699" class="value">6.000</text>
+<text x="202" y="6717" text-anchor="end" class="label">šittān I</text>
+<rect x="210" y="6706" width="659" height="12" class="bar"/>
+<text x="875" y="6717" class="value">6.000</text>
+<text x="202" y="6735" text-anchor="end" class="label">šummu I</text>
+<rect x="210" y="6724" width="659" height="12" class="bar"/>
+<text x="875" y="6735" class="value">6.000</text>
+<text x="202" y="6753" text-anchor="end" class="label">šumu I</text>
+<rect x="210" y="6742" width="659" height="12" class="bar"/>
+<text x="875" y="6753" class="value">6.000</text>
+<text x="202" y="6771" text-anchor="end" class="label">šupšuqu I</text>
+<rect x="210" y="6760" width="659" height="12" class="bar"/>
+<text x="875" y="6771" class="value">6.000</text>
+<text x="202" y="6789" text-anchor="end" class="label">šībūtu I</text>
+<rect x="210" y="6778" width="659" height="12" class="bar"/>
+<text x="875" y="6789" class="value">6.000</text>
+<text x="202" y="6807" text-anchor="end" class="label">šīru I</text>
+<rect x="210" y="6796" width="659" height="12" class="bar"/>
+<text x="875" y="6807" class="value">6.000</text>
+<text x="202" y="6825" text-anchor="end" class="label">ūsu I</text>
+<rect x="210" y="6814" width="659" height="12" class="bar"/>
+<text x="875" y="6825" class="value">6.000</text>
+<text x="202" y="6843" text-anchor="end" class="label">ṭapālu I</text>
+<rect x="210" y="6832" width="659" height="12" class="bar"/>
+<text x="875" y="6843" class="value">6.000</text>
+<text x="202" y="6861" text-anchor="end" class="label">ṭīdu I</text>
+<rect x="210" y="6850" width="659" height="12" class="bar"/>
+<text x="875" y="6861" class="value">6.000</text>
+<text x="202" y="6879" text-anchor="end" class="label">Zulummar I</text>
+<rect x="210" y="6868" width="614" height="12" class="bar"/>
+<text x="830" y="6879" class="value">5.595</text>
+<text x="202" y="6897" text-anchor="end" class="label">abšānu I</text>
+<rect x="210" y="6886" width="614" height="12" class="bar"/>
+<text x="830" y="6897" class="value">5.595</text>
+<text x="202" y="6915" text-anchor="end" class="label">agarinnu I</text>
+<rect x="210" y="6904" width="614" height="12" class="bar"/>
+<text x="830" y="6915" class="value">5.595</text>
+<text x="202" y="6933" text-anchor="end" class="label">aggu I</text>
+<rect x="210" y="6922" width="614" height="12" class="bar"/>
+<text x="830" y="6933" class="value">5.595</text>
+<text x="202" y="6951" text-anchor="end" class="label">akalu I</text>
+<rect x="210" y="6940" width="614" height="12" class="bar"/>
+<text x="830" y="6951" class="value">5.595</text>
+<text x="202" y="6969" text-anchor="end" class="label">akālu I</text>
+<rect x="210" y="6958" width="614" height="12" class="bar"/>
+<text x="830" y="6969" class="value">5.595</text>
+<text x="202" y="6987" text-anchor="end" class="label">ana II</text>
+<rect x="210" y="6976" width="614" height="12" class="bar"/>
+<text x="830" y="6987" class="value">5.595</text>
+<text x="202" y="7005" text-anchor="end" class="label">annû I</text>
+<rect x="210" y="6994" width="614" height="12" class="bar"/>
+<text x="830" y="7005" class="value">5.595</text>
+<text x="202" y="7023" text-anchor="end" class="label">arnu I</text>
+<rect x="210" y="7012" width="614" height="12" class="bar"/>
+<text x="830" y="7023" class="value">5.595</text>
+<text x="202" y="7041" text-anchor="end" class="label">atwû I</text>
+<rect x="210" y="7030" width="614" height="12" class="bar"/>
+<text x="830" y="7041" class="value">5.595</text>
+<text x="202" y="7059" text-anchor="end" class="label">awīlu I</text>
+<rect x="210" y="7048" width="614" height="12" class="bar"/>
+<text x="830" y="7059" class="value">5.595</text>
+<text x="202" y="7077" text-anchor="end" class="label">ayyānu I</text>
+<rect x="210" y="7066" width="614" height="12" class="bar"/>
+<text x="830" y="7077" class="value">5.595</text>
+<text x="202" y="7095" text-anchor="end" class="label">aššu I</text>
+<rect x="210" y="7084" width="614" height="12" class="bar"/>
+<text x="830" y="7095" class="value">5.595</text>
+<text x="202" y="7113" text-anchor="end" class="label">balu I</text>
+<rect x="210" y="7102" width="614" height="12" class="bar"/>
+<text x="830" y="7113" class="value">5.595</text>
+<text x="202" y="7131" text-anchor="end" class="label">banû IV</text>
+<rect x="210" y="7120" width="614" height="12" class="bar"/>
+<text x="830" y="7131" class="value">5.595</text>
+<text x="202" y="7149" text-anchor="end" class="label">bēšu I</text>
+<rect x="210" y="7138" width="614" height="12" class="bar"/>
+<text x="830" y="7149" class="value">5.595</text>
+<text x="202" y="7167" text-anchor="end" class="label">bītbītiš I</text>
+<rect x="210" y="7156" width="614" height="12" class="bar"/>
+<text x="830" y="7167" class="value">5.595</text>
+<text x="202" y="7185" text-anchor="end" class="label">dannu I</text>
+<rect x="210" y="7174" width="614" height="12" class="bar"/>
+<text x="830" y="7185" class="value">5.595</text>
+<text x="202" y="7203" text-anchor="end" class="label">darāsu I</text>
+<rect x="210" y="7192" width="614" height="12" class="bar"/>
+<text x="830" y="7203" class="value">5.595</text>
+<text x="202" y="7221" text-anchor="end" class="label">dubbubiš I</text>
+<rect x="210" y="7210" width="614" height="12" class="bar"/>
+<text x="830" y="7221" class="value">5.595</text>
+<text x="202" y="7239" text-anchor="end" class="label">ebēbu I</text>
+<rect x="210" y="7228" width="614" height="12" class="bar"/>
+<text x="830" y="7239" class="value">5.595</text>
+<text x="202" y="7257" text-anchor="end" class="label">edēlu I</text>
+<rect x="210" y="7246" width="614" height="12" class="bar"/>
+<text x="830" y="7257" class="value">5.595</text>
+<text x="202" y="7275" text-anchor="end" class="label">emēdu I</text>
+<rect x="210" y="7264" width="614" height="12" class="bar"/>
+<text x="830" y="7275" class="value">5.595</text>
+<text x="202" y="7293" text-anchor="end" class="label">enu I</text>
+<rect x="210" y="7282" width="614" height="12" class="bar"/>
+<text x="830" y="7293" class="value">5.595</text>
+<text x="202" y="7311" text-anchor="end" class="label">etnušu I</text>
+<rect x="210" y="7300" width="614" height="12" class="bar"/>
+<text x="830" y="7311" class="value">5.595</text>
+<text x="202" y="7329" text-anchor="end" class="label">gamāru II</text>
+<rect x="210" y="7318" width="614" height="12" class="bar"/>
+<text x="830" y="7329" class="value">5.595</text>
+<text x="202" y="7347" text-anchor="end" class="label">gattu I</text>
+<rect x="210" y="7336" width="614" height="12" class="bar"/>
+<text x="830" y="7347" class="value">5.595</text>
+<text x="202" y="7365" text-anchor="end" class="label">gillatu I</text>
+<rect x="210" y="7354" width="614" height="12" class="bar"/>
+<text x="830" y="7365" class="value">5.595</text>
+<text x="202" y="7383" text-anchor="end" class="label">gipšu I</text>
+<rect x="210" y="7372" width="614" height="12" class="bar"/>
+<text x="830" y="7383" class="value">5.595</text>
+<text x="202" y="7401" text-anchor="end" class="label">gitmālu I</text>
+<rect x="210" y="7390" width="614" height="12" class="bar"/>
+<text x="830" y="7401" class="value">5.595</text>
+<text x="202" y="7419" text-anchor="end" class="label">gišimmaru I</text>
+<rect x="210" y="7408" width="614" height="12" class="bar"/>
+<text x="830" y="7419" class="value">5.595</text>
+<text x="202" y="7437" text-anchor="end" class="label">gêsu I</text>
+<rect x="210" y="7426" width="614" height="12" class="bar"/>
+<text x="830" y="7437" class="value">5.595</text>
+<text x="202" y="7455" text-anchor="end" class="label">gīriš I</text>
+<rect x="210" y="7444" width="614" height="12" class="bar"/>
+<text x="830" y="7455" class="value">5.595</text>
+<text x="202" y="7473" text-anchor="end" class="label">harharru I</text>
+<rect x="210" y="7462" width="614" height="12" class="bar"/>
+<text x="830" y="7473" class="value">5.595</text>
+<text x="202" y="7491" text-anchor="end" class="label">hasāsu I</text>
+<rect x="210" y="7480" width="614" height="12" class="bar"/>
+<text x="830" y="7491" class="value">5.595</text>
+<text x="202" y="7509" text-anchor="end" class="label">haštu I</text>
+<rect x="210" y="7498" width="614" height="12" class="bar"/>
+<text x="830" y="7509" class="value">5.595</text>
+<text x="202" y="7527" text-anchor="end" class="label">huršānu I</text>
+<rect x="210" y="7516" width="614" height="12" class="bar"/>
+<text x="830" y="7527" class="value">5.595</text>
+<text x="202" y="7545" text-anchor="end" class="label">itpēšu I</text>
+<rect x="210" y="7534" width="614" height="12" class="bar"/>
+<text x="830" y="7545" class="value">5.595</text>
+<text x="202" y="7563" text-anchor="end" class="label">išpiku I</text>
+<rect x="210" y="7552" width="614" height="12" class="bar"/>
+<text x="830" y="7563" class="value">5.595</text>
+<text x="202" y="7581" text-anchor="end" class="label">išti I</text>
+<rect x="210" y="7570" width="614" height="12" class="bar"/>
+<text x="830" y="7581" class="value">5.595</text>
+<text x="202" y="7599" text-anchor="end" class="label">ištu I</text>
+<rect x="210" y="7588" width="614" height="12" class="bar"/>
+<text x="830" y="7599" class="value">5.595</text>
+<text x="202" y="7617" text-anchor="end" class="label">iṣu I</text>
+<rect x="210" y="7606" width="614" height="12" class="bar"/>
+<text x="830" y="7617" class="value">5.595</text>
+<text x="202" y="7635" text-anchor="end" class="label">kakku I</text>
+<rect x="210" y="7624" width="614" height="12" class="bar"/>
+<text x="830" y="7635" class="value">5.595</text>
+<text x="202" y="7653" text-anchor="end" class="label">kalû V</text>
+<rect x="210" y="7642" width="614" height="12" class="bar"/>
+<text x="830" y="7653" class="value">5.595</text>
+<text x="202" y="7671" text-anchor="end" class="label">kašādu I</text>
+<rect x="210" y="7660" width="614" height="12" class="bar"/>
+<text x="830" y="7671" class="value">5.595</text>
+<text x="202" y="7689" text-anchor="end" class="label">kašāšu I</text>
+<rect x="210" y="7678" width="614" height="12" class="bar"/>
+<text x="830" y="7689" class="value">5.595</text>
+<text x="202" y="7707" text-anchor="end" class="label">kurunu I</text>
+<rect x="210" y="7696" width="614" height="12" class="bar"/>
+<text x="830" y="7707" class="value">5.595</text>
+<text x="202" y="7725" text-anchor="end" class="label">kuṣṣudu I</text>
+<rect x="210" y="7714" width="614" height="12" class="bar"/>
+<text x="830" y="7725" class="value">5.595</text>
+<text x="202" y="7743" text-anchor="end" class="label">kâti I</text>
+<rect x="210" y="7732" width="614" height="12" class="bar"/>
+<text x="830" y="7743" class="value">5.595</text>
+<text x="202" y="7761" text-anchor="end" class="label">kâšim I</text>
+<rect x="210" y="7750" width="614" height="12" class="bar"/>
+<text x="830" y="7761" class="value">5.595</text>
+<text x="202" y="7779" text-anchor="end" class="label">kūru I</text>
+<rect x="210" y="7768" width="614" height="12" class="bar"/>
+<text x="830" y="7779" class="value">5.595</text>
+<text x="202" y="7797" text-anchor="end" class="label">lāmu I</text>
+<rect x="210" y="7786" width="614" height="12" class="bar"/>
+<text x="830" y="7797" class="value">5.595</text>
+<text x="202" y="7815" text-anchor="end" class="label">lītu II</text>
+<rect x="210" y="7804" width="614" height="12" class="bar"/>
+<text x="830" y="7815" class="value">5.595</text>
+<text x="202" y="7833" text-anchor="end" class="label">mahru II</text>
+<rect x="210" y="7822" width="614" height="12" class="bar"/>
+<text x="830" y="7833" class="value">5.595</text>
+<text x="202" y="7851" text-anchor="end" class="label">maqātu I</text>
+<rect x="210" y="7840" width="614" height="12" class="bar"/>
+<text x="830" y="7851" class="value">5.595</text>
+<text x="202" y="7869" text-anchor="end" class="label">mekû V</text>
+<rect x="210" y="7858" width="614" height="12" class="bar"/>
+<text x="830" y="7869" class="value">5.595</text>
+<text x="202" y="7887" text-anchor="end" class="label">mihiṣtu I</text>
+<rect x="210" y="7876" width="614" height="12" class="bar"/>
+<text x="830" y="7887" class="value">5.595</text>
+<text x="202" y="7905" text-anchor="end" class="label">mithāriš I</text>
+<rect x="210" y="7894" width="614" height="12" class="bar"/>
+<text x="830" y="7905" class="value">5.595</text>
+<text x="202" y="7923" text-anchor="end" class="label">miṭirtu I</text>
+<rect x="210" y="7912" width="614" height="12" class="bar"/>
+<text x="830" y="7923" class="value">5.595</text>
+<text x="202" y="7941" text-anchor="end" class="label">muhhu I</text>
+<rect x="210" y="7930" width="614" height="12" class="bar"/>
+<text x="830" y="7941" class="value">5.595</text>
+<text x="202" y="7959" text-anchor="end" class="label">mutnennû I</text>
+<rect x="210" y="7948" width="614" height="12" class="bar"/>
+<text x="830" y="7959" class="value">5.595</text>
+<text x="202" y="7977" text-anchor="end" class="label">muttu I</text>
+<rect x="210" y="7966" width="614" height="12" class="bar"/>
+<text x="830" y="7977" class="value">5.595</text>
+<text x="202" y="7995" text-anchor="end" class="label">mêšu I</text>
+<rect x="210" y="7984" width="614" height="12" class="bar"/>
+<text x="830" y="7995" class="value">5.595</text>
+<text x="202" y="8013" text-anchor="end" class="label">mūdû I</text>
+<rect x="210" y="8002" width="614" height="12" class="bar"/>
+<text x="830" y="8013" class="value">5.595</text>
+<text x="202" y="8031" text-anchor="end" class="label">mūtu I</text>
+<rect x="210" y="8020" width="614" height="12" class="bar"/>
+<text x="830" y="8031" class="value">5.595</text>
+<text x="202" y="8049" text-anchor="end" class="label">naharmumu I</text>
+<rect x="210" y="8038" width="614" height="12" class="bar"/>
+<text x="830" y="8049" class="value">5.595</text>
+<text x="202" y="8067" text-anchor="end" class="label">nahšu I</text>
+<rect x="210" y="8056" width="614" height="12" class="bar"/>
+<text x="830" y="8067" class="value">5.595</text>
+<text x="202" y="8085" text-anchor="end" class="label">nakruṭu I</text>
+<rect x="210" y="8074" width="614" height="12" class="bar"/>
+<text x="830" y="8085" class="value">5.595</text>
+<text x="202" y="8103" text-anchor="end" class="label">naptanu I</text>
+<rect x="210" y="8092" width="614" height="12" class="bar"/>
+<text x="830" y="8103" class="value">5.595</text>
+<text x="202" y="8121" text-anchor="end" class="label">ne&#x27;ellû I</text>
+<rect x="210" y="8110" width="614" height="12" class="bar"/>
+<text x="830" y="8121" class="value">5.595</text>
+<text x="202" y="8139" text-anchor="end" class="label">nibītu I</text>
+<rect x="210" y="8128" width="614" height="12" class="bar"/>
+<text x="830" y="8139" class="value">5.595</text>
+<text x="202" y="8157" text-anchor="end" class="label">nindabû I</text>
+<rect x="210" y="8146" width="614" height="12" class="bar"/>
+<text x="830" y="8157" class="value">5.595</text>
+<text x="202" y="8175" text-anchor="end" class="label">nēmelu I</text>
+<rect x="210" y="8164" width="614" height="12" class="bar"/>
+<text x="830" y="8175" class="value">5.595</text>
+<text x="202" y="8193" text-anchor="end" class="label">nēšu I</text>
+<rect x="210" y="8182" width="614" height="12" class="bar"/>
+<text x="830" y="8193" class="value">5.595</text>
+<text x="202" y="8211" text-anchor="end" class="label">nīru I</text>
+<rect x="210" y="8200" width="614" height="12" class="bar"/>
+<text x="830" y="8211" class="value">5.595</text>
+<text x="202" y="8229" text-anchor="end" class="label">pa&#x27;āṣu I</text>
+<rect x="210" y="8218" width="614" height="12" class="bar"/>
+<text x="830" y="8229" class="value">5.595</text>
+<text x="202" y="8247" text-anchor="end" class="label">panû I</text>
+<rect x="210" y="8236" width="614" height="12" class="bar"/>
+<text x="830" y="8247" class="value">5.595</text>
+<text x="202" y="8265" text-anchor="end" class="label">parāsu I</text>
+<rect x="210" y="8254" width="614" height="12" class="bar"/>
+<text x="830" y="8265" class="value">5.595</text>
+<text x="202" y="8283" text-anchor="end" class="label">pašallu I</text>
+<rect x="210" y="8272" width="614" height="12" class="bar"/>
+<text x="830" y="8283" class="value">5.595</text>
+<text x="202" y="8301" text-anchor="end" class="label">qarānu I</text>
+<rect x="210" y="8290" width="614" height="12" class="bar"/>
+<text x="830" y="8301" class="value">5.595</text>
+<text x="202" y="8319" text-anchor="end" class="label">qayyašu I</text>
+<rect x="210" y="8308" width="614" height="12" class="bar"/>
+<text x="830" y="8319" class="value">5.595</text>
+<text x="202" y="8337" text-anchor="end" class="label">qātu I</text>
+<rect x="210" y="8326" width="614" height="12" class="bar"/>
+<text x="830" y="8337" class="value">5.595</text>
+<text x="202" y="8355" text-anchor="end" class="label">rahāṣu I</text>
+<rect x="210" y="8344" width="614" height="12" class="bar"/>
+<text x="830" y="8355" class="value">5.595</text>
+<text x="202" y="8373" text-anchor="end" class="label">rapādu II</text>
+<rect x="210" y="8362" width="614" height="12" class="bar"/>
+<text x="830" y="8373" class="value">5.595</text>
+<text x="202" y="8391" text-anchor="end" class="label">rukūbu I</text>
+<rect x="210" y="8380" width="614" height="12" class="bar"/>
+<text x="830" y="8391" class="value">5.595</text>
+<text x="202" y="8409" text-anchor="end" class="label">rêmu I</text>
+<rect x="210" y="8398" width="614" height="12" class="bar"/>
+<text x="830" y="8409" class="value">5.595</text>
+<text x="202" y="8427" text-anchor="end" class="label">rēmēnû I</text>
+<rect x="210" y="8416" width="614" height="12" class="bar"/>
+<text x="830" y="8427" class="value">5.595</text>
+<text x="202" y="8445" text-anchor="end" class="label">sadru I</text>
+<rect x="210" y="8434" width="614" height="12" class="bar"/>
+<text x="830" y="8445" class="value">5.595</text>
+<text x="202" y="8463" text-anchor="end" class="label">sadāru I</text>
+<rect x="210" y="8452" width="614" height="12" class="bar"/>
+<text x="830" y="8463" class="value">5.595</text>
+<text x="202" y="8481" text-anchor="end" class="label">sagû I</text>
+<rect x="210" y="8470" width="614" height="12" class="bar"/>
+<text x="830" y="8481" class="value">5.595</text>
+<text x="202" y="8499" text-anchor="end" class="label">sahhu I</text>
+<rect x="210" y="8488" width="614" height="12" class="bar"/>
+<text x="830" y="8499" class="value">5.595</text>
+<text x="202" y="8517" text-anchor="end" class="label">samîš I</text>
+<rect x="210" y="8506" width="614" height="12" class="bar"/>
+<text x="830" y="8517" class="value">5.595</text>
+<text x="202" y="8535" text-anchor="end" class="label">sanqu I</text>
+<rect x="210" y="8524" width="614" height="12" class="bar"/>
+<text x="830" y="8535" class="value">5.595</text>
+<text x="202" y="8553" text-anchor="end" class="label">saphu I</text>
+<rect x="210" y="8542" width="614" height="12" class="bar"/>
+<text x="830" y="8553" class="value">5.595</text>
+<text x="202" y="8571" text-anchor="end" class="label">sarriš I</text>
+<rect x="210" y="8560" width="614" height="12" class="bar"/>
+<text x="830" y="8571" class="value">5.595</text>
+<text x="202" y="8589" text-anchor="end" class="label">supû I</text>
+<rect x="210" y="8578" width="614" height="12" class="bar"/>
+<text x="830" y="8589" class="value">5.595</text>
+<text x="202" y="8607" text-anchor="end" class="label">tabīnu I</text>
+<rect x="210" y="8596" width="614" height="12" class="bar"/>
+<text x="830" y="8607" class="value">5.595</text>
+<text x="202" y="8625" text-anchor="end" class="label">tardennu I</text>
+<rect x="210" y="8614" width="614" height="12" class="bar"/>
+<text x="830" y="8625" class="value">5.595</text>
+<text x="202" y="8643" text-anchor="end" class="label">tupšikku I</text>
+<rect x="210" y="8632" width="614" height="12" class="bar"/>
+<text x="830" y="8643" class="value">5.595</text>
+<text x="202" y="8661" text-anchor="end" class="label">tārû I</text>
+<rect x="210" y="8650" width="614" height="12" class="bar"/>
+<text x="830" y="8661" class="value">5.595</text>
+<text x="202" y="8679" text-anchor="end" class="label">tēmīqu I</text>
+<rect x="210" y="8668" width="614" height="12" class="bar"/>
+<text x="830" y="8679" class="value">5.595</text>
+<text x="202" y="8697" text-anchor="end" class="label">uṣurtu I</text>
+<rect x="210" y="8686" width="614" height="12" class="bar"/>
+<text x="830" y="8697" class="value">5.595</text>
+<text x="202" y="8715" text-anchor="end" class="label">uṣṣuṣu I</text>
+<rect x="210" y="8704" width="614" height="12" class="bar"/>
+<text x="830" y="8715" class="value">5.595</text>
+<text x="202" y="8733" text-anchor="end" class="label">âdu I</text>
+<rect x="210" y="8722" width="614" height="12" class="bar"/>
+<text x="830" y="8733" class="value">5.595</text>
+<text x="202" y="8751" text-anchor="end" class="label">šabāsu I</text>
+<rect x="210" y="8740" width="614" height="12" class="bar"/>
+<text x="830" y="8751" class="value">5.595</text>
+<text x="202" y="8769" text-anchor="end" class="label">šamhu I</text>
+<rect x="210" y="8758" width="614" height="12" class="bar"/>
+<text x="830" y="8769" class="value">5.595</text>
+<text x="202" y="8787" text-anchor="end" class="label">šammu I</text>
+<rect x="210" y="8776" width="614" height="12" class="bar"/>
+<text x="830" y="8787" class="value">5.595</text>
+<text x="202" y="8805" text-anchor="end" class="label">šanû IV</text>
+<rect x="210" y="8794" width="614" height="12" class="bar"/>
+<text x="830" y="8805" class="value">5.595</text>
+<text x="202" y="8823" text-anchor="end" class="label">šanānu I</text>
+<rect x="210" y="8812" width="614" height="12" class="bar"/>
+<text x="830" y="8823" class="value">5.595</text>
+<text x="202" y="8841" text-anchor="end" class="label">šarrāqiš I</text>
+<rect x="210" y="8830" width="614" height="12" class="bar"/>
+<text x="830" y="8841" class="value">5.595</text>
+<text x="202" y="8859" text-anchor="end" class="label">šassūru I</text>
+<rect x="210" y="8848" width="614" height="12" class="bar"/>
+<text x="830" y="8859" class="value">5.595</text>
+<text x="202" y="8877" text-anchor="end" class="label">šemû I</text>
+<rect x="210" y="8866" width="614" height="12" class="bar"/>
+<text x="830" y="8877" class="value">5.595</text>
+<text x="202" y="8895" text-anchor="end" class="label">šibqū I</text>
+<rect x="210" y="8884" width="614" height="12" class="bar"/>
+<text x="830" y="8895" class="value">5.595</text>
+<text x="202" y="8913" text-anchor="end" class="label">šiāmu I</text>
+<rect x="210" y="8902" width="614" height="12" class="bar"/>
+<text x="830" y="8913" class="value">5.595</text>
+<text x="202" y="8931" text-anchor="end" class="label">šukāmu I</text>
+<rect x="210" y="8920" width="614" height="12" class="bar"/>
+<text x="830" y="8931" class="value">5.595</text>
+<text x="202" y="8949" text-anchor="end" class="label">šumhu I</text>
+<rect x="210" y="8938" width="614" height="12" class="bar"/>
+<text x="830" y="8949" class="value">5.595</text>
+<text x="202" y="8967" text-anchor="end" class="label">šuātu I</text>
+<rect x="210" y="8956" width="614" height="12" class="bar"/>
+<text x="830" y="8967" class="value">5.595</text>
+<text x="202" y="8985" text-anchor="end" class="label">šāru I</text>
+<rect x="210" y="8974" width="614" height="12" class="bar"/>
+<text x="830" y="8985" class="value">5.595</text>
+<text x="202" y="9003" text-anchor="end" class="label">šēru I</text>
+<rect x="210" y="8992" width="614" height="12" class="bar"/>
+<text x="830" y="9003" class="value">5.595</text>
+<text x="202" y="9021" text-anchor="end" class="label">ṣāriru I</text>
+<rect x="210" y="9010" width="614" height="12" class="bar"/>
+<text x="830" y="9021" class="value">5.595</text>
+<text x="202" y="9039" text-anchor="end" class="label">ṣēru I</text>
+<rect x="210" y="9028" width="614" height="12" class="bar"/>
+<text x="830" y="9039" class="value">5.595</text>
+<text x="202" y="9057" text-anchor="end" class="label">ṭapāpiš I</text>
+<rect x="210" y="9046" width="614" height="12" class="bar"/>
+<text x="830" y="9057" class="value">5.595</text>
+<text x="202" y="9075" text-anchor="end" class="label">ṭapāpu I</text>
+<rect x="210" y="9064" width="614" height="12" class="bar"/>
+<text x="830" y="9075" class="value">5.595</text>
+<text x="202" y="9093" text-anchor="end" class="label">ṭābu I</text>
+<rect x="210" y="9082" width="614" height="12" class="bar"/>
+<text x="830" y="9093" class="value">5.595</text>
+<text x="202" y="9111" text-anchor="end" class="label">Mami I</text>
+<rect x="210" y="9100" width="583" height="12" class="bar"/>
+<text x="799" y="9111" class="value">5.307</text>
+<text x="202" y="9129" text-anchor="end" class="label">abu I</text>
+<rect x="210" y="9118" width="583" height="12" class="bar"/>
+<text x="799" y="9129" class="value">5.307</text>
+<text x="202" y="9147" text-anchor="end" class="label">ahurrû I</text>
+<rect x="210" y="9136" width="583" height="12" class="bar"/>
+<text x="799" y="9147" class="value">5.307</text>
+<text x="202" y="9165" text-anchor="end" class="label">ammatu II</text>
+<rect x="210" y="9154" width="583" height="12" class="bar"/>
+<text x="799" y="9165" class="value">5.307</text>
+<text x="202" y="9183" text-anchor="end" class="label">anzillu I</text>
+<rect x="210" y="9172" width="583" height="12" class="bar"/>
+<text x="799" y="9183" class="value">5.307</text>
+<text x="202" y="9201" text-anchor="end" class="label">appu I</text>
+<rect x="210" y="9190" width="583" height="12" class="bar"/>
+<text x="799" y="9201" class="value">5.307</text>
+<text x="202" y="9219" text-anchor="end" class="label">apâtu I</text>
+<rect x="210" y="9208" width="583" height="12" class="bar"/>
+<text x="799" y="9219" class="value">5.307</text>
+<text x="202" y="9237" text-anchor="end" class="label">aqû I</text>
+<rect x="210" y="9226" width="583" height="12" class="bar"/>
+<text x="799" y="9237" class="value">5.307</text>
+<text x="202" y="9255" text-anchor="end" class="label">arāku I</text>
+<rect x="210" y="9244" width="583" height="12" class="bar"/>
+<text x="799" y="9255" class="value">5.307</text>
+<text x="202" y="9273" text-anchor="end" class="label">atāru I</text>
+<rect x="210" y="9262" width="583" height="12" class="bar"/>
+<text x="799" y="9273" class="value">5.307</text>
+<text x="202" y="9291" text-anchor="end" class="label">awīlūtu I</text>
+<rect x="210" y="9280" width="583" height="12" class="bar"/>
+<text x="799" y="9291" class="value">5.307</text>
+<text x="202" y="9309" text-anchor="end" class="label">baṭālu I</text>
+<rect x="210" y="9298" width="583" height="12" class="bar"/>
+<text x="799" y="9309" class="value">5.307</text>
+<text x="202" y="9327" text-anchor="end" class="label">bukru I</text>
+<rect x="210" y="9316" width="583" height="12" class="bar"/>
+<text x="799" y="9327" class="value">5.307</text>
+<text x="202" y="9345" text-anchor="end" class="label">bêšu I</text>
+<rect x="210" y="9334" width="583" height="12" class="bar"/>
+<text x="799" y="9345" class="value">5.307</text>
+<text x="202" y="9363" text-anchor="end" class="label">bānû I</text>
+<rect x="210" y="9352" width="583" height="12" class="bar"/>
+<text x="799" y="9363" class="value">5.307</text>
+<text x="202" y="9381" text-anchor="end" class="label">dabābu II</text>
+<rect x="210" y="9370" width="583" height="12" class="bar"/>
+<text x="799" y="9381" class="value">5.307</text>
+<text x="202" y="9399" text-anchor="end" class="label">damqu I</text>
+<rect x="210" y="9388" width="583" height="12" class="bar"/>
+<text x="799" y="9399" class="value">5.307</text>
+<text x="202" y="9417" text-anchor="end" class="label">duššupu I</text>
+<rect x="210" y="9406" width="583" height="12" class="bar"/>
+<text x="799" y="9417" class="value">5.307</text>
+<text x="202" y="9435" text-anchor="end" class="label">ebūru I</text>
+<rect x="210" y="9424" width="583" height="12" class="bar"/>
+<text x="799" y="9435" class="value">5.307</text>
+<text x="202" y="9453" text-anchor="end" class="label">edû II</text>
+<rect x="210" y="9442" width="583" height="12" class="bar"/>
+<text x="799" y="9453" class="value">5.307</text>
+<text x="202" y="9471" text-anchor="end" class="label">elû III</text>
+<rect x="210" y="9460" width="583" height="12" class="bar"/>
+<text x="799" y="9471" class="value">5.307</text>
+<text x="202" y="9489" text-anchor="end" class="label">emqu I</text>
+<rect x="210" y="9478" width="583" height="12" class="bar"/>
+<text x="799" y="9489" class="value">5.307</text>
+<text x="202" y="9507" text-anchor="end" class="label">etguru I</text>
+<rect x="210" y="9496" width="583" height="12" class="bar"/>
+<text x="799" y="9507" class="value">5.307</text>
+<text x="202" y="9525" text-anchor="end" class="label">ešēru I</text>
+<rect x="210" y="9514" width="583" height="12" class="bar"/>
+<text x="799" y="9525" class="value">5.307</text>
+<text x="202" y="9543" text-anchor="end" class="label">gērû I</text>
+<rect x="210" y="9532" width="583" height="12" class="bar"/>
+<text x="799" y="9543" class="value">5.307</text>
+<text x="202" y="9561" text-anchor="end" class="label">halāqu I</text>
+<rect x="210" y="9550" width="583" height="12" class="bar"/>
+<text x="799" y="9561" class="value">5.307</text>
+<text x="202" y="9579" text-anchor="end" class="label">idu I</text>
+<rect x="210" y="9568" width="583" height="12" class="bar"/>
+<text x="799" y="9579" class="value">5.307</text>
+<text x="202" y="9597" text-anchor="end" class="label">kabattu I</text>
+<rect x="210" y="9586" width="583" height="12" class="bar"/>
+<text x="799" y="9597" class="value">5.307</text>
+<text x="202" y="9615" text-anchor="end" class="label">kalû II</text>
+<rect x="210" y="9604" width="583" height="12" class="bar"/>
+<text x="799" y="9615" class="value">5.307</text>
+<text x="202" y="9633" text-anchor="end" class="label">kamāru IV</text>
+<rect x="210" y="9622" width="583" height="12" class="bar"/>
+<text x="799" y="9633" class="value">5.307</text>
+<text x="202" y="9651" text-anchor="end" class="label">kaqdâ I</text>
+<rect x="210" y="9640" width="583" height="12" class="bar"/>
+<text x="799" y="9651" class="value">5.307</text>
+<text x="202" y="9669" text-anchor="end" class="label">karābu II</text>
+<rect x="210" y="9658" width="583" height="12" class="bar"/>
+<text x="799" y="9669" class="value">5.307</text>
+<text x="202" y="9687" text-anchor="end" class="label">katûtu I</text>
+<rect x="210" y="9676" width="583" height="12" class="bar"/>
+<text x="799" y="9687" class="value">5.307</text>
+<text x="202" y="9705" text-anchor="end" class="label">kubukku I</text>
+<rect x="210" y="9694" width="583" height="12" class="bar"/>
+<text x="799" y="9705" class="value">5.307</text>
+<text x="202" y="9723" text-anchor="end" class="label">kumurrû I</text>
+<rect x="210" y="9712" width="583" height="12" class="bar"/>
+<text x="799" y="9723" class="value">5.307</text>
+<text x="202" y="9741" text-anchor="end" class="label">kunnu I</text>
+<rect x="210" y="9730" width="583" height="12" class="bar"/>
+<text x="799" y="9741" class="value">5.307</text>
+<text x="202" y="9759" text-anchor="end" class="label">kuppu I</text>
+<rect x="210" y="9748" width="583" height="12" class="bar"/>
+<text x="799" y="9759" class="value">5.307</text>
+<text x="202" y="9777" text-anchor="end" class="label">kurummu I</text>
+<rect x="210" y="9766" width="583" height="12" class="bar"/>
+<text x="799" y="9777" class="value">5.307</text>
+<text x="202" y="9795" text-anchor="end" class="label">kuāšim I</text>
+<rect x="210" y="9784" width="583" height="12" class="bar"/>
+<text x="799" y="9795" class="value">5.307</text>
+<text x="202" y="9813" text-anchor="end" class="label">kī I</text>
+<rect x="210" y="9802" width="583" height="12" class="bar"/>
+<text x="799" y="9813" class="value">5.307</text>
+<text x="202" y="9831" text-anchor="end" class="label">lumnu I</text>
+<rect x="210" y="9820" width="583" height="12" class="bar"/>
+<text x="799" y="9831" class="value">5.307</text>
+<text x="202" y="9849" text-anchor="end" class="label">malû IV</text>
+<rect x="210" y="9838" width="583" height="12" class="bar"/>
+<text x="799" y="9849" class="value">5.307</text>
+<text x="202" y="9867" text-anchor="end" class="label">maṣû I</text>
+<rect x="210" y="9856" width="583" height="12" class="bar"/>
+<text x="799" y="9867" class="value">5.307</text>
+<text x="202" y="9885" text-anchor="end" class="label">mīšaru I</text>
+<rect x="210" y="9874" width="583" height="12" class="bar"/>
+<text x="799" y="9885" class="value">5.307</text>
+<text x="202" y="9903" text-anchor="end" class="label">nakdu I</text>
+<rect x="210" y="9892" width="583" height="12" class="bar"/>
+<text x="799" y="9903" class="value">5.307</text>
+<text x="202" y="9921" text-anchor="end" class="label">namrāṣu I</text>
+<rect x="210" y="9910" width="583" height="12" class="bar"/>
+<text x="799" y="9921" class="value">5.307</text>
+<text x="202" y="9939" text-anchor="end" class="label">naparkû I</text>
+<rect x="210" y="9928" width="583" height="12" class="bar"/>
+<text x="799" y="9939" class="value">5.307</text>
+<text x="202" y="9957" text-anchor="end" class="label">naparkû II</text>
+<rect x="210" y="9946" width="583" height="12" class="bar"/>
+<text x="799" y="9957" class="value">5.307</text>
+<text x="202" y="9975" text-anchor="end" class="label">nulliātu I</text>
+<rect x="210" y="9964" width="583" height="12" class="bar"/>
+<text x="799" y="9975" class="value">5.307</text>
+<text x="202" y="9993" text-anchor="end" class="label">nāru I</text>
+<rect x="210" y="9982" width="583" height="12" class="bar"/>
+<text x="799" y="9993" class="value">5.307</text>
+<text x="202" y="10011" text-anchor="end" class="label">rêṣu I</text>
+<rect x="210" y="10000" width="583" height="12" class="bar"/>
+<text x="799" y="10011" class="value">5.307</text>
+<text x="202" y="10029" text-anchor="end" class="label">rēṣu I</text>
+<rect x="210" y="10018" width="583" height="12" class="bar"/>
+<text x="799" y="10029" class="value">5.307</text>
+<text x="202" y="10047" text-anchor="end" class="label">rūqu I</text>
+<rect x="210" y="10036" width="583" height="12" class="bar"/>
+<text x="799" y="10047" class="value">5.307</text>
+<text x="202" y="10065" text-anchor="end" class="label">sahāru I</text>
+<rect x="210" y="10054" width="583" height="12" class="bar"/>
+<text x="799" y="10065" class="value">5.307</text>
+<text x="202" y="10083" text-anchor="end" class="label">sattukku I</text>
+<rect x="210" y="10072" width="583" height="12" class="bar"/>
+<text x="799" y="10083" class="value">5.307</text>
+<text x="202" y="10101" text-anchor="end" class="label">tahanātu I</text>
+<rect x="210" y="10090" width="583" height="12" class="bar"/>
+<text x="799" y="10101" class="value">5.307</text>
+<text x="202" y="10119" text-anchor="end" class="label">tukultu I</text>
+<rect x="210" y="10108" width="583" height="12" class="bar"/>
+<text x="799" y="10119" class="value">5.307</text>
+<text x="202" y="10137" text-anchor="end" class="label">watû I</text>
+<rect x="210" y="10126" width="583" height="12" class="bar"/>
+<text x="799" y="10137" class="value">5.307</text>
+<text x="202" y="10155" text-anchor="end" class="label">waṣābu I</text>
+<rect x="210" y="10144" width="583" height="12" class="bar"/>
+<text x="799" y="10155" class="value">5.307</text>
+<text x="202" y="10173" text-anchor="end" class="label">zamar I</text>
+<rect x="210" y="10162" width="583" height="12" class="bar"/>
+<text x="799" y="10173" class="value">5.307</text>
+<text x="202" y="10191" text-anchor="end" class="label">zārû I</text>
+<rect x="210" y="10180" width="583" height="12" class="bar"/>
+<text x="799" y="10191" class="value">5.307</text>
+<text x="202" y="10209" text-anchor="end" class="label">šadû I</text>
+<rect x="210" y="10198" width="583" height="12" class="bar"/>
+<text x="799" y="10209" class="value">5.307</text>
+<text x="202" y="10227" text-anchor="end" class="label">šadādu I</text>
+<rect x="210" y="10216" width="583" height="12" class="bar"/>
+<text x="799" y="10227" class="value">5.307</text>
+<text x="202" y="10245" text-anchor="end" class="label">šaggāšu I</text>
+<rect x="210" y="10234" width="583" height="12" class="bar"/>
+<text x="799" y="10245" class="value">5.307</text>
+<text x="202" y="10263" text-anchor="end" class="label">šamû I</text>
+<rect x="210" y="10252" width="583" height="12" class="bar"/>
+<text x="799" y="10263" class="value">5.307</text>
+<text x="202" y="10281" text-anchor="end" class="label">šanû I</text>
+<rect x="210" y="10270" width="583" height="12" class="bar"/>
+<text x="799" y="10281" class="value">5.307</text>
+<text x="202" y="10299" text-anchor="end" class="label">šaqû II</text>
+<rect x="210" y="10288" width="583" height="12" class="bar"/>
+<text x="799" y="10299" class="value">5.307</text>
+<text x="202" y="10317" text-anchor="end" class="label">šarbābiš I</text>
+<rect x="210" y="10306" width="583" height="12" class="bar"/>
+<text x="799" y="10317" class="value">5.307</text>
+<text x="202" y="10335" text-anchor="end" class="label">šulû I</text>
+<rect x="210" y="10324" width="583" height="12" class="bar"/>
+<text x="799" y="10335" class="value">5.307</text>
+<text x="202" y="10353" text-anchor="end" class="label">šutēšuru I</text>
+<rect x="210" y="10342" width="583" height="12" class="bar"/>
+<text x="799" y="10353" class="value">5.307</text>
+<text x="202" y="10371" text-anchor="end" class="label">šuwā&#x27;u I</text>
+<rect x="210" y="10360" width="583" height="12" class="bar"/>
+<text x="799" y="10371" class="value">5.307</text>
+<text x="202" y="10389" text-anchor="end" class="label">šâṭu I</text>
+<rect x="210" y="10378" width="583" height="12" class="bar"/>
+<text x="799" y="10389" class="value">5.307</text>
+<text x="202" y="10407" text-anchor="end" class="label">šêtu II</text>
+<rect x="210" y="10396" width="583" height="12" class="bar"/>
+<text x="799" y="10407" class="value">5.307</text>
+<text x="202" y="10425" text-anchor="end" class="label">ṣabû II</text>
+<rect x="210" y="10414" width="583" height="12" class="bar"/>
+<text x="799" y="10425" class="value">5.307</text>
+<text x="202" y="10443" text-anchor="end" class="label">anāku I</text>
+<rect x="210" y="10432" width="558" height="12" class="bar"/>
+<text x="774" y="10443" class="value">5.084</text>
+<text x="202" y="10461" text-anchor="end" class="label">awātu I</text>
+<rect x="210" y="10450" width="558" height="12" class="bar"/>
+<text x="774" y="10461" class="value">5.084</text>
+<text x="202" y="10479" text-anchor="end" class="label">dunnamû I</text>
+<rect x="210" y="10468" width="558" height="12" class="bar"/>
+<text x="774" y="10479" class="value">5.084</text>
+<text x="202" y="10497" text-anchor="end" class="label">epēšu II</text>
+<rect x="210" y="10486" width="558" height="12" class="bar"/>
+<text x="774" y="10497" class="value">5.084</text>
+<text x="202" y="10515" text-anchor="end" class="label">erēbu I</text>
+<rect x="210" y="10504" width="558" height="12" class="bar"/>
+<text x="774" y="10515" class="value">5.084</text>
+<text x="202" y="10533" text-anchor="end" class="label">ezēbu I</text>
+<rect x="210" y="10522" width="558" height="12" class="bar"/>
+<text x="774" y="10533" class="value">5.084</text>
+<text x="202" y="10551" text-anchor="end" class="label">ginû I</text>
+<rect x="210" y="10540" width="558" height="12" class="bar"/>
+<text x="774" y="10551" class="value">5.084</text>
+<text x="202" y="10569" text-anchor="end" class="label">illukku I</text>
+<rect x="210" y="10558" width="558" height="12" class="bar"/>
+<text x="774" y="10569" class="value">5.084</text>
+<text x="202" y="10587" text-anchor="end" class="label">itti I</text>
+<rect x="210" y="10576" width="558" height="12" class="bar"/>
+<text x="774" y="10587" class="value">5.084</text>
+<text x="202" y="10605" text-anchor="end" class="label">išû I</text>
+<rect x="210" y="10594" width="558" height="12" class="bar"/>
+<text x="774" y="10605" class="value">5.084</text>
+<text x="202" y="10623" text-anchor="end" class="label">kamāsu II</text>
+<rect x="210" y="10612" width="558" height="12" class="bar"/>
+<text x="774" y="10623" class="value">5.084</text>
+<text x="202" y="10641" text-anchor="end" class="label">katû I</text>
+<rect x="210" y="10630" width="558" height="12" class="bar"/>
+<text x="774" y="10641" class="value">5.084</text>
+<text x="202" y="10659" text-anchor="end" class="label">kimiltu I</text>
+<rect x="210" y="10648" width="558" height="12" class="bar"/>
+<text x="774" y="10659" class="value">5.084</text>
+<text x="202" y="10677" text-anchor="end" class="label">kânu I</text>
+<rect x="210" y="10666" width="558" height="12" class="bar"/>
+<text x="774" y="10677" class="value">5.084</text>
+<text x="202" y="10695" text-anchor="end" class="label">kīnu I</text>
+<rect x="210" y="10684" width="558" height="12" class="bar"/>
+<text x="774" y="10695" class="value">5.084</text>
+<text x="202" y="10713" text-anchor="end" class="label">lābu I</text>
+<rect x="210" y="10702" width="558" height="12" class="bar"/>
+<text x="774" y="10713" class="value">5.084</text>
+<text x="202" y="10731" text-anchor="end" class="label">mēsū I</text>
+<rect x="210" y="10720" width="558" height="12" class="bar"/>
+<text x="774" y="10731" class="value">5.084</text>
+<text x="202" y="10749" text-anchor="end" class="label">nagbu I</text>
+<rect x="210" y="10738" width="558" height="12" class="bar"/>
+<text x="774" y="10749" class="value">5.084</text>
+<text x="202" y="10767" text-anchor="end" class="label">napištu I</text>
+<rect x="210" y="10756" width="558" height="12" class="bar"/>
+<text x="774" y="10767" class="value">5.084</text>
+<text x="202" y="10785" text-anchor="end" class="label">nawru I</text>
+<rect x="210" y="10774" width="558" height="12" class="bar"/>
+<text x="774" y="10785" class="value">5.084</text>
+<text x="202" y="10803" text-anchor="end" class="label">nâṣu I</text>
+<rect x="210" y="10792" width="558" height="12" class="bar"/>
+<text x="774" y="10803" class="value">5.084</text>
+<text x="202" y="10821" text-anchor="end" class="label">pahāru II</text>
+<rect x="210" y="10810" width="558" height="12" class="bar"/>
+<text x="774" y="10821" class="value">5.084</text>
+<text x="202" y="10839" text-anchor="end" class="label">parṣu I</text>
+<rect x="210" y="10828" width="558" height="12" class="bar"/>
+<text x="774" y="10839" class="value">5.084</text>
+<text x="202" y="10857" text-anchor="end" class="label">qerbetu I</text>
+<rect x="210" y="10846" width="558" height="12" class="bar"/>
+<text x="774" y="10857" class="value">5.084</text>
+<text x="202" y="10875" text-anchor="end" class="label">qibītu I</text>
+<rect x="210" y="10864" width="558" height="12" class="bar"/>
+<text x="774" y="10875" class="value">5.084</text>
+<text x="202" y="10893" text-anchor="end" class="label">qâlu I</text>
+<rect x="210" y="10882" width="558" height="12" class="bar"/>
+<text x="774" y="10893" class="value">5.084</text>
+<text x="202" y="10911" text-anchor="end" class="label">santak I</text>
+<rect x="210" y="10900" width="558" height="12" class="bar"/>
+<text x="774" y="10911" class="value">5.084</text>
+<text x="202" y="10929" text-anchor="end" class="label">surri I</text>
+<rect x="210" y="10918" width="558" height="12" class="bar"/>
+<text x="774" y="10929" class="value">5.084</text>
+<text x="202" y="10947" text-anchor="end" class="label">tašīmtu I</text>
+<rect x="210" y="10936" width="558" height="12" class="bar"/>
+<text x="774" y="10947" class="value">5.084</text>
+<text x="202" y="10965" text-anchor="end" class="label">ti&#x27;ûtu I</text>
+<rect x="210" y="10954" width="558" height="12" class="bar"/>
+<text x="774" y="10965" class="value">5.084</text>
+<text x="202" y="10983" text-anchor="end" class="label">zīmu I</text>
+<rect x="210" y="10972" width="558" height="12" class="bar"/>
+<text x="774" y="10983" class="value">5.084</text>
+<text x="202" y="11001" text-anchor="end" class="label">šaptu I</text>
+<rect x="210" y="10990" width="558" height="12" class="bar"/>
+<text x="774" y="11001" class="value">5.084</text>
+<text x="202" y="11019" text-anchor="end" class="label">šīmtu I</text>
+<rect x="210" y="11008" width="558" height="12" class="bar"/>
+<text x="774" y="11019" class="value">5.084</text>
+<text x="202" y="11037" text-anchor="end" class="label">ṣâdu I</text>
+<rect x="210" y="11026" width="558" height="12" class="bar"/>
+<text x="774" y="11037" class="value">5.084</text>
+<text x="202" y="11055" text-anchor="end" class="label">ṭarādu I</text>
+<rect x="210" y="11044" width="558" height="12" class="bar"/>
+<text x="774" y="11055" class="value">5.084</text>
+<text x="202" y="11073" text-anchor="end" class="label">aqru I</text>
+<rect x="210" y="11062" width="538" height="12" class="bar"/>
+<text x="754" y="11073" class="value">4.902</text>
+<text x="202" y="11091" text-anchor="end" class="label">belû II</text>
+<rect x="210" y="11080" width="538" height="12" class="bar"/>
+<text x="754" y="11091" class="value">4.902</text>
+<text x="202" y="11109" text-anchor="end" class="label">būlu I</text>
+<rect x="210" y="11098" width="538" height="12" class="bar"/>
+<text x="754" y="11109" class="value">4.902</text>
+<text x="202" y="11127" text-anchor="end" class="label">enēšu I</text>
+<rect x="210" y="11116" width="538" height="12" class="bar"/>
+<text x="754" y="11127" class="value">4.902</text>
+<text x="202" y="11145" text-anchor="end" class="label">ewû I</text>
+<rect x="210" y="11134" width="538" height="12" class="bar"/>
+<text x="754" y="11145" class="value">4.902</text>
+<text x="202" y="11163" text-anchor="end" class="label">gana I</text>
+<rect x="210" y="11152" width="538" height="12" class="bar"/>
+<text x="754" y="11163" class="value">4.902</text>
+<text x="202" y="11181" text-anchor="end" class="label">gimillu I</text>
+<rect x="210" y="11170" width="538" height="12" class="bar"/>
+<text x="754" y="11181" class="value">4.902</text>
+<text x="202" y="11199" text-anchor="end" class="label">gimru I</text>
+<rect x="210" y="11188" width="538" height="12" class="bar"/>
+<text x="754" y="11199" class="value">4.902</text>
+<text x="202" y="11217" text-anchor="end" class="label">harharu I</text>
+<rect x="210" y="11206" width="538" height="12" class="bar"/>
+<text x="754" y="11217" class="value">4.902</text>
+<text x="202" y="11235" text-anchor="end" class="label">iliš I</text>
+<rect x="210" y="11224" width="538" height="12" class="bar"/>
+<text x="754" y="11235" class="value">4.902</text>
+<text x="202" y="11253" text-anchor="end" class="label">kapādu I</text>
+<rect x="210" y="11242" width="538" height="12" class="bar"/>
+<text x="754" y="11253" class="value">4.902</text>
+<text x="202" y="11271" text-anchor="end" class="label">mala I</text>
+<rect x="210" y="11260" width="538" height="12" class="bar"/>
+<text x="754" y="11271" class="value">4.902</text>
+<text x="202" y="11289" text-anchor="end" class="label">mašālu I</text>
+<rect x="210" y="11278" width="538" height="12" class="bar"/>
+<text x="754" y="11289" class="value">4.902</text>
+<text x="202" y="11307" text-anchor="end" class="label">nussuqu I</text>
+<rect x="210" y="11296" width="538" height="12" class="bar"/>
+<text x="754" y="11307" class="value">4.902</text>
+<text x="202" y="11325" text-anchor="end" class="label">puhru I</text>
+<rect x="210" y="11314" width="538" height="12" class="bar"/>
+<text x="754" y="11325" class="value">4.902</text>
+<text x="202" y="11343" text-anchor="end" class="label">puqqu I</text>
+<rect x="210" y="11332" width="538" height="12" class="bar"/>
+<text x="754" y="11343" class="value">4.902</text>
+<text x="202" y="11361" text-anchor="end" class="label">qerbu II</text>
+<rect x="210" y="11350" width="538" height="12" class="bar"/>
+<text x="754" y="11361" class="value">4.902</text>
+<text x="202" y="11379" text-anchor="end" class="label">serrēmu I</text>
+<rect x="210" y="11368" width="538" height="12" class="bar"/>
+<text x="754" y="11379" class="value">4.902</text>
+<text x="202" y="11397" text-anchor="end" class="label">zikru I</text>
+<rect x="210" y="11386" width="538" height="12" class="bar"/>
+<text x="754" y="11397" class="value">4.902</text>
+<text x="202" y="11415" text-anchor="end" class="label">ūmu I</text>
+<rect x="210" y="11404" width="538" height="12" class="bar"/>
+<text x="754" y="11415" class="value">4.902</text>
+<text x="202" y="11433" text-anchor="end" class="label">ṭupšarru I</text>
+<rect x="210" y="11422" width="538" height="12" class="bar"/>
+<text x="754" y="11433" class="value">4.902</text>
+<text x="202" y="11451" text-anchor="end" class="label">ahu I</text>
+<rect x="210" y="11440" width="521" height="12" class="bar"/>
+<text x="737" y="11451" class="value">4.747</text>
+<text x="202" y="11469" text-anchor="end" class="label">alaktu I</text>
+<rect x="210" y="11458" width="521" height="12" class="bar"/>
+<text x="737" y="11469" class="value">4.747</text>
+<text x="202" y="11487" text-anchor="end" class="label">amāru I</text>
+<rect x="210" y="11476" width="521" height="12" class="bar"/>
+<text x="737" y="11487" class="value">4.747</text>
+<text x="202" y="11505" text-anchor="end" class="label">barû I</text>
+<rect x="210" y="11494" width="521" height="12" class="bar"/>
+<text x="737" y="11505" class="value">4.747</text>
+<text x="202" y="11523" text-anchor="end" class="label">etēqu I</text>
+<rect x="210" y="11512" width="521" height="12" class="bar"/>
+<text x="737" y="11523" class="value">4.747</text>
+<text x="202" y="11541" text-anchor="end" class="label">ishappu I</text>
+<rect x="210" y="11530" width="521" height="12" class="bar"/>
+<text x="737" y="11541" class="value">4.747</text>
+<text x="202" y="11559" text-anchor="end" class="label">kušīru I</text>
+<rect x="210" y="11548" width="521" height="12" class="bar"/>
+<text x="737" y="11559" class="value">4.747</text>
+<text x="202" y="11577" text-anchor="end" class="label">lemēnu I</text>
+<rect x="210" y="11566" width="521" height="12" class="bar"/>
+<text x="737" y="11577" class="value">4.747</text>
+<text x="202" y="11595" text-anchor="end" class="label">lillu I</text>
+<rect x="210" y="11584" width="521" height="12" class="bar"/>
+<text x="737" y="11595" class="value">4.747</text>
+<text x="202" y="11613" text-anchor="end" class="label">makkūru I</text>
+<rect x="210" y="11602" width="521" height="12" class="bar"/>
+<text x="737" y="11613" class="value">4.747</text>
+<text x="202" y="11631" text-anchor="end" class="label">murqu I</text>
+<rect x="210" y="11620" width="521" height="12" class="bar"/>
+<text x="737" y="11631" class="value">4.747</text>
+<text x="202" y="11649" text-anchor="end" class="label">našû II</text>
+<rect x="210" y="11638" width="521" height="12" class="bar"/>
+<text x="737" y="11649" class="value">4.747</text>
+<text x="202" y="11667" text-anchor="end" class="label">palkû I</text>
+<rect x="210" y="11656" width="521" height="12" class="bar"/>
+<text x="737" y="11667" class="value">4.747</text>
+<text x="202" y="11685" text-anchor="end" class="label">pû I</text>
+<rect x="210" y="11674" width="521" height="12" class="bar"/>
+<text x="737" y="11685" class="value">4.747</text>
+<text x="202" y="11703" text-anchor="end" class="label">qadmu I</text>
+<rect x="210" y="11692" width="521" height="12" class="bar"/>
+<text x="737" y="11703" class="value">4.747</text>
+<text x="202" y="11721" text-anchor="end" class="label">redû I</text>
+<rect x="210" y="11710" width="521" height="12" class="bar"/>
+<text x="737" y="11721" class="value">4.747</text>
+<text x="202" y="11739" text-anchor="end" class="label">urhu I</text>
+<rect x="210" y="11728" width="521" height="12" class="bar"/>
+<text x="737" y="11739" class="value">4.747</text>
+<text x="202" y="11757" text-anchor="end" class="label">uznu I</text>
+<rect x="210" y="11746" width="521" height="12" class="bar"/>
+<text x="737" y="11757" class="value">4.747</text>
+<text x="202" y="11775" text-anchor="end" class="label">bu&#x27;&#x27;û II</text>
+<rect x="210" y="11764" width="507" height="12" class="bar"/>
+<text x="723" y="11775" class="value">4.614</text>
+<text x="202" y="11793" text-anchor="end" class="label">kīma I</text>
+<rect x="210" y="11782" width="507" height="12" class="bar"/>
+<text x="723" y="11793" class="value">4.614</text>
+<text x="202" y="11811" text-anchor="end" class="label">lē&#x27;û I</text>
+<rect x="210" y="11800" width="507" height="12" class="bar"/>
+<text x="723" y="11811" class="value">4.614</text>
+<text x="202" y="11829" text-anchor="end" class="label">lū I</text>
+<rect x="210" y="11818" width="507" height="12" class="bar"/>
+<text x="723" y="11829" class="value">4.614</text>
+<text x="202" y="11847" text-anchor="end" class="label">mannu I</text>
+<rect x="210" y="11836" width="507" height="12" class="bar"/>
+<text x="723" y="11847" class="value">4.614</text>
+<text x="202" y="11865" text-anchor="end" class="label">milku I</text>
+<rect x="210" y="11854" width="507" height="12" class="bar"/>
+<text x="723" y="11865" class="value">4.614</text>
+<text x="202" y="11883" text-anchor="end" class="label">mīnu I</text>
+<rect x="210" y="11872" width="507" height="12" class="bar"/>
+<text x="723" y="11883" class="value">4.614</text>
+<text x="202" y="11901" text-anchor="end" class="label">nesû II</text>
+<rect x="210" y="11890" width="507" height="12" class="bar"/>
+<text x="723" y="11901" class="value">4.614</text>
+<text x="202" y="11919" text-anchor="end" class="label">nissatu I</text>
+<rect x="210" y="11908" width="507" height="12" class="bar"/>
+<text x="723" y="11919" class="value">4.614</text>
+<text x="202" y="11937" text-anchor="end" class="label">šarû I</text>
+<rect x="210" y="11926" width="507" height="12" class="bar"/>
+<text x="723" y="11937" class="value">4.614</text>
+<text x="202" y="11955" text-anchor="end" class="label">bašû I</text>
+<rect x="210" y="11944" width="494" height="12" class="bar"/>
+<text x="710" y="11955" class="value">4.496</text>
+<text x="202" y="11973" text-anchor="end" class="label">ligimû I</text>
+<rect x="210" y="11962" width="494" height="12" class="bar"/>
+<text x="710" y="11973" class="value">4.496</text>
+<text x="202" y="11991" text-anchor="end" class="label">nadānu II</text>
+<rect x="210" y="11980" width="494" height="12" class="bar"/>
+<text x="710" y="11991" class="value">4.496</text>
+<text x="202" y="12009" text-anchor="end" class="label">naṣāru I</text>
+<rect x="210" y="11998" width="494" height="12" class="bar"/>
+<text x="710" y="12009" class="value">4.496</text>
+<text x="202" y="12027" text-anchor="end" class="label">pakku I</text>
+<rect x="210" y="12016" width="494" height="12" class="bar"/>
+<text x="710" y="12027" class="value">4.496</text>
+<text x="202" y="12045" text-anchor="end" class="label">târu I</text>
+<rect x="210" y="12034" width="494" height="12" class="bar"/>
+<text x="710" y="12045" class="value">4.496</text>
+<text x="202" y="12063" text-anchor="end" class="label">šanîš II</text>
+<rect x="210" y="12052" width="494" height="12" class="bar"/>
+<text x="710" y="12063" class="value">4.496</text>
+<text x="202" y="12081" text-anchor="end" class="label">še&#x27;û I</text>
+<rect x="210" y="12070" width="494" height="12" class="bar"/>
+<text x="710" y="12081" class="value">4.496</text>
+<text x="202" y="12099" text-anchor="end" class="label">ahāzu I</text>
+<rect x="210" y="12088" width="482" height="12" class="bar"/>
+<text x="698" y="12099" class="value">4.391</text>
+<text x="202" y="12117" text-anchor="end" class="label">ibru I</text>
+<rect x="210" y="12106" width="482" height="12" class="bar"/>
+<text x="698" y="12117" class="value">4.391</text>
+<text x="202" y="12135" text-anchor="end" class="label">kittu I</text>
+<rect x="210" y="12124" width="482" height="12" class="bar"/>
+<text x="698" y="12135" class="value">4.391</text>
+<text x="202" y="12153" text-anchor="end" class="label">nadû III</text>
+<rect x="210" y="12142" width="482" height="12" class="bar"/>
+<text x="698" y="12153" class="value">4.391</text>
+<text x="202" y="12171" text-anchor="end" class="label">nēmequ I</text>
+<rect x="210" y="12160" width="482" height="12" class="bar"/>
+<text x="698" y="12171" class="value">4.391</text>
+<text x="202" y="12189" text-anchor="end" class="label">petû II</text>
+<rect x="210" y="12178" width="482" height="12" class="bar"/>
+<text x="698" y="12189" class="value">4.391</text>
+<text x="202" y="12207" text-anchor="end" class="label">rēšu I</text>
+<rect x="210" y="12196" width="482" height="12" class="bar"/>
+<text x="698" y="12207" class="value">4.391</text>
+<text x="202" y="12225" text-anchor="end" class="label">šarru I</text>
+<rect x="210" y="12214" width="482" height="12" class="bar"/>
+<text x="698" y="12225" class="value">4.391</text>
+<text x="202" y="12243" text-anchor="end" class="label">šarāku I</text>
+<rect x="210" y="12232" width="482" height="12" class="bar"/>
+<text x="698" y="12243" class="value">4.391</text>
+<text x="202" y="12261" text-anchor="end" class="label">ṣurru II</text>
+<rect x="210" y="12250" width="482" height="12" class="bar"/>
+<text x="698" y="12261" class="value">4.391</text>
+<text x="202" y="12279" text-anchor="end" class="label">iltu I</text>
+<rect x="210" y="12268" width="472" height="12" class="bar"/>
+<text x="688" y="12279" class="value">4.295</text>
+<text x="202" y="12297" text-anchor="end" class="label">ištaru I</text>
+<rect x="210" y="12286" width="472" height="12" class="bar"/>
+<text x="688" y="12297" class="value">4.295</text>
+<text x="202" y="12315" text-anchor="end" class="label">libbu I</text>
+<rect x="210" y="12304" width="472" height="12" class="bar"/>
+<text x="688" y="12315" class="value">4.295</text>
+<text x="202" y="12333" text-anchor="end" class="label">māru I</text>
+<rect x="210" y="12322" width="472" height="12" class="bar"/>
+<text x="688" y="12333" class="value">4.295</text>
+<text x="202" y="12351" text-anchor="end" class="label">rašû I</text>
+<rect x="210" y="12340" width="472" height="12" class="bar"/>
+<text x="688" y="12351" class="value">4.295</text>
+<text x="202" y="12369" text-anchor="end" class="label">šapālu I</text>
+<rect x="210" y="12358" width="472" height="12" class="bar"/>
+<text x="688" y="12369" class="value">4.295</text>
+<text x="202" y="12387" text-anchor="end" class="label">kabtu I</text>
+<rect x="210" y="12376" width="462" height="12" class="bar"/>
+<text x="678" y="12387" class="value">4.208</text>
+<text x="202" y="12405" text-anchor="end" class="label">naṭālu I</text>
+<rect x="210" y="12394" width="462" height="12" class="bar"/>
+<text x="678" y="12405" class="value">4.208</text>
+<text x="202" y="12423" text-anchor="end" class="label">wabālu I</text>
+<rect x="210" y="12412" width="462" height="12" class="bar"/>
+<text x="678" y="12423" class="value">4.208</text>
+<text x="202" y="12441" text-anchor="end" class="label">šakānu I</text>
+<rect x="210" y="12430" width="462" height="12" class="bar"/>
+<text x="678" y="12441" class="value">4.208</text>
+<text x="202" y="12459" text-anchor="end" class="label">bēlu I</text>
+<rect x="210" y="12448" width="453" height="12" class="bar"/>
+<text x="669" y="12459" class="value">4.128</text>
+<text x="202" y="12477" text-anchor="end" class="label">pānu I</text>
+<rect x="210" y="12466" width="453" height="12" class="bar"/>
+<text x="669" y="12477" class="value">4.128</text>
+<text x="202" y="12495" text-anchor="end" class="label">lamādu I</text>
+<rect x="210" y="12484" width="445" height="12" class="bar"/>
+<text x="661" y="12495" class="value">4.054</text>
+<text x="202" y="12513" text-anchor="end" class="label">ul I</text>
+<rect x="210" y="12502" width="445" height="12" class="bar"/>
+<text x="661" y="12513" class="value">4.054</text>
+<text x="202" y="12531" text-anchor="end" class="label">hašāhu I</text>
+<rect x="210" y="12520" width="438" height="12" class="bar"/>
+<text x="654" y="12531" class="value">3.985</text>
+<text x="202" y="12549" text-anchor="end" class="label">qabû II</text>
+<rect x="210" y="12538" width="438" height="12" class="bar"/>
+<text x="654" y="12549" class="value">3.985</text>
+<text x="202" y="12567" text-anchor="end" class="label">alāku I</text>
+<rect x="210" y="12556" width="424" height="12" class="bar"/>
+<text x="640" y="12567" class="value">3.860</text>
+<text x="202" y="12585" text-anchor="end" class="label">mašrû I</text>
+<rect x="210" y="12574" width="418" height="12" class="bar"/>
+<text x="634" y="12585" class="value">3.803</text>
+<text x="202" y="12603" text-anchor="end" class="label">nišu I</text>
+<rect x="210" y="12592" width="412" height="12" class="bar"/>
+<text x="628" y="12603" class="value">3.749</text>
+<text x="202" y="12621" text-anchor="end" class="label">dumqu I</text>
+<rect x="210" y="12610" width="406" height="12" class="bar"/>
+<text x="622" y="12621" class="value">3.698</text>
+<text x="202" y="12639" text-anchor="end" class="label">u I</text>
+<rect x="210" y="12628" width="386" height="12" class="bar"/>
+<text x="602" y="12639" class="value">3.515</text>
+<text x="202" y="12657" text-anchor="end" class="label">ṭēmu I</text>
+<rect x="210" y="12646" width="386" height="12" class="bar"/>
+<text x="602" y="12657" class="value">3.515</text>
+<text x="202" y="12675" text-anchor="end" class="label">ina I</text>
+<rect x="210" y="12664" width="351" height="12" class="bar"/>
+<text x="567" y="12675" class="value">3.197</text>
+<text x="202" y="12693" text-anchor="end" class="label">ilu I</text>
+<rect x="210" y="12682" width="303" height="12" class="bar"/>
+<text x="519" y="12693" class="value">2.761</text>
+<text x="202" y="12711" text-anchor="end" class="label">lā I</text>
+<rect x="210" y="12700" width="291" height="12" class="bar"/>
+<text x="507" y="12711" class="value">2.650</text>
+<text x="202" y="12729" text-anchor="end" class="label">ša I</text>
+<rect x="210" y="12718" width="262" height="12" class="bar"/>
+<text x="478" y="12729" class="value">2.389</text>
+<text x="202" y="12747" text-anchor="end" class="label">ana I</text>
+<rect x="210" y="12736" width="259" height="12" class="bar"/>
+<text x="475" y="12747" class="value">2.363</text>
+<line x1="210" y1="76" x2="210" y2="12752" class="axis"/>
+<line x1="210" y1="12752" x2="945" y2="12752" class="axis"/>
+<text x="500.0" y="12795" text-anchor="middle" class="label">Seltenheitsgewicht -ln(relative Häufigkeit)</text>
+<text x="18" y="6416.0" text-anchor="middle" transform="rotate(-90 18 6416.0)" class="label">Lemma (nach Seltenheit geordnet)</text>
+</svg>
