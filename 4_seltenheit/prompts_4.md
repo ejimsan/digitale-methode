@@ -32,12 +32,12 @@ Die Eingabe war erra.
 Die Suche verglich bisher Groß-/Kleinschreibung exakt.
 Die Suche in Seltenheit_Anfrage.py ist jetzt unabhängig von Groß-/Kleinschreibung.
 
-## prompts für ein drittes Programm, das die Häufigkeit von Bigrammen innerhalb einer Zeile untersucht
+## prompts für ein drittes Programm, das die Häufigkeit von Bigrammen innerhalb einer Zeile untersucht und pro Text ausgibt
 Schreibe jetzt ein drittes Programm Seltenheit_Bigramme.py. Es soll ebenfalls interaktiv Lemmata und ihre Homonyme erkennen, es wird nach Lemma 1 und Lemma 2 gefragt, beide ergeben ein Bigramm (eine Nennung beider Lemmata innerhalb einer Zeile). Gib wieder getrennt nach Eingabetext die absolute und relative Häufigkeit aus.
 Für das Programm Seltenheit_Bigramme erzeuge zusätzlich eine graphische Ausgabe in eine Datei Bigramme_output.svg, wenn die Eingabe mit ende abgeschlossen wurde.
 Beschrifte die Ausgabe in der output-Datei.
 
-## Beispiel für ein Ergebnis (Beendigung der Eingabe mit:end ende): 
+## Beispiel für ein Ergebnis (Beendigung der Eingabe mit: ende): 
 Lemma 1: qātu
 Lemma 2: ša
 
