@@ -85,7 +85,7 @@ def text_abschnitt(titel: str, text: str, zeilen: int, werte: list[tuple[str, in
         f"Korpusbezeichnung: {text}",
         f"Ausgewertete lemmatisierte Manuskriptzeilen: {zeilen}",
         f"Ausgegebene Lemmata: {len(werte)}",
-        "Lemma\tZeilen\tSeltenheitsgewicht",
+        "Lemma\tZeilen\tRelative Seltenheit",
         "--------------------------------",
     ]
     ausgabe.extend(f"{lemma}\t{anzahl}\t{gewicht:.6f}" for lemma, anzahl, gewicht in werte)
@@ -98,7 +98,7 @@ def berechne_ausgabe(eintraege: Iterable[dict]) -> list[str]:
     ausgabe = [
         "Seltenheitsauswertung aller Lemmata",
         "Gezählt wird höchstens einmal pro Lemma und Manuskriptzeile.",
-        "Seltenheitsgewicht: -ln(relative Häufigkeit).",
+        "Relative Seltenheit: -ln(relative Häufigkeit).",
     ]
     for titel, text, _ in TEXTS:
         haeufigkeiten, zeilen = berechne_text_lemmahaeufigkeiten(eintraege, text)
@@ -120,7 +120,7 @@ def schreibe_svg(pfad: Path, titel: str, haeufigkeiten: Counter[str], zeilen: in
         '<style>text { font-family: sans-serif; fill: #222; } .title { font-size: 20px; font-weight: bold; } .label { font-size: 12px; } .value { font-size: 11px; } .axis { stroke: #222; stroke-width: 1; } .bar { fill: #4c78a8; }</style>',
         f'<text x="{rand_links}" y="30" class="title">{html.escape(titel)}</text>',
         f'<text x="{rand_links}" y="52" class="label">Wortschatz nach Seltenheit (seltenste zuerst)</text>',
-        f'<text x="{rand_links}" y="68" class="label">Gewicht: -ln(relative Häufigkeit)</text>',
+        f'<text x="{rand_links}" y="68" class="label">Relative Seltenheit: -ln(relative Häufigkeit)</text>',
     ]
     for index, (lemma, _, gewicht) in enumerate(werte):
         y = rand_oben + index * balkenhoehe
@@ -137,7 +137,7 @@ def schreibe_svg(pfad: Path, titel: str, haeufigkeiten: Counter[str], zeilen: in
         [
             f'<line x1="{rand_links}" y1="{rand_oben - 4}" x2="{rand_links}" y2="{achsen_y}" class="axis"/>',
             f'<line x1="{rand_links}" y1="{achsen_y}" x2="{breite - rand_rechts}" y2="{achsen_y}" class="axis"/>',
-            f'<text x="{breite / 2}" y="{hoehe - 12}" text-anchor="middle" class="label">Seltenheitsgewicht -ln(relative Häufigkeit)</text>',
+            f'<text x="{breite / 2}" y="{hoehe - 12}" text-anchor="middle" class="label">Relative Seltenheit -ln(relative Häufigkeit)</text>',
             f'<text x="18" y="{rand_oben + (achsen_y - rand_oben) / 2}" text-anchor="middle" transform="rotate(-90 18 {rand_oben + (achsen_y - rand_oben) / 2})" class="label">Lemma (nach Seltenheit geordnet)</text>',
             "</svg>\n",
         ]

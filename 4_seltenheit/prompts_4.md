@@ -44,3 +44,16 @@ Lemma 2: ša
 Ergebnisse für Bigramm "qātu + ša":
 - I.5 Erra and Išum: absolut 6 Zeilen, relativ 0.010017 (1.00%)
 - II.1 The Babylonian Theodicy: absolut 0 Zeilen, relativ 0.000000 (0.00%)
+
+# Qualitätskontrolle und Optimierungen
+Berechnest du in allen drei Programmen den Seltenheitswert, d.h. negativen Logarithmus der relativen Häufigkeit? Dann schreibe bei der Ausgabe nicht nur "relativ" sondern "relative Seltenheit"
+
+Anpassung: u.a.
+gibt absolute Häufigkeit und relative Seltenheit aus
+Beispiel: relative Seltenheit 1.770289 (-ln(102/599))
+Beispiel für das Bigramm ina + ina:
+I.5 Erra and Išum:
+absolut 63 Zeilen, relative Seltenheit 2.252127 (-ln(63/599))
+
+II.1 The Babylonian Theodicy:
+absolut 33 Zeilen, relative Seltenheit 3.196816 (-ln(33/807))

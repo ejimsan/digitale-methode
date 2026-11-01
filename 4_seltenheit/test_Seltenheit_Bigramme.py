@@ -36,7 +36,7 @@ class SeltenheitBigrammeTests(unittest.TestCase):
             {"Text": 2},
             {"Text": 10},
         )
-        self.assertIn("absolut 2 Zeilen, relativ 0.200000 (20.00%)", antwort)
+        self.assertIn("absolut 2 Zeilen, relative Seltenheit 1.609438", antwort)
 
     def test_schreibt_svg_mit_achsen_und_letztem_bigramm(self):
         with tempfile.TemporaryDirectory() as verzeichnis:
@@ -50,10 +50,10 @@ class SeltenheitBigrammeTests(unittest.TestCase):
             )
             inhalt = pfad.read_text(encoding="utf-8")
             self.assertIn("Bigramm: ina + ša", inhalt)
-            self.assertIn("relative Häufigkeit", inhalt)
+            self.assertIn("relative Seltenheit", inhalt)
             self.assertIn("Eingabetext", inhalt)
             self.assertIn("Absolute Bigramm-Häufigkeit (Zeilen)", inhalt)
-            self.assertIn("20.00%", inhalt)
+            self.assertIn("relative Seltenheit: 2.996", inhalt)
 
 
 if __name__ == "__main__":

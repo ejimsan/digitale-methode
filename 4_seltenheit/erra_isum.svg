@@ -3,7 +3,7 @@
 <style>text { font-family: sans-serif; fill: #222; } .title { font-size: 20px; font-weight: bold; } .label { font-size: 12px; } .value { font-size: 11px; } .axis { stroke: #222; stroke-width: 1; } .bar { fill: #4c78a8; }</style>
 <text x="210" y="30" class="title">## I.5 Erra and Išum</text>
 <text x="210" y="52" class="label">Wortschatz nach Seltenheit (seltenste zuerst)</text>
-<text x="210" y="68" class="label">Gewicht: -ln(relative Häufigkeit)</text>
+<text x="210" y="68" class="label">Relative Seltenheit: -ln(relative Häufigkeit)</text>
 <text x="202" y="93" text-anchor="end" class="label">Adad I</text>
 <rect x="210" y="82" width="735" height="12" class="bar"/>
 <text x="951" y="93" class="value">6.395</text>
@@ -1359,6 +1359,6 @@
 <text x="419" y="8193" class="value">1.770</text>
 <line x1="210" y1="76" x2="210" y2="8198" class="axis"/>
 <line x1="210" y1="8198" x2="945" y2="8198" class="axis"/>
-<text x="500.0" y="8241" text-anchor="middle" class="label">Seltenheitsgewicht -ln(relative Häufigkeit)</text>
+<text x="500.0" y="8241" text-anchor="middle" class="label">Relative Seltenheit -ln(relative Häufigkeit)</text>
 <text x="18" y="4139.0" text-anchor="middle" transform="rotate(-90 18 4139.0)" class="label">Lemma (nach Seltenheit geordnet)</text>
 </svg>

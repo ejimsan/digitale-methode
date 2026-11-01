@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import re
+import math
 from pathlib import Path
 
 
@@ -22,6 +23,13 @@ def lemma_basis(lemma: str) -> str:
 def normalisiere_lemma(lemma: str) -> str:
     """Vereinheitlicht Leerraum und Groß-/Kleinschreibung für Vergleiche."""
     return " ".join(lemma.split()).casefold()
+
+
+def relative_seltenheit(haeufigkeit: int, zeilen: int) -> float:
+    """Berechnet -ln(relative Häufigkeit) eines Lemmas."""
+    if haeufigkeit <= 0 or zeilen <= 0:
+        raise ValueError("Häufigkeit und Zeilenzahl müssen positiv sein.")
+    return -math.log(haeufigkeit / zeilen)
 
 
 def finde_haeufigkeit(gesucht: str, haeufigkeiten: dict[str, int]) -> int | None:
@@ -85,11 +93,13 @@ def formatiere_antwort(
         if absolute_haeufigkeit is None:
             ausgabe.append(f"- {text}: nicht gefunden")
             continue
-        relative_haeufigkeit = absolute_haeufigkeit / zeilenzahlen[text]
+        relative_seltenheit_wert = relative_seltenheit(
+            absolute_haeufigkeit, zeilenzahlen[text]
+        )
         ausgabe.append(
             f"- {text}: absolut {absolute_haeufigkeit} Zeilen, "
-            f"relativ {relative_haeufigkeit:.6f} "
-            f"({relative_haeufigkeit:.2%})"
+            f"relative Seltenheit {relative_seltenheit_wert:.6f} "
+            f"(-ln({absolute_haeufigkeit}/{zeilenzahlen[text]}))"
         )
     return "\n".join(ausgabe)
 

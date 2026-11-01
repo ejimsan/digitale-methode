@@ -1,12 +1,12 @@
 Seltenheitsauswertung aller Lemmata
 Gezählt wird höchstens einmal pro Lemma und Manuskriptzeile.
-Seltenheitsgewicht: -ln(relative Häufigkeit).
+Relative Seltenheit: -ln(relative Häufigkeit).
 
 ## I.5 Erra and Išum
 Korpusbezeichnung: L 1.0.5.0 Standard Babylonian I
 Ausgewertete lemmatisierte Manuskriptzeilen: 599
 Ausgegebene Lemmata: 451
-Lemma	Zeilen	Seltenheitsgewicht
+Lemma	Zeilen	Relative Seltenheit
 --------------------------------
 Adad I	1	6.395262
 Nergal I	1	6.395262
@@ -464,7 +464,7 @@ ana I	102	1.770289
 Korpusbezeichnung: L 2.1 Standard Babylonian -
 Ausgewertete lemmatisierte Manuskriptzeilen: 807
 Ausgegebene Lemmata: 704
-Lemma	Zeilen	Seltenheitsgewicht
+Lemma	Zeilen	Relative Seltenheit
 --------------------------------
 Aruru I	1	6.693324
 Belet-ili I	1	6.693324

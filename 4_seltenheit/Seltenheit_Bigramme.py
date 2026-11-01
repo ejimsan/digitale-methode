@@ -11,6 +11,7 @@ from Seltenheit_Anfrage import (
     DEFAULT_INPUT as DEFAULT_OUTPUT,
     finde_haeufigkeit,
     lese_ausgabe,
+    relative_seltenheit,
     zeilenzahlen_aus_ausgabe,
 )
 
@@ -57,13 +58,24 @@ def formatiere_antwort(
     ausgabe: dict[str, int],
     zeilenzahlen: dict[str, int],
 ) -> str:
-    """Formatiert absolute und relative Bigrammhäufigkeiten."""
+    """Formatiert absolute Bigrammhäufigkeit und relative Seltenheit."""
     antwort = [f'\nErgebnisse für Bigramm "{lemma_1} + {lemma_2}":']
     for text, haeufigkeit in ausgabe.items():
-        relativ = haeufigkeit / zeilenzahlen[text]
+        seltenheit = (
+            relative_seltenheit(haeufigkeit, zeilenzahlen[text])
+            if haeufigkeit
+            else None
+        )
+        if seltenheit is None:
+            antwort.append(
+                f"- {text}: absolut 0 Zeilen, "
+                "relative Seltenheit nicht definiert (0 Treffer)"
+            )
+            continue
         antwort.append(
             f"- {text}: absolut {haeufigkeit} Zeilen, "
-            f"relativ {relativ:.6f} ({relativ:.2%})"
+            f"relative Seltenheit {seltenheit:.6f} "
+            f"(-ln({haeufigkeit}/{zeilenzahlen[text]}))"
         )
     return "\n".join(antwort)
 
@@ -87,10 +99,10 @@ def schreibe_svg(
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{breite}" height="{hoehe}" viewBox="0 0 {breite} {hoehe}">',
         '<style>text { font-family: sans-serif; fill: #222; } .title { font-size: 20px; font-weight: bold; } .label { font-size: 13px; } .value { font-size: 12px; } .axis { stroke: #222; stroke-width: 1; } .bar { fill: #4c78a8; }</style>',
         f'<title>Bigramm-Häufigkeit für {html.escape(lemma_1)} und {html.escape(lemma_2)}</title>',
-        '<desc>Die Balken zeigen absolute Häufigkeit in Zeilen; Prozentwerte zeigen die relative Häufigkeit bezogen auf die lemmatisierten Zeilen des Textes.</desc>',
+        '<desc>Die Balken zeigen absolute Häufigkeit in Zeilen; die relative Seltenheit ist der negative Logarithmus der relativen Häufigkeit.</desc>',
         f'<text x="{rand_links}" y="30" class="title">Bigramm: {html.escape(lemma_1)} + {html.escape(lemma_2)}</text>',
         f'<text x="{rand_links}" y="55" class="label">Gemeinsame Nennung in einer Manuskriptzeile</text>',
-        f'<text x="{rand_links}" y="73" class="label">Wert: absolute Häufigkeit (relative Häufigkeit)</text>',
+        f'<text x="{rand_links}" y="73" class="label">Wert: absolute Häufigkeit (relative Seltenheit)</text>',
         f'<line x1="{rand_links}" y1="{rand_oben}" x2="{rand_links}" y2="{rand_oben + diagramm_hoehe}" class="axis"/>',
         f'<line x1="{rand_links}" y1="{rand_oben + diagramm_hoehe}" x2="{breite - rand_rechts}" y2="{rand_oben + diagramm_hoehe}" class="axis"/>',
         f'<text x="{breite / 2}" y="{hoehe - 18}" text-anchor="middle" class="label">Eingabetext</text>',
@@ -100,11 +112,20 @@ def schreibe_svg(
         x = rand_links + (2 * index + 1) * balkenbreite
         balkenhoehe = round(haeufigkeit / maximum * diagramm_hoehe)
         y = rand_oben + diagramm_hoehe - balkenhoehe
-        relativ = haeufigkeit / zeilenzahlen[text]
+        seltenheit = (
+            relative_seltenheit(haeufigkeit, zeilenzahlen[text])
+            if haeufigkeit
+            else None
+        )
+        wert = (
+            f"{haeufigkeit} (relative Seltenheit: {seltenheit:.3f})"
+            if seltenheit is not None
+            else f"{haeufigkeit} (relative Seltenheit: nicht definiert)"
+        )
         svg.extend(
             [
                 f'<rect x="{x:.1f}" y="{y}" width="{balkenbreite:.1f}" height="{balkenhoehe}" class="bar"/>',
-                f'<text x="{x + balkenbreite / 2:.1f}" y="{y - 8}" text-anchor="middle" class="value">{haeufigkeit} ({relativ:.2%})</text>',
+                f'<text x="{x + balkenbreite / 2:.1f}" y="{y - 8}" text-anchor="middle" class="value">{wert}</text>',
                 f'<text x="{x + balkenbreite / 2:.1f}" y="{rand_oben + diagramm_hoehe + 22}" text-anchor="middle" class="label">{html.escape(text)}</text>',
             ]
         )

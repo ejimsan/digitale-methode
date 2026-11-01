@@ -54,14 +54,14 @@ class SeltenheitTests(unittest.TestCase):
             seltenheit.schreibe_svg(svg, "Test & Text", {"selten I": 1, "häufig I": 2}, 2)
             inhalt = svg.read_text(encoding="utf-8")
             self.assertIn("Test &amp; Text", inhalt)
-            self.assertIn("Seltenheitsgewicht", inhalt)
+            self.assertIn("Relative Seltenheit", inhalt)
             self.assertIn("selten I", inhalt)
 
     def test_text_abschnitt_und_komplette_ausgabe(self):
         abschnitt = seltenheit.text_abschnitt(
             "Titel", "Test", 2, [("selten I", 1, 0.693147)]
         )
-        self.assertIn("Lemma\tZeilen\tSeltenheitsgewicht", abschnitt)
+        self.assertIn("Lemma\tZeilen\tRelative Seltenheit", abschnitt)
         eintraege = [
             {"text": text, "woerter": [{"lemma": ["lemma I"]}]}
             for _, text, _ in seltenheit.TEXTS

@@ -40,7 +40,7 @@ python 4_seltenheit/seltenheit.py
 die Datei `4_seltenheit/Seltenheit.txt`. Das Programm liest
 `daten/ebl_korpus_manuskripte.jsonl.gz` nur lesend ein. Die Ausgabe enthält
 für `## I.5 Erra and Išum` und `## II.1 The Babylonian Theodicy` jeweils
-davon alle Lemmata, nach Häufigkeit sortiert, mit dem Seltenheitsgewicht
+davon alle Lemmata, nach Häufigkeit sortiert, mit der relativen Seltenheit
 `-ln(relative Häufigkeit)`. Lemmapaare werden nicht ausgegeben. Zusätzlich
 entstehen die beiden skalierbaren SVG-Grafiken `4_seltenheit/erra_isum.svg`
 und `4_seltenheit/theodizee.svg`. Diese zeigen die Häufigkeitsverteilung mit
@@ -61,9 +61,9 @@ Für eine interaktive Lemma-Abfrage:
 python 4_seltenheit/Seltenheit_Anfrage.py
 ```
 
-Das Programm liest `Seltenheit.txt` und gibt die absolute und relative
-Häufigkeit des eingegebenen Lemmas für beide Texte aus. Mit `ende` wird die
-Abfrage beendet.
+Das Programm liest `Seltenheit.txt` und gibt die absolute Häufigkeit sowie die
+relative Seltenheit (`-ln(relative Häufigkeit)`) des eingegebenen Lemmas für
+beide Texte aus. Mit `ende` wird die Abfrage beendet.
 
 Für Bigramm-Abfragen:
 

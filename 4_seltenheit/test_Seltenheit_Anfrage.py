@@ -38,8 +38,8 @@ class SeltenheitAnfrageTests(unittest.TestCase):
             {"Text A": {"foo I": 2}, "Text B": {"foo I": 5}},
             {"Text A": 10, "Text B": 20},
         )
-        self.assertIn("absolut 2 Zeilen, relativ 0.200000 (20.00%)", antwort)
-        self.assertIn("absolut 5 Zeilen, relativ 0.250000 (25.00%)", antwort)
+        self.assertIn("absolut 2 Zeilen, relative Seltenheit 1.609438", antwort)
+        self.assertIn("absolut 5 Zeilen, relative Seltenheit 1.386294", antwort)
 
     def test_basisform_findet_homonymnummer(self):
         haeufigkeiten = {"ina I": 63, "ina II": 2}
