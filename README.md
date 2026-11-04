@@ -20,6 +20,14 @@ git clone https://github.com/ejimsan/digitale-methode
 
 Jedes Modul erhält einen eigenen Ordner mit einer kurzen `README.md` (Fragestellung, Anleitung, Ergebnisse) und dem Programmcode.
 
+## Hinweise zur Modularbeit
+
+- Bei der Literaturrecherche sollten unter anderem abgeleitete Formen, die Definition einer "Zeile" bzw. des relevanten Kontextbereichs und die Frage der Seltenheit berücksichtigt werden.
+- Beim Suchen nach relevanten Formen auch nach untergeordneten Wörtern bzw. Subformen achten.
+- In Prompts ausdrücklich angeben, dass Tests mitgeschrieben werden sollen.
+- Prompts dokumentieren und speichern, damit die Vorgehensweise nachvollziehbar bleibt.
+- Module möglichst klein halten; etwa 120 Zeilen pro Datei/Modul sind ein guter Richtwert.
+
 ## Material
 
 Kursbeschreibung mit Modulen, Zeitplan und Bibliographie: [Kursbeschreibung.md](Kursbeschreibung.md). Das Material der Einführung liegt im Ordner `_intro`. Jedes Modul hat einen eigenen Ordner (`1_konkordanz`, `2_erhaltung`, `3_oracc`, `4_seltenheit`, `5_tesserae`, `6_zufall`, `7_pruefstein`, `8_formeln`) mit Leitfrage, Lektüre und Prüffall; dort kommt auch das fertige Modul hinein.
