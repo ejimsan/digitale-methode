@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oracc × eBL — Lemma Resolver & Concordance</title>
+<style>
+:root{font:15px system-ui,-apple-system,"Segoe UI",sans-serif;background:#f6f8f6;color:#1d3032;line-height:1.5}*{box-sizing:border-box}body{margin:0}main{max-width:1220px;margin:36px auto 75px;padding:0 20px}h1{font-size:1.85rem;letter-spacing:-.04em;margin:0}h2{font-size:1.09rem;margin:0 0 14px}h3{font-size:1.01rem;margin:0 0 7px}p{margin:5px 0 14px}.sub,.muted,.hint{color:#657578}.sub{margin:4px 0 28px}.hint{font-size:.87rem}.panel{background:white;border:1px solid #dfe8e5;border-radius:13px;padding:22px 25px;margin:0 0 18px}.hidden{display:none!important}.num{color:#63827e;margin-right:10px}textarea,input[type=number]{font:inherit;border:1px solid #c7d6d1;border-radius:8px;padding:10px;background:white;color:#172b2b}textarea{width:100%;min-height:107px;resize:vertical;line-height:1.6}input[type=number]{width:80px}button{font:inherit;border-radius:8px;border:1px solid #195c55;background:#195c55;color:white;padding:9px 15px;font-weight:650;cursor:pointer}button.secondary{background:white;border-color:#a7c0b8;color:#195c55}button:disabled{opacity:.45;cursor:not-allowed}input[type=checkbox]{accent-color:#195c55;width:16px;height:16px;flex-shrink:0}label{cursor:pointer}a{color:#175e63;text-underline-offset:2px}.row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.status{margin:12px 0 0}.error{color:#b23831}.good{color:#28715d}.info{border-left:3px solid #b2c7c1;background:#f5f8f7;padding:11px 13px;margin:12px 0}.meta{color:#64787a;font-size:.83rem}.termblock{border-top:1px solid #e3ebea;padding:17px 0 10px}.termblock:first-child{border-top:0;padding-top:0}.termhead{font-size:1.04rem;font-weight:760}.candidates{display:grid;grid-template-columns:repeat(auto-fit,minmax(315px,1fr));gap:10px;margin-top:12px}.analysis{border:1px solid #e0e8e5;border-radius:10px;padding:12px}.analysis:has(.ana:checked){border-color:#7bb5a4;background:#f9fcfa}.analysishead{display:flex;gap:8px;align-items:start}.analysishead label{flex:1;min-width:0}.analysishead strong{overflow-wrap:anywhere}.forms{font-size:.83rem;color:#52686b}.suggested{font-size:.78rem;color:#6b7478}.mapped{margin:9px 0 0 23px;padding:8px 0 0;border-top:1px dashed #d6e1dd}.ebl-choice{display:flex;gap:9px;align-items:flex-start;padding:7px 0}.ebl-choice strong{font-size:.91rem}.ebl-choice .small{font-size:.79rem;color:#607175}.type{border:1px solid #bdcbc9;border-radius:16px;padding:1px 6px;font-size:.75rem;margin-left:6px;white-space:nowrap}.t1{color:#30373b}.t2{color:#185da4;border-color:#8fb6d9}.t3{color:#197342;border-color:#91c6a3}.none{color:#7d6456;font-size:.82rem}.searchbox{display:flex;align-items:center;gap:13px;flex-wrap:wrap}.summary{background:#f4f8f7;padding:10px 13px;border-left:3px solid #a4c4b7;margin:13px 0}.resultscroller{overflow-x:auto;max-height:700px}.kwictable{width:100%;border-collapse:collapse;font-size:.88rem}.kwictable th,.kwictable td{padding:13px 10px;border-bottom:1px solid #e5ece9;vertical-align:middle}.kwictable th{background:#f7faf8;text-align:left;white-space:nowrap;position:sticky;top:0}.kwictable td:nth-child(1){min-width:195px;max-width:300px}.kwictable td:nth-child(2){min-width:75px}.kwictable td:nth-child(3){min-width:630px}.kwic{display:grid;grid-template-columns:minmax(290px,1fr) max-content minmax(290px,1fr);gap:9px;align-items:baseline;font-family:ui-monospace,"SFMono-Regular",Consolas,monospace;font-size:.87rem;line-height:1.8;white-space:nowrap}.kwic .left{text-align:right}.kwic .right{text-align:left}.kwic .center{background:#d5eee3;border:1px solid #7eb69b;border-radius:3px;padding:1px 4px;font-weight:760}.kwic .marked{background:#dfeafa;border-radius:3px;padding:1px 3px;font-weight:700}.witness-details{margin-top:12px;border-top:1px dashed #cad9d5;padding-top:8px;white-space:normal}.witness-details summary{cursor:pointer;color:#155e58;font-weight:650}.witness-item{padding:9px 0;border-top:1px solid #e7edeb}.witness-item:first-of-type{border-top:0}.witness-text{font-family:ui-monospace,"SFMono-Regular",Consolas,monospace;line-height:1.85;overflow-wrap:anywhere;white-space:normal}.witness-text .center{background:#d5eee3;border:1px solid #7eb69b;border-radius:3px;padding:1px 3px;font-weight:750}.witness-text .marked{background:#dfeafa;border-radius:3px;padding:1px 3px;font-weight:700}.ref{font-weight:660}.buttons{display:flex;gap:9px;flex-wrap:wrap;margin:13px 0}.small{font-size:.83rem}@media(max-width:650px){main{margin:20px auto;padding:0 10px}.panel{padding:15px}.candidates{grid-template-columns:1fr}h1{font-size:1.55rem}}
+</style><style>
+.candidate-group{margin-top:13px}.candidate-group h3{font-size:.93rem;margin:9px 0}.analysis .suggested{margin-top:2px}.eblpickrow{display:flex;align-items:start;gap:9px}.eblpickrow strong{word-break:break-word}.relatedfrom{color:#627274;font-size:.77rem}.dataset{margin:19px 0 27px;border-top:1px solid #dde7e3;padding-top:13px}.dataset h3{margin:0 0 10px}.dataset-count{font-size:.82rem;color:#647578;font-weight:400}.emptyline{color:#7e8b8e;font-style:italic}.unclassified{font-size:.78rem;color:#715d4b}.optional{margin-top:10px}.optional summary{cursor:pointer;font-size:.86rem;color:#195c55;margin:10px 0}.optional .candidates{padding-top:10px}.analysis .small{font-size:.79rem;color:#637378}select{font:inherit;border:1px solid #c7d6d1;border-radius:8px;padding:8px;background:white;color:#172b2b}
+</style><style>
+.modebar{display:flex;gap:9px;margin:0 0 16px}.modebar button{background:#fff;color:#195c55}.modebar button.active{background:#195c55;color:#fff}
+input[type=text]{font:inherit;border:1px solid #c7d6d1;border-radius:8px;padding:10px;width:300px;max-width:100%}
+.lemma-type1{color:#23292f}.lemma-type2{color:#155faf}.lemma-type3{color:#197848}.lemma-typesynonym{color:#8045ac}.lemma-typerelated,.lemma-typeunknown{color:#66727b}.lemma-link{font-weight:750;text-underline-offset:3px}.lemma-type2,.lemma-type3,.lemma-typesynonym{font-weight:780}.suggestionhead{color:inherit}
+.idline{padding:12px 0;border-top:1px solid #e3ebea}.idword{display:inline-flex;flex-direction:column;gap:4px;min-width:155px;max-width:325px;margin:5px 6px 5px 0;padding:10px 12px;border:1px solid #dce5e2;border-radius:8px;background:#fafcfb;vertical-align:top;font-size:.9rem;overflow-wrap:anywhere}.idword .gloss{font-size:.82rem;color:#526b70}.idword .resolved{font-size:.86rem}.idword .resolved a{margin-right:8px;display:inline-block}.idword.unmatched{border-color:#d9dfe3}.periodnote{color:#6c747e;font-size:.78rem}
+</style>
+</head>
+<body><main>
+<header><h1>Oracc × eBL — Lemma Resolver &amp; Concordance</h1></header>
+<section class="panel" id="step1">
+<div class="modebar"><button type="button" class="active" id="wordMode">Search by word</button><button type="button" id="idMode">Search by Text ID</button></div>
+<div id="wordInput"><h2><span class="num">01</span>Input words</h2>
+<p class="hint">Enter 1–12 terms, one per line.</p>
+<textarea id="terms" spellcheck="false" placeholder="wasmu&#10;qaatu"></textarea>
+<p class="hint">eBL spelling: aa → ā · ee → ē · ii → ī · uu → ū · sz → š · s, → ṣ · t, → ṭ · h, → ḫ.</p>
+<button id="identify">Find lemma candidates</button><p class="status" id="identifyStatus" aria-live="polite"></p></div>
+<div id="idInput" class="hidden"><h2><span class="num">01</span>Load Oracc Text ID</h2>
+
+<div class="row"><input type="text" id="textId" spellcheck="false" placeholder="Q005719"><button id="loadId">Load inscription</button></div>
+<p id="idStatus" class="status" aria-live="polite"></p>
+<div id="projectChoice"></div><button id="downloadText" class="secondary hidden" type="button">Download results (CSV)</button><div id="idResults"></div></div></section>
+<section class="panel hidden" id="step2"><h2><span class="num">02</span>Identify &amp; resolve lemmata</h2>
+<p class="hint">Black: direct · Blue: alternative form · Green: upstream family · Purple: synonyms (unverified) · Grey: related.</p>
+<div id="candidateOptions"></div>
+<div class="row" style="margin:18px 0 14px"><label for="sourceScope"><strong>Search corpus</strong></label><select id="sourceScope"><option value="both">Both (eBL + Oracc)</option><option value="ebl">eBL only</option><option value="oracc">Oracc only</option></select></div><div class="buttons"><button id="search">Find co-occurrences (AND)</button><button id="clearSelections" class="secondary">Clear selections</button></div>
+<p class="status" id="searchStatus" aria-live="polite"></p></section>
+<section class="panel hidden" id="step3"><h2><span class="num">03</span>Concordance / Keyword in Context</h2>
+<div class="row"><label for="context">Context words on each side</label><input type="number" min="0" max="100" id="context" value=""></div>
+<div class="summary" id="searchSummary"></div>
+<div class="buttons"><button id="export" class="secondary">Download results (CSV)</button><button id="more" class="secondary hidden">Load more results</button><button id="rerun" class="secondary">Search again with new context</button></div>
+<div id="resultGroups">
+  <section class="dataset"><h3>eBL Corpus <span class="dataset-count" id="count-ebl_korpus"></span></h3>
+    <div class="resultscroller"><table class="kwictable"><thead><tr><th>Source &amp; reference</th><th>Line</th><th>Aligned context</th></tr></thead><tbody id="results-ebl_korpus"></tbody></table></div></section>
+  <section class="dataset"><h3>eBL Manuscripts <span class="dataset-count" id="count-ebl_korpus_manuskripte"></span></h3>
+    <div class="resultscroller"><table class="kwictable"><thead><tr><th>Source &amp; reference</th><th>Line</th><th>Aligned context</th></tr></thead><tbody id="results-ebl_korpus_manuskripte"></tbody></table></div></section>
+  <section class="dataset"><h3>Oracc Corpus <span class="dataset-count" id="count-oracc"></span></h3>
+    <div class="resultscroller"><table class="kwictable"><thead><tr><th>Source &amp; reference</th><th>Line</th><th>Aligned context</th></tr></thead><tbody id="results-oracc"></tbody></table></div></section>
+</div><p class="hint" id="resultsStatus"></p>
+</section>
+<footer class="hint">Offline text search · Data through 15 October 2026.</footer>
+</main><script>
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const dictLink=id=>'https://www.ebl.lmu.de/tools/dictionary/'+encodeURIComponent(id);
+const sourceNames={oracc:'Oracc',ebl_korpus:'eBL Corpus',ebl_korpus_manuskripte:'eBL Manuscript'};
+let candidates=[],queries=[],total=0;
+let loadedResults=[];
+let searchGeneration=0,lastLocalResponse=null;
+let activeMode='word',suggestionTimers=new Map(),loadedTextProject=null;
+const corpusKeys=['ebl_korpus','ebl_korpus_manuskripte','oracc'];
+let sourceOffsets=Object.fromEntries(corpusKeys.map(k=>[k,0]));
+const PAGE_PER_CORPUS=50;
+const terms=()=>$('terms').value.split(/\r?\n/).map(x=>x.trim()).filter(Boolean);
+const message=(id,s,bad=false)=>{$(id).innerHTML=bad?'<span class="error">'+esc(s)+'</span>':esc(s)};
+async function post(path,data){let response=await fetch(path,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)});if(!response.ok){let txt;try{txt=(await response.json()).error}catch{txt='HTTP '+response.status}throw Error(txt||'Request failed')}return response.json()}
+function hideResults(){searchGeneration++;loadedResults=[];lastLocalResponse=null;$('step3').classList.add('hidden');sourceOffsets=Object.fromEntries(corpusKeys.map(k=>[k,0]));for(const key of corpusKeys)$('results-'+key).innerHTML='';$('searchSummary').textContent=''}
+function getContext(){let t=$('context').value.trim();return t===''?null:Number(t)}
+function validLink(url){try{let u=new URL(url);return u.protocol==='https:'&&['www.ebl.lmu.de','oracc.museum.upenn.edu'].includes(u.hostname)}catch{return false}}
+function renderOracc(item,j,k){
+ const source=[item.kind,item.match,item.matched_form||'',item.count?Number(item.count).toLocaleString()+' occurrences':''].filter(Boolean).join(' · ');
+ return `<div class="analysis"><label class="analysishead">
+ <input class="oraccpick" type="checkbox" data-word="${j}" data-analysis="${k}" value="${esc(item.key)}">
+ <span><strong>${esc(item.label)}</strong><div class="forms">${esc(item.meaning||'No gloss available')}</div>
+ <div class="suggested">${esc(source)}</div></span></label></div>`;
+}
+function lemmaClass(type){return type===1?'lemma-type1':type===2?'lemma-type2':type===3?'lemma-type3':type==='synonym'?'lemma-typesynonym':type==='related'?'lemma-typerelated':'lemma-typeunknown'}
+function renderEbl(item,j,k){
+ const why=[item.basis,item.route,item.meaning].filter(Boolean).join(' · ');
+ const provenance=(item.linked_oracc||[]).length?
+    `<div class="relatedfrom">Linked via ${esc(item.linked_oracc.slice(0,3).join('; '))}</div>`:'';
+ return `<div class="analysis"><label class="eblpickrow">
+ <input class="eblpick" type="checkbox" data-word="${j}" data-entry="${k}" value="${esc(item.id)}">
+ <span><a class="lemma-link ${lemmaClass(item.type)}" href="${dictLink(item.id)}" target="_blank" rel="noopener noreferrer" title="${esc(item.basis||'')} "><strong>${esc(item.id)}</strong></a>
+ <div class="forms">${esc(why).slice(0,260)}</div>${provenance}</span></label></div>`;
+}
+
+function eblForWord(j){
+ const group=candidates[j], aggregated=new Map();
+ function include(entry,oraccKey=''){
+   if(!entry||!entry.id)return;
+   let old=aggregated.get(entry.id);
+   if(!old){old={...entry,linked_oracc:[...(entry.linked_oracc||[])]};aggregated.set(entry.id,old)}
+   else if(entry.type!==null&&entry.type!==undefined&&(old.type===null||old.type===undefined||entry.type<old.type)){
+     old.type=entry.type;old.basis=entry.basis;old.route=entry.route;
+   }
+   if(oraccKey && !old.linked_oracc.includes(oraccKey))old.linked_oracc.push(oraccKey);
+ }
+ for(const entry of group.ebl_options||[])include(entry);
+ for(const checked of document.querySelectorAll(`.oraccpick[data-word="${j}"]:checked`)){
+   const item=(group.oracc_options||[])[Number(checked.dataset.analysis)];
+   for(const entry of item?.linked_ebl_entries||[])include(entry,item.key);
+ }
+ return [...aggregated.values()].sort((a,b)=>{
+   const ax=a.type==null?1:0,bx=b.type==null?1:0;
+   return ax-bx||(a.type||99)-(b.type||99)||a.id.localeCompare(b.id);
+ });
+}
+function refreshEbl(j){
+ const target=$('ebl-options-'+j);
+ const previous=new Set([...target.querySelectorAll('.eblpick:checked')].map(x=>x.value));
+ const options=eblForWord(j);
+ const verified=options.map((x,k)=>[x,k]).filter(([x])=>typeof x.type==='number');
+ const suggestions=options.map((x,k)=>[x,k]).filter(([x])=>x.type==null);
+ target.innerHTML=options.length?
+  `<h3>eBL Dictionary entries <span class="meta">(${options.length} distinct entries; no duplicate IDs)</span></h3>
+   ${verified.length?'<div class="candidates">'+verified.map(([e,k])=>renderEbl(e,j,k)).join('')+'</div>':''}
+   ${suggestions.length?'<details class="optional"><summary>Show '+suggestions.length+' other related / unverified spelling candidates</summary><div class="candidates">'+suggestions.map(([e,k])=>renderEbl(e,j,k)).join('')+'</div></details>':''}
+   <div class="candidate-group" id="meaning-suggestions-${j}"></div>`:
+  '<h3>eBL Dictionary entries</h3><p class="hint">No matching dictionary entries. Oracc-only search is still possible.</p>';
+ for(const check of target.querySelectorAll('.eblpick')){
+   check.checked=previous.has(check.value);
+   check.addEventListener('change',()=>{hideResults();updateMeaningSuggestions(j)});
+ }
+}
+async function updateMeaningSuggestions(j){
+ const box=$('meaning-suggestions-'+j);if(!box)return;
+ const keys=[...document.querySelectorAll(`.eblpick[data-word="${j}"]:checked`)].map(x=>x.value);
+ if(!keys.length){box.innerHTML='<p class="hint">Select an eBL entry to check whether similar dictionary meanings exist.</p>';return}
+ const token=(suggestionTimers.get(j)||0)+1;suggestionTimers.set(j,token);
+ box.innerHTML='<p class="hint">Comparing dictionary meanings…</p>';
+ try{
+  const data=await post('/api/suggestions',{ids:keys});
+  if(suggestionTimers.get(j)!==token)return;
+  box.innerHTML=`<h3 class="suggestionhead">Synonyms <span class="meta">(unverified)</span><p class="hint">Up to three recommendations with primary dictionary meaning similarity ≥ 70%.</p></h3>
+  ${data.suggestions.length?'<div class="candidates">'+data.suggestions.map((e,k)=>renderEbl(e,j,'syn'+k)).join('')+'</div>':'<p class="hint">No sufficiently similar meaning found. No suggestion added.</p>'}`;
+  for(const c of box.querySelectorAll('.eblpick'))c.addEventListener('change',hideResults);
+ }catch(e){if(suggestionTimers.get(j)===token)box.textContent='Meaning suggestions unavailable: '+e.message}
+}
+function renderCandidates(){
+ $('candidateOptions').innerHTML=candidates.map((q,j)=>{
+  const oracc=q.oracc_options||[];
+  // Show short-vowel matches first, then the attested long-vowel forms;
+  // never hide frequent qātu under unrelated fuzzy spellings for input qatu.
+  const exact=oracc.map((x,k)=>[x,k]).filter(([x])=>x.match==='exact').slice(0,5);
+  const vowel=oracc.map((x,k)=>[x,k]).filter(([x])=>x.match==='vowel-length variant').slice(0,7);
+  const featured=[...exact,...vowel];
+  const top=new Set(featured.map(([,k])=>k));
+  if(!featured.length)for(let k=0;k<Math.min(5,oracc.length);k++){featured.push([oracc[k],k]);top.add(k)}
+  const extra=oracc.map((x,k)=>[x,k]).filter(([,k])=>!top.has(k));
+  return `<section class="termblock">
+   <div class="termhead">Word ${j+1}: ${esc(q.original||q.input)}${q.original!==q.input?' <span class="hint">('+esc(q.input)+')</span>':''}</div>
+   <div class="candidate-group"><h3>Oracc analyses <span class="meta">(${q.oracc_total} distinct candidates; ${oracc.length} available for selection)</span></h3>
+   ${oracc.length?'<div class="candidates">'+featured.map(([x,k])=>renderOracc(x,j,k)).join('')+'</div>':'<p class="hint">No Oracc lemma or written-form analysis found.</p>'}
+   ${extra.length?'<details class="optional"><summary>Show '+extra.length+' additional Oracc candidates</summary><div class="candidates">'+extra.map(([x,k])=>renderOracc(x,j,k)).join('')+'</div></details>':''}</div>
+   <div class="candidate-group" id="ebl-options-${j}"></div>
+  </section>`;
+ }).join('');
+ for(let j=0;j<candidates.length;j++)refreshEbl(j);
+ for(const check of document.querySelectorAll('.oraccpick')){
+   check.addEventListener('change',()=>{refreshEbl(Number(check.dataset.word));hideResults()});
+ }
+}
+
+function setMode(mode){
+ activeMode=mode;$('wordMode').classList.toggle('active',mode==='word');$('idMode').classList.toggle('active',mode==='id');
+ $('wordInput').classList.toggle('hidden',mode!=='word');$('idInput').classList.toggle('hidden',mode!=='id');
+ $('step2').classList.toggle('hidden',mode!=='word'||!candidates.length);
+ $('step3').classList.add('hidden');
+}
+$('wordMode').addEventListener('click',()=>setMode('word'));
+$('idMode').addEventListener('click',()=>setMode('id'));
+function showIdResult(result){
+ const target=$('idResults');$('projectChoice').innerHTML='';$('downloadText').classList.add('hidden');
+ loadedTextProject=(!result.selection_required&&!result.error)?result.project:null;
+ if(result.selection_required){
+   let options=result.projects.map(p=>`<option value="${esc(p.project)}">${esc(p.project)} — ${p.lines} lines</option>`).join('');
+   $('projectChoice').innerHTML=`<p class="hint">This Text ID occurs in multiple projects; please select a source:</p><div class="row"><select id="projectSelect">${options}</select><button id="chooseProject">Load this edition</button></div>`;
+   $('chooseProject').addEventListener('click',()=>loadTextId($('projectSelect').value));target.innerHTML='';return;
+ }
+ if(result.error){target.innerHTML='<p class="error">'+esc(result.error)+'</p>';return}
+ const stats=result.statistics||{};
+ $('downloadText').classList.remove('hidden');
+ target.innerHTML=`<div class="summary"><strong>${esc(result.text_id)}</strong> · ${esc(result.project)} · ${result.total_lines} lines · ${result.total_tokens} tokens<br>
+ ${Object.entries(stats).map(([k,v])=>esc(k)+': '+v.toLocaleString()).join(' · ')}</div>
+
+ ${result.lines.map(line=>`<div class="idline"><strong>Line ${esc(line.line)}</strong><div>${line.words.map(w=>`<div class="idword ${w.matches?.length?'':'unmatched'}" title="${esc(w.status)}"><strong>${esc(w.form)}</strong><div class="gloss">${esc(w.oracc||'No Oracc annotation')}</div><div class="resolved">${w.matches?.length?w.matches.map(e=>`<a class="lemma-link ${lemmaClass(e.type)}" target="_blank" rel="noopener noreferrer" title="${esc([e.basis,e.route].filter(Boolean).join(' · '))}" href="${dictLink(e.id)}">${esc(e.id)}</a>`).join(' '):'—'}</div></div>`).join('')}</div></div>`).join('')}`;
+}
+async function loadTextId(project=null){
+ $('loadId').disabled=true;message('idStatus','Loading Oracc text…');
+ try{let result=await post('/api/text-id',{text_id:$('textId').value,project});showIdResult(result);message('idStatus',result.error||'Text loaded.');}
+ catch(e){message('idStatus',e.message,true)}finally{$('loadId').disabled=false}
+}
+$('loadId').addEventListener('click',()=>loadTextId());
+$('textId').addEventListener('keydown',e=>{if(e.key==='Enter')loadTextId()});
+$('textId').addEventListener('input',()=>{$('downloadText').classList.add('hidden');loadedTextProject=null});
+
+$('identify').addEventListener('click',async()=>{let input=terms();hideResults();$('step2').classList.add('hidden');if(!input.length||input.length>12)return message('identifyStatus','Please enter 1–12 words, one per line.',true);$('identify').disabled=true;message('identifyStatus','Finding lemma candidates…');try{let r=await post('/api/candidates',{terms:input});candidates=r.queries;
+// A live dictionary lookup is attempted only if this word has no local eBL candidate.
+for(const group of candidates){
+ if((group.ebl_options||[]).length)continue;
+ try{
+  const live=await post('/api/online-word',{lemma:group.input});
+  const entries=(live.entries||[]).filter(x=>x.id).map(x=>({id:x.id,type:null,
+    basis:'Live eBL dictionary suggestion — verify before selection',
+    meaning:x.meaning||'',linked_oracc:[]}));
+  if(entries.length){group.ebl_options=entries;group.found=true;group.ebl_total=entries.length;}
+ }catch(e){/* Retain available local results if eBL is temporarily unreachable. */}
+}
+renderCandidates();$('step2').classList.remove('hidden');message('identifyStatus',candidates.some(q=>!q.found)?'No candidates for at least one input.':'Candidates ready.');}catch(e){message('identifyStatus',e.message,true)}finally{$('identify').disabled=false}});
+$('clearSelections').addEventListener('click',()=>{
+ document.querySelectorAll('.oraccpick').forEach(x=>x.checked=false);
+ for(let j=0;j<candidates.length;j++)refreshEbl(j);
+ document.querySelectorAll('.eblpick').forEach(x=>x.checked=false);
+ hideResults();
+});
+$('sourceScope').addEventListener('change',hideResults);
+function prepare(){
+ let result=[];
+ for(let j=0;j<candidates.length;j++){
+  const oracc=[...new Set([...document.querySelectorAll(`.oraccpick[data-word="${j}"]:checked`)].map(x=>x.value))];
+  const ebl=[...new Set([...document.querySelectorAll(`.eblpick[data-word="${j}"]:checked`)].map(x=>x.value))];
+  if(!oracc.length&&!ebl.length)throw Error('Select at least one Oracc or eBL entry for word '+(j+1)+'.');
+  const scope=$('sourceScope').value;
+  if(scope==='ebl'&&!ebl.length)throw Error('For eBL-only search, choose an eBL entry for word '+(j+1)+'.');
+  if(scope==='oracc'&&!oracc.length)throw Error('For Oracc-only search, choose an Oracc analysis for word '+(j+1)+'.');
+  result.push({input:candidates[j].input,oracc,ebl});
+ }
+ return result;
+}
+// One work + one reconstructed line is a single literary passage; its
+// physical manuscript witnesses have distinct spellings and line numbers.
+function passageKey(r){return JSON.stringify([r.text||'',String(r.line||'')])}
+function wordMarkup(w){const tag=w.center?'center':w.groups?.length?'marked':'';
+ return tag?`<span class="${tag}" title="Input ${esc((w.groups||[]).map(i=>i+1).join(', '))}">${esc(w.form)}</span>`:esc(w.form)}
+function renderRow(r,witnesses=[]){
+ const tr=document.createElement('tr');const fullRef=[r.text,r.manuscript].filter(Boolean).join(' / ');
+ const safeUrl=validLink(r.source_url)?r.source_url:'';
+ const reference=safeUrl?`<a class="ref" target="_blank" rel="noopener noreferrer" title="${esc(r.source_url_label||'Open source')}" href="${esc(safeUrl)}">${esc(fullRef)} ↗</a>`:`<strong class="ref">${esc(fullRef)}</strong>`;
+ let center=r.words.findIndex(w=>w.center);if(center<0)center=0;
+ const words=ws=>ws.map(wordMarkup).join(' ');
+ const left=words(r.words.slice(0,center)),kw=words(r.words.slice(center,center+1)),right=words(r.words.slice(center+1));
+ let witnessHtml='';
+ if(witnesses.length){
+   const cards=witnesses.map(w=>{
+     const id=esc(w.manuscript||'Unknown witness');
+     const link=validLink(w.source_url)?`<a href="${esc(w.source_url)}" target="_blank" rel="noopener noreferrer">${id} ↗</a>`:id;
+     return `<div class="witness-item"><div class="meta">${link} · Manuscript line ${esc(w.manuscript_line||'unknown')} · Corpus line ${esc(w.line)}${w.period?' · '+esc(w.period):''}</div><div class="witness-text">${words(w.words)}</div></div>`;
+   }).join('');
+   witnessHtml=`<details class="witness-details"><summary>${witnesses.length} manuscript witness${witnesses.length===1?'':'es'} of this Corpus line (expand)</summary>${cards}</details>`;
+ }
+ tr.innerHTML=`<td><span class="meta">${esc(sourceNames[r.source]||r.source)}</span><br>${reference}${r.project&&r.source==='oracc'?'<div class="meta">'+esc(r.project)+'</div>':''}</td><td>${esc(r.manuscript_line||r.line)}</td><td><div class="kwic"><span class="left">${left}</span><span>${kw}</span><span class="right">${right}</span></div>${r.period?'<div class="periodnote">Manuscript period: '+esc(r.period)+'</div>':''}${witnessHtml}</td>`;
+ return tr;
+}
+function renderAllRows(){
+ for(const key of corpusKeys)$('results-'+key).innerHTML='';
+ const corpusKeysVisible=new Set(loadedResults.filter(r=>r.source==='ebl_korpus').map(passageKey));
+ const witnesses=new Map();let grouped=0;
+ for(const r of loadedResults){
+   if(r.source==='ebl_korpus_manuskripte'&&corpusKeysVisible.has(passageKey(r))){
+     const key=passageKey(r);if(!witnesses.has(key))witnesses.set(key,[]);
+     witnesses.get(key).push(r);grouped++;
+   }
+ }
+ for(const r of loadedResults){
+   if(r.source==='ebl_korpus_manuskripte'&&corpusKeysVisible.has(passageKey(r)))continue;
+   const target=$('results-'+r.source);if(!target)continue;
+   target.appendChild(renderRow(r,r.source==='ebl_korpus'?(witnesses.get(passageKey(r))||[]):[]));
+ }
+ return grouped;
+}
+function updateSummary(){
+ const grouped=loadedResults.filter(r=>r.source==='ebl_korpus_manuskripte' && loadedResults.some(c=>c.source==='ebl_korpus'&&passageKey(c)===passageKey(r))).length;
+ const counts=lastLocalResponse?.source_kwic_counts||{};
+ const sum=Object.values(counts).reduce((n,v)=>n+v,0);
+ $('searchSummary').innerHTML=`<strong>${sum.toLocaleString()}</strong> matching source lines · <strong>${Math.max(0,loadedResults.length-grouped).toLocaleString()}</strong> displayed passages · ${grouped} grouped witnesses`;
+ const remaining=corpusKeys.some(key=>sourceOffsets[key]<(counts[key]||0));
+ $('more').classList.toggle('hidden',!remaining);
+ $('resultsStatus').textContent=`Loaded ${sourceOffsets.oracc+sourceOffsets.ebl_korpus+sourceOffsets.ebl_korpus_manuskripte} / ${sum} source lines.`;
+}
+async function load(more=false){
+ const generation=searchGeneration;
+ $('search').disabled=true;$('more').disabled=true;
+ $('resultsStatus').textContent='Searching…';
+ try{
+  const response=await post('/api/search',{queries,context:getContext(),source_offsets:sourceOffsets,
+     limit:PAGE_PER_CORPUS,source_scope:$('sourceScope').value});
+  if(generation!==searchGeneration)return;
+  if(!more)loadedResults=[];
+  loadedResults.push(...response.results);
+  lastLocalResponse=response;
+  const grouped=renderAllRows();
+  const pageCounts={};for(const row of response.results)pageCounts[row.source]=(pageCounts[row.source]||0)+1;
+  for(const key of corpusKeys)sourceOffsets[key]+=(pageCounts[key]||0);
+  total=response.total_kwic_hits;
+  for(const key of corpusKeys){
+   const count=response.source_kwic_counts[key]||0;
+   $('count-'+key).textContent=`— ${count.toLocaleString()} lines`;
+   const tbody=$('results-'+key);
+   if(count>0&&key==='ebl_korpus_manuskripte'&&!tbody.children.length){
+     tbody.innerHTML='<tr><td colspan="3" class="emptyline">Manuscript witnesses are grouped under their Corpus passage.</td></tr>';
+   }
+   if(count===0){tbody.innerHTML='<tr><td colspan="3" class="emptyline">No matches.</td></tr>'}
+  }
+  $('step3').classList.remove('hidden');updateSummary();
+ }catch(e){if(generation===searchGeneration)message('searchStatus',e.message,true)}
+ finally{if(generation===searchGeneration){$('search').disabled=false;$('more').disabled=false}}
+}
+$('search').addEventListener('click',()=>{try{hideResults();queries=prepare();message('searchStatus','');load()}catch(e){message('searchStatus',e.message,true)}});
+$('more').addEventListener('click',()=>load(true));
+$('rerun').addEventListener('click',()=>{hideResults();load()});
+async function saveCsv(response,filename){
+ if(!response.ok){let error;try{error=(await response.json()).error}catch{error='Export failed'}throw Error(error||'Export failed')}
+ const blob=await response.blob();
+ if(typeof window.showSaveFilePicker==='function'){
+  try{
+   const handle=await window.showSaveFilePicker({suggestedName:filename,types:[{description:'CSV',accept:{'text/csv':['.csv']}}]});
+   const stream=await handle.createWritable();await stream.write(blob);await stream.close();return;
+  }catch(e){if(e.name==='AbortError')return;}
+ }
+ if(/Macintosh|Mac OS X/i.test(navigator.userAgent)){
+  try{
+   const response=await fetch('/api/save-csv',{method:'POST',headers:{'Content-Type':'text/csv','X-Filename':filename},body:blob});
+   if(response.ok){const result=await response.json();if(result.saved||result.cancelled)return;}
+  }catch(e){/* Standard browser download remains available. */}
+ }
+ const url=URL.createObjectURL(blob);
+ const link=document.createElement('a');link.href=url;link.download=filename;
+ document.body.appendChild(link);link.click();link.remove();
+ setTimeout(()=>URL.revokeObjectURL(url),30000);
+}
+$('export').addEventListener('click',async()=>{
+ $('export').disabled=true;
+ try{
+  const response=await fetch('/api/export',{method:'POST',headers:{'Content-Type':'application/json'},
+   body:JSON.stringify({queries,context:getContext(),source_scope:$('sourceScope').value})});
+  await saveCsv(response,'oracc_ebl_concordance.csv');
+ }catch(e){message('resultsStatus',e.message,true)}finally{$('export').disabled=false}
+});
+$('downloadText').addEventListener('click',async()=>{
+ $('downloadText').disabled=true;
+ try{
+  const project=loadedTextProject;
+  const textId=$('textId').value.trim().toUpperCase();
+  const response=await fetch('/api/export-text-id',{method:'POST',headers:{'Content-Type':'application/json'},
+   body:JSON.stringify({text_id:textId,project})});
+  await saveCsv(response,'oracc_ebl_text_'+textId+'.csv');
+ }catch(e){message('idStatus',e.message,true)}finally{$('downloadText').disabled=false}
+});
+</script></body></html>
