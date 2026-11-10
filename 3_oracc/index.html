@@ -54,6 +54,7 @@ let candidates=[],queries=[],total=0;
 let loadedResults=[];
 let searchGeneration=0,lastLocalResponse=null;
 let activeMode='word',suggestionTimers=new Map(),loadedTextProject=null;
+let reverseTimers=new Map();
 const corpusKeys=['ebl_korpus','ebl_korpus_manuskripte','oracc'];
 let sourceOffsets=Object.fromEntries(corpusKeys.map(k=>[k,0]));
 const PAGE_PER_CORPUS=50;
@@ -94,7 +95,7 @@ function eblForWord(j){
  }
  for(const entry of group.ebl_options||[])include(entry);
  for(const checked of document.querySelectorAll(`.oraccpick[data-word="${j}"]:checked`)){
-   const item=(group.oracc_options||[])[Number(checked.dataset.analysis)];
+   const item=(group._visible_oracc||group.oracc_options||[])[Number(checked.dataset.analysis)];
    for(const entry of item?.linked_ebl_entries||[])include(entry,item.key);
  }
  return [...aggregated.values()].sort((a,b)=>{
@@ -116,7 +117,42 @@ function refreshEbl(j){
   '<h3>eBL Dictionary entries</h3><p class="hint">No matching dictionary entries. Oracc-only search is still possible.</p>';
  for(const check of target.querySelectorAll('.eblpick')){
    check.checked=previous.has(check.value);
-   check.addEventListener('change',()=>{hideResults();updateMeaningSuggestions(j)});
+   check.addEventListener('change',()=>{hideResults();updateMeaningSuggestions(j);refreshOraccFromEbl(j)});
+ }
+}
+async function refreshOraccFromEbl(j){
+ const group=candidates[j], token=(reverseTimers.get(j)||0)+1;
+ reverseTimers.set(j,token);
+ const ids=[...document.querySelectorAll(`.eblpick[data-word="${j}"]:checked`)].map(x=>x.value);
+ const previous=new Set([...document.querySelectorAll(`.oraccpick[data-word="${j}"]:checked`)].map(x=>x.value));
+ let additions=[];
+ if(ids.length){
+  try{
+   const data=await post('/api/reverse-oracc',{ids});
+   if(reverseTimers.get(j)!==token)return;
+   additions=data.candidates||[];
+  }catch(e){if(reverseTimers.get(j)===token)console.warn('Reverse Oracc lookup:',e.message);return}
+ }
+ const original=group.oracc_options||[];
+ const seen=new Set(original.map(x=>x.key));
+ const combined=[...original,...additions.filter(x=>!seen.has(x.key)&&seen.add(x.key))];
+ const container=document.querySelector(`#oracc-options-${j}`);
+ if(!container)return;
+ // Keep the original candidate order and append attested reverse matches.
+ const exact=combined.map((x,k)=>[x,k]).filter(([x])=>x.match==='exact').slice(0,5);
+ const vowel=combined.map((x,k)=>[x,k]).filter(([x])=>x.match==='vowel-length variant').slice(0,7);
+ const reverse=combined.map((x,k)=>[x,k]).filter(([x])=>x.match==='reverse eBL match');
+ const featured=[...exact,...vowel,...reverse];
+ const used=new Set(featured.map(([,k])=>k));
+ if(!featured.length)for(let k=0;k<Math.min(5,combined.length);k++){featured.push([combined[k],k]);used.add(k)}
+ const extra=combined.map((x,k)=>[x,k]).filter(([,k])=>!used.has(k));
+ group._visible_oracc=combined;
+ container.innerHTML=`<h3>Oracc analyses <span class="meta">(${combined.length} available for selection)</span></h3>
+ ${featured.length?'<div class="candidates">'+featured.map(([x,k])=>renderOracc(x,j,k)).join('')+'</div>':'<p class="hint">No Oracc lemma or written-form analysis found.</p>'}
+ ${extra.length?'<details class="optional"><summary>Show '+extra.length+' additional Oracc candidates</summary><div class="candidates">'+extra.map(([x,k])=>renderOracc(x,j,k)).join('')+'</div></details>':''}`;
+ for(const check of container.querySelectorAll('.oraccpick')){
+  check.checked=previous.has(check.value);
+  check.addEventListener('change',()=>{refreshEbl(j);hideResults()});
  }
 }
 async function updateMeaningSuggestions(j){
@@ -146,13 +182,13 @@ function renderCandidates(){
   const extra=oracc.map((x,k)=>[x,k]).filter(([,k])=>!top.has(k));
   return `<section class="termblock">
    <div class="termhead">Word ${j+1}: ${esc(q.original||q.input)}${q.original!==q.input?' <span class="hint">('+esc(q.input)+')</span>':''}</div>
-   <div class="candidate-group"><h3>Oracc analyses <span class="meta">(${q.oracc_total} distinct candidates; ${oracc.length} available for selection)</span></h3>
+   <div class="candidate-group" id="oracc-options-${j}"><h3>Oracc analyses <span class="meta">(${q.oracc_total} distinct candidates; ${oracc.length} available for selection)</span></h3>
    ${oracc.length?'<div class="candidates">'+featured.map(([x,k])=>renderOracc(x,j,k)).join('')+'</div>':'<p class="hint">No Oracc lemma or written-form analysis found.</p>'}
    ${extra.length?'<details class="optional"><summary>Show '+extra.length+' additional Oracc candidates</summary><div class="candidates">'+extra.map(([x,k])=>renderOracc(x,j,k)).join('')+'</div></details>':''}</div>
    <div class="candidate-group" id="ebl-options-${j}"></div>
   </section>`;
  }).join('');
- for(let j=0;j<candidates.length;j++)refreshEbl(j);
+ for(let j=0;j<candidates.length;j++){candidates[j]._visible_oracc=candidates[j].oracc_options;refreshEbl(j)}
  for(const check of document.querySelectorAll('.oraccpick')){
    check.addEventListener('change',()=>{refreshEbl(Number(check.dataset.word));hideResults()});
  }

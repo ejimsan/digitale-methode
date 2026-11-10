@@ -611,6 +611,43 @@ class Resolver:
             con.close()
         return output
 
+    def reverse_oracc_candidates(self, ids: list[str]) -> dict:
+        """Return attested Oracc analyses for selected eBL dictionary entries."""
+        if not isinstance(ids, list) or len(ids)>30 or any(not isinstance(x,str) for x in ids):
+            raise ValueError("Invalid eBL selection")
+        dictionary=self._dictionary()
+        if dictionary is None:
+            raise RuntimeError("eBL Dictionary unavailable")
+        con=connect(self.db)
+        found={}
+        try:
+            for id_ in set(ids):
+                entry=dictionary.entries.get(id_)
+                if not entry:
+                    continue
+                pairs=set()
+                for word in entry.get("oraccWords") or []:
+                    if isinstance(word,dict):
+                        cf=clean(word.get("lemma",""))
+                        gw=clean(word.get("guideWord",""))
+                        if cf and gw:
+                            pairs.add((cf,gw))
+                rows={}
+                for cf,gw in pairs:
+                    for row in con.execute("SELECT oracc,cf,gw,frequency FROM lemmas WHERE cf=? AND lower(gw)=lower(?)",(cf,gw)):
+                        rows[row["oracc"]]=(row,"Explicit eBL oraccWords")
+                for row in con.execute("SELECT l.oracc,l.cf,l.gw,l.frequency FROM lemmas l JOIN mappings m ON m.oracc=l.oracc WHERE m.ebl=?",(id_,)):
+                    rows.setdefault(row["oracc"],(row,"Attested Oracc/eBL mapping"))
+                for key,(row,evidence) in rows.items():
+                    if key not in found:
+                        found[key]={"key":key,"label":key,"kind":"Oracc lemma","meaning":row["gw"] or "",
+                            "count":row["frequency"],"match":"reverse eBL match","matched_form":row["cf"],
+                            "evidence":[],"linked_ebl":[],"linked_ebl_entries":self._propose_entries(key,dictionary,con)}
+                    found[key]["evidence"].append({"kind":evidence,"matched_form":id_})
+            return {"candidates":sorted(found.values(),key=lambda x:(-x["count"],x["label"]))[:100]}
+        finally:
+            con.close()
+
     def _propose_entries(self, analysis: str, dictionary: Dictionary | None, con) -> list[dict]:
         """Return direct matches (Types 1/2) and separate upstream family links (Type 3).
 

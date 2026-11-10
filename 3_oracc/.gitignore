@@ -1,0 +1,9 @@
+# Generated locally at first run
+.kwic_index.sqlite*
+*.building
+startup.log
+__pycache__/
+*.pyc
+.DS_Store
+.cache/
+data/

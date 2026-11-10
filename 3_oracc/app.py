@@ -85,7 +85,7 @@ def make_handler(resolver):
                     return self.send_json({'saved':True})
                 except (OSError,subprocess.TimeoutExpired):
                     return self.send_json({'browser_download':True})
-            if path not in ('/api/candidates','/api/identify','/api/resolve','/api/search','/api/export','/api/text-id','/api/export-text-id','/api/suggestions','/api/online-word'):
+            if path not in ('/api/candidates','/api/identify','/api/resolve','/api/search','/api/export','/api/text-id','/api/export-text-id','/api/suggestions','/api/online-word','/api/reverse-oracc'):
                 return self.send_error(404,'Not found')
             try:
                 length=int(self.headers.get('Content-Length','0'))
@@ -112,6 +112,8 @@ def make_handler(resolver):
                     return self.send_csv(sio.getvalue(), 'oracc_ebl_text_'+text['text_id']+'.csv')
                 elif path=='/api/online-word':
                     result=resolver.online_dictionary_fallback(data.get('lemma',''))
+                elif path=='/api/reverse-oracc':
+                    result=resolver.reverse_oracc_candidates(data.get('ids',[]))
                 elif path=='/api/suggestions':
                     result=resolver.suggestions(data.get('ids',[]))
                 elif path=='/api/candidates':
