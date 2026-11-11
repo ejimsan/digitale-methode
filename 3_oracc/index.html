@@ -239,7 +239,7 @@ for(const group of candidates){
   if(entries.length){group.ebl_options=entries;group.found=true;group.ebl_total=entries.length;}
  }catch(e){/* Retain available local results if eBL is temporarily unreachable. */}
 }
-renderCandidates();$('step2').classList.remove('hidden');message('identifyStatus',candidates.some(q=>!q.found)?'No candidates for at least one input.':'Candidates ready.');}catch(e){message('identifyStatus',e.message,true)}finally{$('identify').disabled=false}});
+renderCandidates();$('step2').classList.remove('hidden');message('identifyStatus',candidates.some(q=>!q.found)?'No candidates for at least one input.':'');}catch(e){message('identifyStatus',e.message,true)}finally{$('identify').disabled=false}});
 $('clearSelections').addEventListener('click',()=>{
  document.querySelectorAll('.oraccpick').forEach(x=>x.checked=false);
  for(let j=0;j<candidates.length;j++)refreshEbl(j);

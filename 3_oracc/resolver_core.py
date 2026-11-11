@@ -86,6 +86,34 @@ def lexical_similarity(search: str, candidate: str) -> tuple[int,float] | None:
     return None
 
 
+def lexical_pos_group(key: str) -> int:
+    """Prefer verbs and ordinary vocabulary over names for fuzzy matches only."""
+    parts = oracc_parts(key)
+    if not parts:
+        return 1
+    pos = parts[2].strip().upper()
+    if pos in {'PN', 'GN', 'DN', 'TN', 'RN', 'EN', 'SN', 'MN', 'LN', 'ON'} or pos.endswith('PN'):
+        return 2
+    if pos.startswith('V') or pos in {'V', 'VB'}:
+        return 0
+    return 1
+
+
+def expanded_similarity(search: str, candidate: str) -> tuple[int, float] | None:
+    """Broad lexical fallback; never treats fuzzy results as verified forms."""
+    a, b = spelling_key(search, True), spelling_key(candidate, True)
+    if len(a) < 4 or len(b) < 4 or abs(len(a) - len(b)) > 4:
+        return None
+    ratio = SequenceMatcher(None, a, b).ratio()
+    # A weak consonantal resemblance is useful for candidate recall, not proof.
+    consonants = lambda x: ''.join(c for c in x if c not in 'aeiuāēīū')
+    ca, cb = consonants(a), consonants(b)
+    c_ratio = SequenceMatcher(None, ca, cb).ratio() if ca and cb else 0
+    if ratio < .53 and not (ratio >= .43 and c_ratio >= .85):
+        return None
+    return (4, max(ratio, .55 * ratio + .45 * c_ratio))
+
+
 def reference_url(source: str, text: str, project: str = '', manuscript: str = '') -> tuple[str,str]:
     """Specific public deep links only; unknown source IDs remain unlinked."""
     if source=='oracc' and project.startswith('Oracc/'):
@@ -429,9 +457,13 @@ class Resolver:
                     # frequency distinguishes common qātu from obscure lookalikes.
                     # Keep the proven fuzzy-candidate order; frequency only
                     # reorders credible exact and macron-only alternatives.
+                    # Exact attested forms retain priority; POS affects only
+                    # approximate suggestions.  Do not let long name prefixes
+                    # crowd out plausible verbal citation forms.
+                    pos_group = lexical_pos_group(key) if kind.startswith('Oracc') else 1
                     rank=((tier,source_priority,-count,-sim,-prefix,label.casefold())
                           if tier<=1 else
-                          (tier,-prefix,source_priority,-sim,-count,label.casefold()))
+                          (2,pos_group,tier,-sim,source_priority,-prefix,-count,label.casefold()))
                     previous=candidates.get(key)
                     evidence={'kind':kind,'match':('exact' if tier==0 else
                         'vowel-length variant' if tier==1 else 'partial' if tier==2 else 'similar'),
@@ -478,6 +510,56 @@ class Resolver:
                         add(row['oracc'],row['oracc'],'Oracc written form',parts[1] if parts else '',
                             row['frequency'],match,
                             f"{row['example_text']} : {row['example_line']}",row['spelling'])
+                # Broaden recall only when there is no direct non-name Oracc
+                # citation or attested written-form match.  Search the entire
+                # lemma inventory before applying the visible candidate limit.
+                has_direct_lexical = any(
+                    item['kind'].startswith('Oracc')
+                    and item['_rank'][0] <= 1
+                    and lexical_pos_group(item['key']) != 2
+                    for item in candidates.values()
+                )
+                if not has_direct_lexical:
+                    for row in lemma_rows:
+                        if row['oracc'] in candidates:
+                            continue
+                        match = expanded_similarity(term, row['cf'])
+                        if match:
+                            add(row['oracc'], row['oracc'], 'Oracc lemma',
+                                row['gw'], row['frequency'], match,
+                                f"{row['example_text']} : {row['example_line']}", row['cf'])
+                # Broaden written-form recall as well as citation-form recall.
+                # Every form is attested in the local Oracc snapshot; similarity
+                # to it is only a retrieval hint, NOT an attested input analysis.
+                # Run only if no exact non-name Oracc lemma/written-form match.
+                if not has_direct_lexical and len(spelling_key(term, True)) >= 4:
+                    lookup_key = spelling_key(term, True)
+                    # Check all attested written forms, not just forms sharing
+                    # the input prefix. This is essential for prefixed verbal
+                    # inflections and other forms far from their citation lemma.
+                    # The bounded length filter reduces the SQLite row set;
+                    # expanded_similarity still performs the actual comparison.
+                    written_rows = con.execute(
+                        'SELECT spelling,oracc,frequency,example_text,example_line '
+                        'FROM forms WHERE length(spelling) BETWEEN ? AND ?',
+                        (max(1, len(lookup_key) - 4), len(lookup_key) + 8)).fetchall()
+                    # Keep only the strongest written-form hit per Oracc lemma;
+                    # retain independent evidence if the lemma was found above.
+                    best_written = {}
+                    for row in written_rows:
+                        form = row['spelling']
+                        match = expanded_similarity(term, form)
+                        if match is None:
+                            continue
+                        key = row['oracc']
+                        previous = best_written.get(key)
+                        if previous is None or (match[1], row['frequency']) > (previous[0][1], previous[1]['frequency']):
+                            best_written[key] = (match, row)
+                    for match, row in best_written.values():
+                        parts = oracc_parts(row['oracc'])
+                        add(row['oracc'], row['oracc'], 'Oracc written form',
+                            parts[1] if parts else '', row['frequency'], match,
+                            f"{row['example_text']} : {row['example_line']}", row['spelling'])
                 # eBL is also checked, so a known eBL headword works even if it
                 # is not represented in this limited Oracc teaching corpus.
                 if dictionary:
@@ -500,7 +582,26 @@ class Resolver:
                 # Separate real Oracc lexical analyses from eBL dictionary
                 # entries.  A glossary correspondence is not a second Oracc
                 # lemma if the same cf+guideword is already in the corpus.
-                ordered=sorted(candidates.values(),key=lambda item:item['_rank'])
+                # In expanded mode, even exact personal names should not
+                # conceal possible common-word lemmas.  Preserve their entries
+                # but display them after lexical candidates.
+                if not has_direct_lexical:
+                    name_cfs = {spelling_key(r['cf']) for r in lemma_rows
+                                if lexical_pos_group(r['oracc']) == 2}
+                    lexical_cfs = {spelling_key(r['cf']) for r in lemma_rows
+                                   if lexical_pos_group(r['oracc']) != 2}
+                    def is_name_candidate(item):
+                        if lexical_pos_group(item['key']) == 2:
+                            return True
+                        parts = oracc_parts(item['key'])
+                        if parts and not parts[2]:
+                            cf = spelling_key(parts[0])
+                            return cf in name_cfs and cf not in lexical_cfs
+                        return False
+                    ordered=sorted(candidates.values(), key=lambda item:
+                        (1 if is_name_candidate(item) else 0, item['_rank']))
+                else:
+                    ordered=sorted(candidates.values(),key=lambda item:item['_rank'])
                 oracc_all=[]
                 ebl_raw=[]
                 attested_pairs={
@@ -528,7 +629,11 @@ class Resolver:
                 exact=[x for x in oracc_all if x['match']=='exact']
                 length=[x for x in oracc_all if x['match']=='vowel-length variant']
                 other=[x for x in oracc_all if x['match'] not in ('exact','vowel-length variant')]
-                oracc_selected=(exact[:12]+length[:12]+other[:11])[:35]
+                if not has_direct_lexical:
+                    # Rank across all evidence tiers, with names last.
+                    oracc_selected=oracc_all[:35]
+                else:
+                    oracc_selected=(exact[:12]+length[:12]+other[:11])[:35]
                 ebl_selected_raw=ebl_raw[:50]
                 ebl_by_id={}
                 def record_ebl(entry, rank, route_from=None):
